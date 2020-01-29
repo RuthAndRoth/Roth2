@@ -16,26 +16,26 @@ The following mesh body parts are AGPL.
 * Flat Feet  
 * High Feet  
 
+The mesh head is CC-BY Linden Lab.
+The UV map is CC-BY Linden Lab.
+The Avastar rig contains components licensed as CC-BY-3.0 by Machinimatrix.org.
+Ruth 2.0 Logo and photos are AGPL by Shin Ingen.
+
 Various Authors and contributors to the Git Repo in alphabetical order are:
 
-* Ada Radius  
-* Ai Austin  
-* Chimera Firecaster  
-* Elenia Boucher  
-* Fred Beckhusen  
-* Fritigern Gothly  
-* Joe Builder  
-* Lelani Carver  
-* Leona Morro  
-* Mike Dickson  
-* Noxluna Nightfire  
-* Shin Ingen  
-* Sundance Haiku  
-
-* The mesh head is CC-BY Linden Lab.
-* The UV map is CC-BY Linden Lab.
-* The Avastar rig contains components licensed as CC-BY-3.0 by Machinimatrix.org.
-* Ruth 2.0 Logo and photos are AGPL by Shin Ingen.
+* Ada Radius
+* Ai Austin
+* Chimera Firecaster
+* Elenia Boucher
+* Fred Beckhusen
+* Fritigern Gothly
+* Joe Builder
+* Lelani Carver
+* Leona Morro
+* Mike Dickson
+* Noxluna Nightfire
+* Shin Ingen
+* Sundance Haiku 
 
 ## Skins
 
