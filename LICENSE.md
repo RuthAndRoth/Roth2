@@ -28,7 +28,7 @@ Various Authors and contributors to the Git Repo in alphabetical order are:
 * Lelani Carver
 * Leona Morro
 * Mike Dickson
-* * Noxluna Nightfire
+* Noxluna Nightfire
 * Shin Ingen
 * Sundance Haiku
 
