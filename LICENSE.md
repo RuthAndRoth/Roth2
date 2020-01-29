@@ -30,8 +30,9 @@ Noxluna Nightfire
 Shin Ingen
 Sundance Haiku
 
-The mesh head is CC-BY Linden Lab.
-The UV map is CC-BY Linden Lab.
+* The mesh head is CC-BY Linden Lab.
+* The UV map is CC-BY Linden Lab.
+* The Avastar rig contains components licensed as CC-BY-3.0 by Machinimatrix.org.
 
 Ruth 2.0 Logo and photos are AGPL by Shin Ingen.
 
