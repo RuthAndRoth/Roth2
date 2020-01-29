@@ -1,6 +1,6 @@
 # Licenses
 
-License terms for this project vary by part type. Copyrights are by the original Authors. Please do not delete any credits or license files that are included in this project.   
+License terms for this project vary by part type. Copyrights are by the original Authors. Please do not delete any credits or license files that are included in this project.    
 
 ## Avatar Mesh
 
@@ -10,27 +10,27 @@ Ruth 2.0 Copyright 2018 AGPL by Shin Ingen, who can be found at https://plus.goo
 
 The following mesh body parts are AGPL.
 
-* Upper Body
-* Lower Body
-* Bento Hands
-* Flat Feet
-* High Feet
+* Upper Body  
+* Lower Body  
+* Bento Hands  
+* Flat Feet  
+* High Feet  
 
 Various Authors and contributors to the Git Repo in alphabetical order are:
 
-* Ada Radius
-* Ai Austin
-* Chimera Firecaster
-* Elenia Boucher
-* Fred Beckhusen
-* Fritigern Gothly
-* Joe Builder
-* Lelani Carver
-* Leona Morro
-* Mike Dickson
-* Noxluna Nightfire
-* Shin Ingen
-* Sundance Haiku
+* Ada Radius  
+* Ai Austin  
+* Chimera Firecaster  
+* Elenia Boucher  
+* Fred Beckhusen  
+* Fritigern Gothly  
+* Joe Builder  
+* Lelani Carver  
+* Leona Morro  
+* Mike Dickson  
+* Noxluna Nightfire  
+* Shin Ingen  
+* Sundance Haiku  
 
 * The mesh head is CC-BY Linden Lab.
 * The UV map is CC-BY Linden Lab.
