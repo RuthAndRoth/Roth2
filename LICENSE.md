@@ -9,7 +9,6 @@ Built with Blender 2.79 with Avastar 2 RC12.
 Ruth 2.0 Copyright 2018 AGPL by Shin Ingen, who can be found at https://plus.google.com/+ShinIngen. 
 
 The following mesh body parts are AGPL.
-
 * Upper Body  
 * Lower Body  
 * Bento Hands  
@@ -22,7 +21,6 @@ The Avastar rig contains components licensed as CC-BY-3.0 by Machinimatrix.org.
 Ruth 2.0 Logo and photos are AGPL by Shin Ingen.  
 
 Various Authors and contributors to the Git Repo in alphabetical order are:
-
 * Ada Radius
 * Ai Austin
 * Chimera Firecaster
