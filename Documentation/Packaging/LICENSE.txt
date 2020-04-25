@@ -1,0 +1,17 @@
+Roth2 - Open Source Mesh Avatars for Virtual Worlds
+
+For details and copies of relevant licenses see the project repository at https://github.com/RuthAndRoth/Roth2
+
+License terms for this project vary by part type.  Please do not delete any credits or license files that are included in this project.   Built with Blender 2.8?? with Avastar ???
+
+The following mesh body parts are AGPL.
+Upper Body
+Lower Body
+Hands
+Feet
+
+Basically you can use these meshes as you wish but any modification must be contributed publicly back to the community and always maintained as free.
+
+The mesh head and mesh eyes are CC-BY Linden Lab.
+
+Fingernails & Toenails have Virtual World License by Sundance Haiku

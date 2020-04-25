@@ -1,0 +1,16 @@
+Roth2 v2 - Open Source Mesh Avatar for Virtual Worlds
+
+2020-04-24
+  - Use Roth2.0v2DRAFT6 mesh from Github commit e5a7c4dd8f7f
+
+2020-04-23
+  - Use Roth2.0v2DRAFT5 mesh from Github commit ff9c733a1511
+
+
+Known Issues
+
+* The Roth2 v2 body mesh is no-trans as it is still a draft and is not ready for general consumption
+* HUD Alpha Panel
+  * The Fingernails and Toenails buttons are not hooked up yet
+* HUD Skin Panel
+  * The alpha mode needs to be selectable somehow
