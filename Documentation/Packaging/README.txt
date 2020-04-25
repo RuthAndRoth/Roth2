@@ -11,6 +11,11 @@ Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is bui
 * OpenSim Region: OSGrid RuthAndRoth hop://login.osgrid.org/RuthAndRoth/128/128/26
 
 ============================================================
+BAKES ON MESH
+
+Roth2 v2 is designed to work well with Bakes on Mesh. Normal skins can be appplied, and a HUD Alpha facility is included to alow some major parts to be hidden, but with Bakes on Mesh, alpha masks can be worn to give more control over hidden areas.
+
+============================================================
 TROUBLESHOOTING
 
 Foot skin problems? For best result, paint over the system toenails and remove as much detail as you can from your foot skin that is probably designed for the system avatar's duck feet.
