@@ -20,8 +20,8 @@ Please send us your feedback by posting on our Discord Channel.
 ============================================================
 CREDITS
 
-* Original Roth 2.0 RC#1 mesh (now referred to as Roth2 v1) by Shin Ingen.
-* Roth2 v2 is based on Roth 2.0 RC#1.
+* Original Roth 2.0 RC#1 mesh by Shin Ingen.
+* Roth2 v2 is based on Roth 2.0 RC#1 (now referred to as Roth2 v1).
 * Repository management and testing by Fred Beckhusen, Outworldz LLC (Ferd Frederix), Ai Austin and Serie Sumei.
 * Revised mesh, rigging and vertex weight maps by Ada Radius.
 * UV map is CC-BY Linden Lab.
