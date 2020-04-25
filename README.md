@@ -1,9 +1,6 @@
 # Roth2 Mesh Avatar Project
 
-Roth2 is a low-poly mesh body specifically designed for OpenSimulator.
-It is built to use standard Second Life(TM) UV maps using scratch-built open
-source mesh bodies by Shin Ingen with other open source contributions from the
-OpenSimulator Community.
+It is built to use standard Second Life(TM) UV maps using scratch-built open source mesh by Shin Ingen, Ada Radius and other contributors from the OpenSimulator Community.
 
 * Github Repository: https://github.com/RuthAndRoth/Roth2
 * Discord Discussion Forum: https://discordapp.com/channels/619919380154810380/619919380691550240

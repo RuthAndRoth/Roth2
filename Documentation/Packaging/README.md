@@ -15,10 +15,8 @@ README.txt - ##README## - The in-world README based on the top-level README.md f
 ## Inventory Checklist
 
 * Body parts
-
   * full body mesh
   * mesh eyes
-
   * HUD
 
 * Notecards

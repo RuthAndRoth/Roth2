@@ -4,21 +4,17 @@ License terms for this project vary by part type. Copyrights are by the original
 
 ## Avatar Mesh
 
-Built with Blender 2.79 with Avastar 2 RC12.
+Built with Blender 2.8 with Avastar 2.8 beta.
 
-Ruth 2.0 Copyright 2018 AGPL by Shin Ingen, who can be found at https://plus.google.com/+ShinIngen. 
-
-The following mesh body parts are AGPL.
-* Upper Body  
-* Lower Body  
-* Bento Hands  
-* Flat Feet  
-* High Feet  
-
-The mesh head is CC-BY Linden Lab.  
-The UV map is CC-BY Linden Lab.  
-The Avastar rig contains components licensed as CC-BY-3.0 by Machinimatrix.org.  
-Ruth 2.0 Logo and photos are AGPL by Shin Ingen.  
+* Ruth 2.0 Copyright 2018 AGPL by Shin Ingen, who can be found at https://plus.google.com/+ShinIngen.  The following mesh body parts are AGPL:
+  * Upper Body
+  * Lower Body
+  * Bento Hands
+  * Feet
+* The mesh head is CC-BY Linden Lab.
+* The UV map is CC-BY Linden Lab.
+* The Avastar rig contains components licensed as CC-BY-3.0 by Machinimatrix.org.
+* Ruth2 v2 Logo is CC-BY Serie Sumei.
 
 Various Authors and contributors to the Git Repo in alphabetical order are:
 * Ada Radius
@@ -32,6 +28,7 @@ Various Authors and contributors to the Git Repo in alphabetical order are:
 * Leona Morro
 * Mike Dickson
 * Noxluna Nightfire
+* Serie Sumei
 * Shin Ingen
 * Sundance Haiku 
 

@@ -1,8 +1,5 @@
 Roth2 v2 - Open Source Mesh Avatar for Virtual Worlds
 
-2020-04-24
-  - Use Roth2.0v2DRAFT6 mesh from Github commit e5a7c4dd8f7f
-
 2020-04-23
   - Use Roth2.0v2DRAFT5 mesh from Github commit ff9c733a1511
 
