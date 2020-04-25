@@ -1,10 +1,10 @@
-Roth2 v2 - Open Source Mesh Avatar for Virtual Worlds
+Roth2 - Open Source Mesh Avatar for Virtual Worlds
 
 For details and copies of relevant licenses see the project repository at https://github.com/RuthAndRoth/Roth2
 
-License terms for this project vary by part type. Copyrights are by the original Authors. Please do not delete any credits or license files that are included in this project. Built with Blender 2.8 with Avastar 2.8 beta.
+License terms for this project vary by part type. Copyrights are by the original Authors. Please do not delete any credits or license files that are included in this project. 
 
-* Roth 2.0 Copyright 2018 AGPL by Shin Ingen, who can be found at https://plus.google.com/+ShinIngen.  The following mesh body parts are AGPL:
+* Roth 2.0 Copyright 2018 AGPL by Shin Ingen, who can be found at https://plus.google.com/+ShinIngen. The following mesh body parts are AGPL:
   * Upper Body
   * Lower Body
   * Bento Hands
@@ -12,8 +12,9 @@ License terms for this project vary by part type. Copyrights are by the original
 
 Basically, under AGPL you can use these meshes as you wish but any modification must be contributed publicly back to the community and always maintained as free.
 
+* Built with Blender 2.8 with Avastar 2.8 beta.
 * The mesh head is CC-BY Linden Lab.
-* The fingernails and toenails are Open Avatar Licence by Sundance Haiku.
+* The fingernails and toenails are Virtual World Licence by Sundance Haiku.
 * The UV map is CC-BY Linden Lab.
 * The Avastar rig contains components licensed as CC-BY-3.0 by Machinimatrix.org.
 * R2 Logo is CC-BY Serie Sumei.
