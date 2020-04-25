@@ -1,23 +1,29 @@
 # Roth2 Mesh Avatar Project
 
-It is built to use standard Second Life(TM) UV maps using scratch-built open source mesh by Shin Ingen, Ada Radius and other contributors from the OpenSimulator Community.
+Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is built to use standard Second Life(TM) UV maps using scratch-built open source mesh by Shin Ingen, Ada Radius and other contributors from the OpenSimulator Community.
 
 * Github Repository: https://github.com/RuthAndRoth/Roth2
-* Discord Discussion Forum: https://discordapp.com/channels/619919380154810380/619919380691550240
-* Discord Discussion Forum Invitation (open to all): https://discord.gg/UMyaZkc
+* Discord Discussion Channel: https://discordapp.com/channels/619919380154810380/619919380691550240
+* Discord Discussion Channel Invitation (open to all): https://discord.gg/UMyaZkc
 * MeWe Community Page: https://mewe.com/group/5bbe0189a5f4e57c73569fb9
 * Second Life Groups: "RuthAndRoth" and "Ruth and Roth Community"
 * OpenSim Group: OSGrid RuthAndRoth
 * OpenSim Region: OSGrid RuthAndRoth hop://login.osgrid.org/RuthAndRoth/128/128/26
 
+## Bakes on Mesh
+
+Roth2 v2 is a single layer mesh that is designed to work well with Bakes on Mesh.  It still has a simplified alpha capability and skin textures may be applied, but in Bakes on Mesh mode system layer alpha masks can be worn to give more control over hidden areas.
+
 ## Current Release
 
-Roth2 is under heavy updating so there is no current release.
+Roth2 is currently under development, preparing for a v2 release soon.
 
 ## Previous Release
 
 Previous releases of Roth2 may be found in the old Ruth repo on Github and
 in a number of places both in Second Life and OSGrid as listed above.
+
+What was formerly called Roth 2.0 RC#1 is now referred to as Roth2 v1 in the current version naming scheme.
 
 ## Personal Directories
 

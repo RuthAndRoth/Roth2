@@ -4,17 +4,17 @@ License terms for this project vary by part type. Copyrights are by the original
 
 ## Avatar Mesh
 
-Built with Blender 2.8 with Avastar 2.8 beta.
-
-* Ruth 2.0 Copyright 2018 AGPL by Shin Ingen, who can be found at https://plus.google.com/+ShinIngen.  The following mesh body parts are AGPL:
+* Roth 2.0 Copyright 2018 AGPL by Shin Ingen, who can be found at https://plus.google.com/+ShinIngen. The following mesh body parts are AGPL:
   * Upper Body
   * Lower Body
   * Bento Hands
   * Feet
+* Built with Blender 2.8 with Avastar 2.8 beta.
 * The mesh head is CC-BY Linden Lab.
+* The fingernails and toenails are Virtual World Licence by Sundance Haiku.
 * The UV map is CC-BY Linden Lab.
 * The Avastar rig contains components licensed as CC-BY-3.0 by Machinimatrix.org.
-* Ruth2 v2 Logo is CC-BY Serie Sumei.
+* R2 Logo is CC-BY Serie Sumei.
 
 Various Authors and contributors to the Git Repo in alphabetical order are:
 * Ada Radius
@@ -31,6 +31,8 @@ Various Authors and contributors to the Git Repo in alphabetical order are:
 * Serie Sumei
 * Shin Ingen
 * Sundance Haiku 
+
+The 'R2' logo may be used to indicate projects or products that are either based on or compatible with the RuthAndRoth project mesh bodies.
 
 ## Skins
 

@@ -13,7 +13,7 @@ Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is bui
 ============================================================
 BAKES ON MESH
 
-Roth2 v2 is designed to work well with Bakes on Mesh. Normal skins can be applied, and a HUD Alpha facility is included to allow some major parts to be hidden, but with Bakes on Mesh, alpha masks can be worn to give more control over hidden areas.
+Roth2 v2 is a single layer mesh that is designed to work well with Bakes on Mesh.  It still has a simplified alpha capability and skin textures may be applied, but in Bakes on Mesh mode system layer alpha masks can be worn to give more control over hidden areas.
 
 ============================================================
 TROUBLESHOOTING
