@@ -35,4 +35,6 @@ Various Authors and contributors to the Git Repo in alphabetical order are:
 * Shin Ingen
 * Sundance Haiku
 
+* Other contributions and testing by members of the OpenSimulator Community.
+
 The 'R2' logo may be used to indicate projects or products that are either based on or compatible with the RuthAndRoth project mesh bodies.
