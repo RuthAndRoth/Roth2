@@ -20,9 +20,10 @@ Roth2 v2 is a single layer mesh that is designed to work well with Bakes on Mesh
 KNOWN ISSUES AND TROUBLESHOOTING
 
 There may be a small gap or seem at the neck joint between the mesh body and the classic avatar or addon mesh heads.
-This may be reduced by using body fat = 0 (confirm this?)
 
 Not all the appearance sliders will work on the mesh body and parts.
+
+Roth2 v2 with attached Bento head will work with most shapes. The headless body, to use with system head or other mesh head, will work well with the sliders except body fat, and extremes to neck length and thickness, because of the neck seam. There are a few head sliders that don't work: Head Shape, Ear Angle, Jowls, Chin Cleft.  Things on the list for another release sometime down the road: figure out the neck issue, improve pointy ears.
 
 Foot skin problems? For best result, paint over the system toenails and remove as much detail as you can from your foot skin that is probably designed for the system avatar's duck feet.
 
