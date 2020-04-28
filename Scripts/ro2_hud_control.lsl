@@ -5,7 +5,7 @@
 
 // v2.0 12Apr2020 <seriesumei@avimail.org> - Based on ru2_hud_control.lsl v3.2
 // v2.1 12Apr2020 <seriesumei@avimail.org> - New simpler alpha HUD
-// v2.2 27Apr2020 <seriesumei@avimail.org> - Rework skin panel
+// v2.2 28Apr2020 <seriesumei@avimail.org> - Rework skin panel
 
 // This is a heavily modified version of Shin's RC3 HUD scripts for alpha
 // and skin selections.
@@ -72,7 +72,6 @@ integer MEM_LIMIT = 64000;
 // Ruth link messages
 integer LINK_RUTH_HUD = 40;
 integer LINK_RUTH_APP = 42;
-integer LINK_OMEGA = 411;
 
 // The name of the XTEA script
 string XTEA_NAME = "r2_xtea";
@@ -201,6 +200,7 @@ integer SkinLink0 = 0;
 integer SkinLink1 = 0;
 integer BoMSkinEnabled = FALSE;
 integer BoMSkinLink = 0;
+integer EyeLink0 = 0;
 integer BoMEyesEnabled = FALSE;
 integer BoMEyesLink = 0;
 integer BoMFace = 4;
@@ -406,11 +406,6 @@ reset_alpha(float alpha) {
     }
 }
 
-// Send to listening Omega-compatible relay scripts
-apply_texture(string button) {
-    llMessageLinked(LINK_THIS, LINK_OMEGA, button + "|apply", "");
-}
-
 // Literal API for TEXTURE v2 command
 texture_v2(string name, string tex, integer face, vector color) {
     string cmd = llList2CSV(["TEXTURE", name, tex, face, color]);
@@ -478,9 +473,11 @@ init() {
         if (name == "amode0") {
             alpha_mask_link = i;
         }
-
         if (name == "amode1") {
             alpha_blend_link = i;
+        }
+        if (name == "eye0") {
+            EyeLink0 = i;
         }
     }
 
@@ -658,19 +655,20 @@ default {
             // Skin Bakes on Mesh
             BoMSkinEnabled = TRUE;
             set_bom_color(BoMSkinLink, BoMSkinEnabled);
-            apply_texture("bom");
+            llMessageLinked(LINK_THIS, LINK_RUTH_APP, llList2CSV(["skin", "bom"]), "");
         }
         else if (llGetSubString(name, 0, 1) == "sk") {
             // Skin appliers
             integer b = (integer)llGetSubString(name, 2, -1);
-            apply_texture((string)((b * 5) + face));
+            llMessageLinked(LINK_THIS, LINK_RUTH_APP, llList2CSV(["skin", (string)((b * 5) + face)]), "");
             BoMSkinEnabled = FALSE;
             set_bom_color(BoMSkinLink, BoMSkinEnabled);
         }
         else if (name == "bom1") {
             // Eyes Bakes on Mesh
-            texture_v2("lefteye", IMG_USE_BAKED_EYES, -1, <1,1,1>);
-            texture_v2("righteye", IMG_USE_BAKED_EYES, -1, <1,1,1>);
+//            texture_v2("lefteye", IMG_USE_BAKED_EYES, -1, <1,1,1>);
+//            texture_v2("righteye", IMG_USE_BAKED_EYES, -1, <1,1,1>);
+            llMessageLinked(LINK_THIS, LINK_RUTH_APP, llList2CSV(["eyes", "bom"]), "");
             BoMEyesEnabled = TRUE;
             set_bom_color(BoMEyesLink, BoMEyesEnabled);
         }
@@ -678,8 +676,7 @@ default {
             // Eye appliers
             integer b = (integer)llGetSubString(name, 2, -1);
             // bzzt... this needs to do a lookup from the yet-to-be added eye texture list
-            texture_v2("lefteye", TEXTURE_BLANK, -1, <1,1,1>);
-            texture_v2("righteye", TEXTURE_BLANK, -1, <1,1,1>);
+            llMessageLinked(LINK_THIS, LINK_RUTH_APP, llList2CSV(["eyes", (string)face]), "");
             BoMEyesEnabled = FALSE;
             set_bom_color(BoMEyesLink, BoMEyesEnabled);
         }
@@ -780,7 +777,7 @@ default {
             if (command == "STATUS") {
                 log("Loaded notecard: " + llList2String(cmdargs, 1));
             }
-            else if (command == "THUMBNAILS") {
+            else if (command == "SKIN_THUMBNAILS") {
                 log("Loaded notecard: " + llList2String(cmdargs, 1));
                 integer len = llGetListLength(cmdargs);
                 integer i;
@@ -792,6 +789,24 @@ default {
                         link = SkinLink1;
                         face -= 5;
                     }
+                    string tex = llList2String(cmdargs, i);
+                    if (tex == "") {
+                        tex = TEXTURE_TRANSPARENT;
+                    }
+                    llSetLinkPrimitiveParamsFast(link, [
+                        PRIM_COLOR, face, <1.0, 1.0, 1.0>, 1.0,
+                        PRIM_TEXTURE, face, tex, <1.0, 1.0, 0.0>, <0.0, 0.0, 0.0>, 0.0
+                    ]);
+                }
+            }
+            else if (command == "EYE_THUMBNAILS") {
+                log("Loaded notecard: " + llList2String(cmdargs, 1));
+                integer len = llGetListLength(cmdargs);
+                integer i;
+                integer link = EyeLink0;
+                integer face = 0;
+                for (i = 2; i < len; ++i) {
+                    face = i - 2;
                     string tex = llList2String(cmdargs, i);
                     if (tex == "") {
                         tex = TEXTURE_TRANSPARENT;
