@@ -5,6 +5,7 @@
 
 // v2.0 12Apr2020 <seriesumei@avimail.org> - Based on ru2_hud_control.lsl v3.2
 // v2.1 12Apr2020 <seriesumei@avimail.org> - New simpler alpha HUD
+// v2.2 27Apr2020 <seriesumei@avimail.org> - Rework skin panel
 
 // This is a heavily modified version of Shin's RC3 HUD scripts for alpha
 // and skin selections.
@@ -71,6 +72,7 @@ integer MEM_LIMIT = 64000;
 // Ruth link messages
 integer LINK_RUTH_HUD = 40;
 integer LINK_RUTH_APP = 42;
+integer LINK_OMEGA = 411;
 
 // The name of the XTEA script
 string XTEA_NAME = "r2_xtea";
@@ -195,12 +197,17 @@ integer do_fp = FALSE;
 
 // ***
 // Skin / Bakes on Mesh
-integer SkinLink = 0;
-integer BoMEnabled = FALSE;
-integer BoMLink = 0;
-integer BoMTexLink = 0;
+integer SkinLink0 = 0;
+integer SkinLink1 = 0;
+integer BoMSkinEnabled = FALSE;
+integer BoMSkinLink = 0;
+integer BoMEyesEnabled = FALSE;
+integer BoMEyesLink = 0;
 integer BoMFace = 4;
-integer ShowBoMPreview = FALSE;
+integer alpha_mode = PRIM_ALPHA_MODE_MASK;
+integer mask_cutoff = 128;
+integer alpha_mask_link = 0;
+integer alpha_blend_link = 0;
 // ***
 
 log(string msg) {
@@ -401,7 +408,7 @@ reset_alpha(float alpha) {
 
 // Send to listening Omega-compatible relay scripts
 apply_texture(string button) {
-    llMessageLinked(LINK_THIS, 411, button + "|apply", "");
+    llMessageLinked(LINK_THIS, LINK_OMEGA, button + "|apply", "");
 }
 
 // Literal API for TEXTURE v2 command
@@ -428,31 +435,11 @@ set_ankle_color(integer link) {
     }
 }
 
-set_bom_color(integer link) {
-    if (BoMEnabled) {
+set_bom_color(integer link, integer enabled) {
+    if (enabled) {
         llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, BoMFace, <0.0, 1.0, 0.0>, 1.0]);
-        if (ShowBoMPreview) {
-            llSetLinkPrimitiveParamsFast(BoMTexLink, [
-                PRIM_COLOR, 0, <1.0, 1.0, 1.0>, 1.0,
-                PRIM_TEXTURE, 0, IMG_USE_BAKED_HEAD, <1.0, 1.0, 0.0>, <0.0, 0.0, 0.0>, 0.0,
-                PRIM_COLOR, 1, <1.0, 1.0, 1.0>, 1.0,
-                PRIM_TEXTURE, 1, IMG_USE_BAKED_UPPER, <1.0, 1.0, 0.0>, <0.0, 0.0, 0.0>, 0.0,
-                PRIM_COLOR, 2, <1.0, 1.0, 1.0>, 1.0,
-                PRIM_TEXTURE, 2, IMG_USE_BAKED_LOWER, <1.0, 1.0, 0.0>, <0.0, 0.0, 0.0>, 0.0,
-                PRIM_COLOR, 3, <1.0, 1.0, 1.0>, 1.0,
-                PRIM_TEXTURE, 3, IMG_USE_BAKED_LEFTARM, <1.0, 1.0, 0.0>, <0.0, 0.0, 0.0>, 0.0,
-                PRIM_COLOR, 4, <1.0, 1.0, 1.0>, 1.0,
-                PRIM_TEXTURE, 4, IMG_USE_BAKED_LEFTLEG, <1.0, 1.0, 0.0>, <0.0, 0.0, 0.0>, 0.0,
-                PRIM_COLOR, 5, <1.0, 1.0, 1.0>, 1.0,
-                PRIM_TEXTURE, 5, IMG_USE_BAKED_EYES, <1.0, 1.0, 0.0>, <0.0, 0.0, 0.0>, 0.0
-            ]);
-        }
     } else {
         llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, BoMFace, <1.0, 1.0, 1.0>, 1.0]);
-        llSetLinkPrimitiveParamsFast(BoMTexLink, [
-            PRIM_COLOR, 0, <1.0, 1.0, 1.0>, 0.0,
-            PRIM_TEXTURE, ALL_SIDES, TEXTURE_TRANSPARENT, <1.0, 1.0, 0.0>, <0.0, 0.0, 0.0>, 0.0
-        ]);
     }
 }
 
@@ -477,13 +464,23 @@ init() {
             AnkleLockLink = i;
         }
         if (name == "bom0") {
-            BoMLink = i;
+            BoMSkinLink = i;
         }
         if (name == "bom1") {
-            BoMTexLink = i;
+            BoMEyesLink = i;
         }
         if (name == "sk0") {
-            SkinLink = i;
+            SkinLink0 = i;
+        }
+        if (name == "sk1") {
+            SkinLink1 = i;
+        }
+        if (name == "amode0") {
+            alpha_mask_link = i;
+        }
+
+        if (name == "amode1") {
+            alpha_blend_link = i;
         }
     }
 
@@ -638,17 +635,53 @@ default {
                 }
             }
         }
+        else if (llGetSubString(name, 0, 4) == "amode") {
+            // Alpha Mode
+            integer b = (integer)llGetSubString(name, 5, -1);
+            if (b == 0) {
+                // Alpha Masking
+                alpha_mode = PRIM_ALPHA_MODE_MASK;
+                set_bom_color(alpha_mask_link, TRUE);
+                set_bom_color(alpha_blend_link, FALSE);
+            }
+            else if (b == 1) {
+                // Alpha Blending
+                alpha_mode = PRIM_ALPHA_MODE_BLEND;
+                set_bom_color(alpha_mask_link, FALSE);
+                set_bom_color(alpha_blend_link, TRUE);
+            }
+            string cmd = llList2CSV(["ALPHAMODE", "all", -1, alpha_mode, mask_cutoff]);
+            log(cmd);
+            send(cmd);
+        }
         else if (name == "bom0") {
-            // Bakes on Mesh
-            BoMEnabled = TRUE;
-            set_bom_color(BoMLink);
+            // Skin Bakes on Mesh
+            BoMSkinEnabled = TRUE;
+            set_bom_color(BoMSkinLink, BoMSkinEnabled);
             apply_texture("bom");
         }
         else if (llGetSubString(name, 0, 1) == "sk") {
             // Skin appliers
-            BoMEnabled = FALSE;
-            set_bom_color(BoMLink);
-            apply_texture((string)face);
+            integer b = (integer)llGetSubString(name, 2, -1);
+            apply_texture((string)((b * 5) + face));
+            BoMSkinEnabled = FALSE;
+            set_bom_color(BoMSkinLink, BoMSkinEnabled);
+        }
+        else if (name == "bom1") {
+            // Eyes Bakes on Mesh
+            texture_v2("lefteye", IMG_USE_BAKED_EYES, -1, <1,1,1>);
+            texture_v2("righteye", IMG_USE_BAKED_EYES, -1, <1,1,1>);
+            BoMEyesEnabled = TRUE;
+            set_bom_color(BoMEyesLink, BoMEyesEnabled);
+        }
+        else if (llGetSubString(name, 0, 2) == "eye") {
+            // Eye appliers
+            integer b = (integer)llGetSubString(name, 2, -1);
+            // bzzt... this needs to do a lookup from the yet-to-be added eye texture list
+            texture_v2("lefteye", TEXTURE_BLANK, -1, <1,1,1>);
+            texture_v2("righteye", TEXTURE_BLANK, -1, <1,1,1>);
+            BoMEyesEnabled = FALSE;
+            set_bom_color(BoMEyesLink, BoMEyesEnabled);
         }
         else if (llGetSubString(name, 0, 2) == "fnc") {
             // Fingernail color
@@ -751,10 +784,21 @@ default {
                 log("Loaded notecard: " + llList2String(cmdargs, 1));
                 integer len = llGetListLength(cmdargs);
                 integer i;
-                for (i = 2; i <= len; ++i) {
-                    llSetLinkPrimitiveParamsFast(SkinLink, [
-                        PRIM_COLOR, i-2, <1.0, 1.0, 1.0>, 1.0,
-                        PRIM_TEXTURE, i-2, llList2String(cmdargs, i), <1.0, 1.0, 0.0>, <0.0, 0.0, 0.0>, 0.0
+                integer link = SkinLink0;
+                integer face = 0;
+                for (i = 2; i < len; ++i) {
+                    face = i - 2;
+                    if (i > 6) {
+                        link = SkinLink1;
+                        face -= 5;
+                    }
+                    string tex = llList2String(cmdargs, i);
+                    if (tex == "") {
+                        tex = TEXTURE_TRANSPARENT;
+                    }
+                    llSetLinkPrimitiveParamsFast(link, [
+                        PRIM_COLOR, face, <1.0, 1.0, 1.0>, 1.0,
+                        PRIM_TEXTURE, face, tex, <1.0, 1.0, 0.0>, <0.0, 0.0, 0.0>, 0.0
                     ]);
                 }
             }
