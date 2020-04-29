@@ -1,0 +1,105 @@
+# Roth2 v2 applier textures - OSGrid
+
+# Note that the number in the section names do not determine where
+# the skin appears on the HUD, they will appear in the order listed.  To
+# leave a gap use an empty section.
+
+# Skin textures
+
+#  Eloh Eliot/Starlight male light
+[skin0]
+head=0efa8a43-8a40-42d6-a5bb-0bf2d24be6e9
+upper=fb6105ff-963e-4e44-b2a7-d579a026fb4b
+lower=bb91f3f5-a4c6-4212-be63-68440f367a9a
+thumbnail=0efa8a43-8a40-42d6-a5bb-0bf2d24be6e9
+
+# Eloh Eliot/Starlight male medium
+[skin1]
+head=d60757e4-5ae9-4923-8bf2-d157af0d4023
+upper=7b0fc022-1a2f-41ed-b54d-1340e74dce00
+lower=025243de-234a-4ff7-9337-0be20b1540f5
+thumbnail=d60757e4-5ae9-4923-8bf2-d157af0d4023
+
+# Eloh Eliot/Starlight male dark
+[skin2]
+head=88948c10-7242-498d-bbc5-f6b3b7765d05
+upper=8891b92a-6707-4e1f-b8cd-24d9a4496421
+lower=8b42669e-ab4f-4bac-853f-678f0cd8aa5b
+thumbnail=88948c10-7242-498d-bbc5-f6b3b7765d05
+
+# 
+[skin3]
+head=
+upper=
+lower=
+thumbnail=
+
+# 
+[skin4]
+head=
+upper=
+lower=
+thumbnail=
+
+# 
+[skin5]
+head=
+upper=
+lower=
+thumbnail=
+
+# 
+[skin6]
+head=
+upper=
+lower=
+thumbnail=
+
+# 
+[skin7]
+head=
+upper=
+lower=
+thumbnail=
+
+# 
+[skin8]
+head=
+upper=
+lower=
+thumbnail=
+
+# CMFF Template
+[skin9]
+head=08f57720-2b0f-4812-85d3-44575da48ff6
+upper=16b78e85-c6b5-4b81-b62e-9ec59e5a6995
+lower=81af005e-8e09-4bc5-b1fd-3a5f26144b90
+thumbnail=08f57720-2b0f-4812-85d3-44575da48ff6
+
+
+# Eye textures
+
+# 
+[eyes0]
+eyes=
+thumbnail=
+
+#
+[eyes1]
+eyes=8745c959-b9d1-48b1-9bd9-71caf862130f
+thumbnail=8745c959-b9d1-48b1-9bd9-71caf862130f
+
+# 
+[eyes2]
+eyes=
+thumbnail=
+
+# 
+[eyes3]
+eyes=
+thumbnail=
+
+# 
+[eyes4]
+eyes=
+thumbnail=

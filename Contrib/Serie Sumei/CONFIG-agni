@@ -1,0 +1,105 @@
+# Roth2 v2 applier textures - Second Life Agni
+
+# Note that the number in the section names do not determine where
+# the skin appears on the HUD, they will appear in the order listed.  To
+# leave a gap use an empty section.
+
+# Skin textures
+
+#  Eloh Eliot/Starlight male light
+[skin0]
+head=ffda569b-3433-cf14-ad9e-1606eae98819
+upper=b052eeee-a740-e16c-6877-a8de62e2792d
+lower=e3713efc-5ed6-2401-a67e-cfd0cb381d30
+thumbnail=ffda569b-3433-cf14-ad9e-1606eae98819
+
+#  Eloh Eliot/Starlight male medium
+[skin1]
+head=937ed25c-db1a-cebc-5e50-755a75486749
+upper=5950fd9f-8b0c-608a-f7f2-8cdc0af012fb
+lower=defdf71d-eb0b-54f9-0e5a-01825e670d91
+thumbnail=937ed25c-db1a-cebc-5e50-755a75486749
+
+#  Eloh Eliot/Starlight male dark
+[skin2]
+head=0ed8791e-533a-8592-e540-1dcd83b12739
+upper=b974c96f-d632-23a4-d8bf-a4ffaa3b69fd
+lower=6aa14ddd-fd45-49ed-6c15-9d1660833c34
+thumbnail=0ed8791e-533a-8592-e540-1dcd83b12739
+
+#
+[skin3]
+head=
+upper=
+lower=
+thumbnail=
+
+#
+[skin4]
+head=
+upper=
+lower=
+thumbnail=
+
+#
+[skin5]
+head=
+upper=
+lower=
+thumbnail=
+
+#
+[skin6]
+head=
+upper=
+lower=
+thumbnail=
+
+#
+[skin7]
+head=
+upper=
+lower=
+thumbnail=
+
+#
+[skin8]
+head=
+upper=
+lower=
+thumbnail=
+
+#
+[skin9]
+head=0585d463-b6e4-2c6c-46a3-19aa9c512a3c
+upper=fb9bbbc9-dadf-026f-bf87-7937ec470f5d
+lower=4f0aa9d0-1591-fd43-bae3-7e11a6c9c45d
+thumbnail=0585d463-b6e4-2c6c-46a3-19aa9c512a3c
+
+
+# Eye textures
+
+# 
+[eyes0]
+eyes=
+thumbnail=
+
+#
+[eyes1]
+eyes=
+thumbnail=
+
+# 
+[eyes2]
+eyes=5250b6dd-a90f-d669-13ad-5640ab13ade2
+thumbnail=5250b6dd-a90f-d669-13ad-5640ab13ade2
+
+# 
+[eyes3]
+eyes=
+thumbnail=
+
+# 
+[eyes4]
+eyes=
+thumbnail=
