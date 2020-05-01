@@ -46,7 +46,7 @@ list fingernail_colors = [
 ];
 
 // Keep a mapping of link number to prim name
-list prim_map = [];
+list link_map = [];
 
 integer num_links = 0;
 
@@ -116,17 +116,24 @@ list regions = [
     "toenails"
 ];
 
-// <prim-name>, <face>, <button-group>, <body-region>
+// This element map is used for the alpha HUD doll but not the body,
+// that map is maintained in the hud_receiver script in the body
+
+// <link-name>, <face>, <button-group>, <body-region>
+// link-name - the object name of a part in the linkset, translated to a link number internally
+// face - the number of a face of an link object
+// button-group - a unique name for a unit of alpha/texture, one or more faces
+// region - the SL constants used for body regions, ie the BoM destination regions
 
 integer element_stride = 4;
 list element_map = [
     "body", 3, "head", 0,
     "body", 4, "neck", 1,
-    "body", 6, "arms", 1,
+    "body", 5, "arms", 1,
     "body", 1, "hands", 1,
     "fingernails", -1, "hands", 11,
     "body", 7, "torso", 2,
-    "body", 5, "legs", 2,
+    "body", 6, "legs", 2,
     "body", 0, "feet", 2,
     "body", 2, "hair", 5,
     "toenails", -1, "feet", 12,
@@ -306,7 +313,7 @@ adjust_pos() {
 // get/set alpha values in JSON buffer
 
 // j - JSON value storage
-// name - prim_name
+// name - link_name
 // face - integer face, -1 returns the unmasked 16 bit value
 // Internal JSON values are ones complement, ie a 1 bit means the face is not visible
 integer json_get_alpha(string j, string name, integer face) {
@@ -321,7 +328,7 @@ integer json_get_alpha(string j, string name, integer face) {
 }
 
 // j - JSON value storage
-// name - prim_name
+// name - link_name
 // face - integer face, -1 sets all 16 bits in the value
 // value - alpha boolean, 0 = invisible, 1 = visible
 // Internal JSON values are ones complement, ie a 1 bit means the face is not visible
@@ -354,7 +361,7 @@ set_alpha(string name, integer face, float alpha) {
     integer link;
     for (; link < num_links; ++link) {
         // Set color for all matching link names
-        if (llList2String(prim_map, link) == name) {
+        if (llList2String(link_map, link) == name) {
             // Reset links that appear in the list of body parts
             if (alpha == 0) {
                 llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, face, alphaOnColor, 1.0]);
@@ -373,15 +380,15 @@ set_alpha_group(string group_name, integer alpha) {
     for (i = 0; i <= len; ++i) {
         if (llList2String(groups, i) == group_name) {
             // process matching group entry
-            string prim_name = llList2String(element_map, i * element_stride);
+            string link_name = llList2String(element_map, i * element_stride);
             integer doll_face = llList2Integer(element_map, (i * element_stride) + 1);
             if (alpha < 0) {
                 // Toggle the current value
                 log("json: " + current_alpha);
-                alpha = !json_get_alpha(current_alpha, prim_name, doll_face);
+                alpha = !json_get_alpha(current_alpha, link_name, doll_face);
                 log("val: " + (string)alpha);
             }
-            set_alpha(prim_name, doll_face, alpha);
+            set_alpha(link_name, doll_face, alpha);
         }
     }
 }
@@ -389,20 +396,22 @@ set_alpha_group(string group_name, integer alpha) {
 reset_alpha(float alpha) {
     // Reset body and HUD doll
     list seen = [];
-    list groups = llList2ListStrided(llDeleteSubList(element_map, 0, 1), 0, -1, element_stride);
-    integer len = llGetListLength(groups);
-    integer i;
-    for (i = 0; i < len; ++i) {
-        string prim_name = llList2String(element_map, i * element_stride);
-        if (llListFindList(seen, [prim_name]) < 0) {
-            seen += [prim_name];
-            set_alpha(prim_name, -1, alpha);
+    integer len = llGetListLength(element_map) / element_stride;
+    integer link;
+    for (link = 0; link < len; ++link) {
+        // link_name is first in stride
+        string link_name = llList2String(element_map, link * element_stride);
+        // group is third in stride
+        string section = llList2String(element_map, (link * element_stride) + 2);
+        if (llListFindList(seen, [link_name]) < 0) {
+            seen += [link_name];
+            set_alpha(link_name, -1, alpha);
         }
     }
 
     // Reset HUD buttons
-    for(i = 0; i <= 1; ++i) {
-        set_alpha("alpha" + (string)i, -1, alpha);
+    for(link = 0; link <= 1; ++link) {
+        set_alpha("alpha" + (string)link, -1, alpha);
     }
 }
 
@@ -454,7 +463,7 @@ init() {
     for (; i < num_links; ++i) {
         list p = llGetLinkPrimitiveParams(i, [PRIM_NAME]);
         string name = llList2String(p, 0);
-        prim_map += [name];
+        link_map += [name];
         if (name == "fp0") {
             AnkleLockLink = i;
         }
