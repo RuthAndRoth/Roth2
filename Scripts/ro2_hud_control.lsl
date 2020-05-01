@@ -5,7 +5,7 @@
 
 // v2.0 12Apr2020 <seriesumei@avimail.org> - Based on ru2_hud_control.lsl v3.2
 // v2.1 12Apr2020 <seriesumei@avimail.org> - New simpler alpha HUD
-// v2.2 28Apr2020 <seriesumei@avimail.org> - Rework skin panel
+// v2.2 01May2020 <seriesumei@avimail.org> - Rework skin panel
 
 // This is a heavily modified version of Shin's RC3 HUD scripts for alpha
 // and skin selections.
@@ -119,26 +119,29 @@ list regions = [
 // This element map is used for the alpha HUD doll but not the body,
 // that map is maintained in the hud_receiver script in the body
 
-// <link-name>, <face>, <button-group>, <body-region>
+// <link-name>, <face>, <section>, <body-region>, <group>
 // link-name - the object name of a part in the linkset, translated to a link number internally
 // face - the number of a face of an link object
-// button-group - a unique name for a unit of alpha/texture, one or more faces
+// section - a unique name for a unit of alpha/texture, one or more faces. (formerly group)
 // region - the SL constants used for body regions, ie the BoM destination regions
+// group - an arbitrary way to group faces: 0=head, 1=torso, 2=arms, 3=hands, 4=legs, 5=feet, 6=eyes
 
-integer element_stride = 4;
+integer element_stride = 5;
 list element_map = [
-    "body", 3, "head", 0,
-    "body", 4, "neck", 1,
-    "body", 5, "arms", 1,
-    "body", 1, "hands", 1,
-    "fingernails", -1, "hands", 11,
-    "body", 7, "torso", 2,
-    "body", 6, "legs", 2,
-    "body", 0, "feet", 2,
-    "body", 2, "hair", 5,
-    "toenails", -1, "feet", 12,
-    "lefteye", -1, "eyes", 3,
-    "righteye", -1, "eyes", 3
+    "body", 3, "face", 0, 0,
+    "body", 2, "hair", 5, 0,
+    "body", 4, "neck", 1, 1,
+    "body", 7, "torso", 2, 1,
+    "body", 5, "arms", 1, 2,
+    "body", 1, "hands", 1, 3,
+    "fingernails", -1, "fingernails", 11, 3,
+    "body", 6, "legs", 2, 4,
+    "body", 0, "feet", 2, 5,
+    "toenails", -1, "toenails", 12, 5,
+    "lefteye", -1, "lefteye", 3, 6,
+    "righteye", -1, "righteye", 3, 6,
+    "body", 3, "head", 0, 0,
+    "body", 2, "head", 0, 0
 ];
 
 // A JSON buffer to save the alpha values of elements:
@@ -373,13 +376,13 @@ set_alpha(string name, integer face, float alpha) {
 }
 
 // alpha = -1 toggles the current saved value
-set_alpha_group(string group_name, integer alpha) {
+set_alpha_section(string section_name, integer alpha) {
     integer i;
-    list groups = llList2ListStrided(llDeleteSubList(element_map, 0, 1), 0, -1, element_stride);
-    integer len = llGetListLength(groups);
+    list section_map = llList2ListStrided(llDeleteSubList(element_map, 0, 1), 0, -1, element_stride);
+    integer len = llGetListLength(section_map);
     for (i = 0; i <= len; ++i) {
-        if (llList2String(groups, i) == group_name) {
-            // process matching group entry
+        if (llList2String(section_map, i) == section_name) {
+            // process matching section entry
             string link_name = llList2String(element_map, i * element_stride);
             integer doll_face = llList2Integer(element_map, (i * element_stride) + 1);
             if (alpha < 0) {
@@ -388,6 +391,7 @@ set_alpha_group(string group_name, integer alpha) {
                 alpha = !json_get_alpha(current_alpha, link_name, doll_face);
                 log("val: " + (string)alpha);
             }
+//            send_csv(["ALPHA", section_name, 0, alpha]);
             set_alpha(link_name, doll_face, alpha);
         }
     }
@@ -396,12 +400,13 @@ set_alpha_group(string group_name, integer alpha) {
 reset_alpha(float alpha) {
     // Reset body and HUD doll
     list seen = [];
+    // list groups = llList2ListStrided(llDeleteSubList(element_map, 0, 1), 0, -1, element_stride);
     integer len = llGetListLength(element_map) / element_stride;
     integer link;
     for (link = 0; link < len; ++link) {
         // link_name is first in stride
         string link_name = llList2String(element_map, link * element_stride);
-        // group is third in stride
+        // section is third in stride
         string section = llList2String(element_map, (link * element_stride) + 2);
         if (llListFindList(seen, [link_name]) < 0) {
             seen += [link_name];
@@ -444,6 +449,16 @@ set_bom_color(integer link, integer enabled) {
         llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, BoMFace, <0.0, 1.0, 0.0>, 1.0]);
     } else {
         llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, BoMFace, <1.0, 1.0, 1.0>, 1.0]);
+    }
+}
+
+set_outline_button_color(integer link, integer enabled) {
+    if (enabled) {
+        llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, ALL_SIDES, buttonOnColor, 1.0]);
+//        llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, 0, offColor, 1.0]);
+    } else {
+        llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, ALL_SIDES, offColor, 1.0]);
+//        llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, 0, offColor, 1.0]);
     }
 }
 
@@ -590,33 +605,33 @@ default {
             integer by = (integer)(pos.y * 10);
             if ((pos.x > 0.475 && pos.x < 0.525) && (pos.y > 0.775 && pos.y < 0.8)) {
                 // neck
-                set_alpha_group("neck", -1);
+                set_alpha_section("neck", -1);
             }
             else if (bx == 4 || bx == 5) {
                 if (by == 8) {
                     // head
-                    set_alpha_group("head", -1);
+                    set_alpha_section("head", -1);
                 }
                 else if (by == 6 || by == 7) {
                     // torso (except neck)
-                    set_alpha_group("torso", -1);
+                    set_alpha_section("torso", -1);
                 }
                 else if (by > 1 && by < 6) {
                     // legs
-                    set_alpha_group("legs", -1);
+                    set_alpha_section("legs", -1);
                 }
                 else if (by == 1) {
                     // feet
-                    set_alpha_group("feet", -1);
+                    set_alpha_section("feet", -1);
                 }
             }
             else if ((bx == 3 || bx == 6) && (by == 6 || by == 7)) {
                 // arms
-                set_alpha_group("arms", -1);
+                set_alpha_section("arms", -1);
             }
             else if ((bx == 3 || bx == 6) && by == 5) {
                 // hands
-                set_alpha_group("hands", -1);
+                set_alpha_section("hands", -1);
             }
         }
         else if (llGetSubString(name, 0, 4) == "alpha") {
@@ -630,7 +645,7 @@ default {
                 reset_alpha(1.0);
             }
             else {
-                set_alpha_group(llList2String(alpha_buttons, (b * 8) + face), -1);
+                set_alpha_section(llList2String(alpha_buttons, (b * 8) + face), -1);
 
                 // Set button color
                 vector face_color = llList2Vector(llGetLinkPrimitiveParams(link, [PRIM_NAME, PRIM_COLOR, face]), 1);
@@ -663,7 +678,7 @@ default {
         else if (name == "bom0") {
             // Skin Bakes on Mesh
             BoMSkinEnabled = TRUE;
-            set_bom_color(BoMSkinLink, BoMSkinEnabled);
+            set_outline_button_color(BoMSkinLink, BoMSkinEnabled);
             llMessageLinked(LINK_THIS, LINK_RUTH_APP, llList2CSV(["skin", "bom"]), "");
         }
         else if (llGetSubString(name, 0, 1) == "sk") {
@@ -671,7 +686,7 @@ default {
             integer b = (integer)llGetSubString(name, 2, -1);
             llMessageLinked(LINK_THIS, LINK_RUTH_APP, llList2CSV(["skin", (string)((b * 5) + face)]), "");
             BoMSkinEnabled = FALSE;
-            set_bom_color(BoMSkinLink, BoMSkinEnabled);
+            set_outline_button_color(BoMSkinLink, BoMSkinEnabled);
         }
         else if (name == "bom1") {
             // Eyes Bakes on Mesh
@@ -679,7 +694,7 @@ default {
 //            texture_v2("righteye", IMG_USE_BAKED_EYES, -1, <1,1,1>);
             llMessageLinked(LINK_THIS, LINK_RUTH_APP, llList2CSV(["eyes", "bom"]), "");
             BoMEyesEnabled = TRUE;
-            set_bom_color(BoMEyesLink, BoMEyesEnabled);
+            set_outline_button_color(BoMEyesLink, BoMEyesEnabled);
         }
         else if (llGetSubString(name, 0, 2) == "eye") {
             // Eye appliers
@@ -687,7 +702,7 @@ default {
             // bzzt... this needs to do a lookup from the yet-to-be added eye texture list
             llMessageLinked(LINK_THIS, LINK_RUTH_APP, llList2CSV(["eyes", (string)face]), "");
             BoMEyesEnabled = FALSE;
-            set_bom_color(BoMEyesLink, BoMEyesEnabled);
+            set_outline_button_color(BoMEyesLink, BoMEyesEnabled);
         }
         else if (llGetSubString(name, 0, 2) == "fnc") {
             // Fingernail color
