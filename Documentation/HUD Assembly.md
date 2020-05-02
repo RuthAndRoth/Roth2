@@ -4,9 +4,10 @@ The HUD consists of a number of components that are assembled by script
 to ensure consistency across grids.
 
 The script is
-[r2_hud_maker.lsl](https://github.com/RuthAndRoth/Ruth2/blob/master/Scripts/r2_hud_maker.lsl)
-found in the [Ruth2/Scripts](https://github.com/RuthAndRoth/Ruth2/tree/master/Scripts)
-directory.  There are also a handful of additional mesh button assemblies used:
+[r2_hud_maker.lsl](https://github.com/RuthAndRoth/Ruth2/blob/master/Contrib/Serie%20Sumei/scripts/r2_hud_maker.lsl)
+found in the Ruth2 repo under Contrib/Serie Sumei/scripts as it is still under active
+developemnt and no longer able to build Ruth2's HUD (for now).
+There are also a handful of additional mesh button assemblies used:
 
 * [4x2_button.dae](https://github.com/RuthAndRoth/Ruth2/blob/master/Mesh/HUD/4x2_button.dae)
 * [5x1-s_button.dae](https://github.com/RuthAndRoth/Ruth2/blob/master/Mesh/HUD/5x1-s_button.dae)
