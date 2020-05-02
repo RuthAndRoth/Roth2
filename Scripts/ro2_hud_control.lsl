@@ -15,7 +15,8 @@
 integer APP_ID = 20181024;
 
 vector alphaOnColor = <0.000, 0.000, 0.000>;
-vector buttonOnColor = <0.000, 1.000, 0.000>;
+vector buttonOnColor = <0.400, 0.700, 0.400>;
+vector faceOnColor = <0.800, 1.000, 0.800>;
 vector offColor = <1.000, 1.000, 1.000>;
 
 vector tglOnColor = <0.000, 1.000, 0.000>;
@@ -444,18 +445,10 @@ set_ankle_color(integer link) {
     }
 }
 
-set_bom_color(integer link, integer enabled) {
-    if (enabled) {
-        llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, BoMFace, <0.0, 1.0, 0.0>, 1.0]);
-    } else {
-        llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, BoMFace, <1.0, 1.0, 1.0>, 1.0]);
-    }
-}
-
 set_outline_button_color(integer link, integer enabled) {
     if (enabled) {
         llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, ALL_SIDES, buttonOnColor, 1.0]);
-//        llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, 0, offColor, 1.0]);
+        llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, 0, faceOnColor, 1.0]);
     } else {
         llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, ALL_SIDES, offColor, 1.0]);
 //        llSetLinkPrimitiveParamsFast(link, [PRIM_COLOR, 0, offColor, 1.0]);
@@ -662,14 +655,14 @@ default {
             if (b == 0) {
                 // Alpha Masking
                 alpha_mode = PRIM_ALPHA_MODE_MASK;
-                set_bom_color(alpha_mask_link, TRUE);
-                set_bom_color(alpha_blend_link, FALSE);
+                set_outline_button_color(alpha_mask_link, TRUE);
+                set_outline_button_color(alpha_blend_link, FALSE);
             }
             else if (b == 1) {
                 // Alpha Blending
                 alpha_mode = PRIM_ALPHA_MODE_BLEND;
-                set_bom_color(alpha_mask_link, FALSE);
-                set_bom_color(alpha_blend_link, TRUE);
+                set_outline_button_color(alpha_mask_link, FALSE);
+                set_outline_button_color(alpha_blend_link, TRUE);
             }
             string cmd = llList2CSV(["ALPHAMODE", "all", -1, alpha_mode, mask_cutoff]);
             log(cmd);
