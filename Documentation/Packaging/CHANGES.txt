@@ -2,6 +2,12 @@ Roth2 v2 - Open Source Mesh Avatar for Virtual Worlds
 
 Roth2 v2 is a single layer mesh that is designed to work well with Bakes on Mesh. Compared to Roth2.0 RC#1 (now also known as Roth2 v1) it has a simplified alpha capability. Skin textures may still be applied, but in Bakes on Mesh mode system layer alpha masks can be worn to give. more control over hidden areas.
 
+2020-05-03
+  - Change the alpha panel buttons
+  - Update HUD scripts
+    - ro2_hud_control v2.3 ss-200501
+    - r2_hud_maker
+
 2020-05-01
   - Change the skin panel buttons
   - Update HUD scripts

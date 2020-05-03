@@ -9,10 +9,9 @@ found in the Ruth2 repo under Contrib/Serie Sumei/scripts as it is still under a
 developemnt and no longer able to build Ruth2's HUD (for now).
 There are also a handful of additional mesh button assemblies used:
 
-* [4x2_button.dae](https://github.com/RuthAndRoth/Ruth2/blob/master/Mesh/HUD/4x2_button.dae)
+* [4x1_outline_button.dae](https://github.com/RuthAndRoth/Ruth2/blob/master/Mesh/HUD/4x1_outline_button.dae)
 * [5x1-s_button.dae](https://github.com/RuthAndRoth/Ruth2/blob/master/Mesh/HUD/5x1-s_button.dae)
 * [6x1_button.dae](https://github.com/RuthAndRoth/Ruth2/blob/master/Mesh/HUD/6x1_button.dae)
-* [8x1_button.dae](https://github.com/RuthAndRoth/Ruth2/blob/master/Mesh/HUD/8x1_button.dae)
 
 These should be uploaded as simple mesh objects with no physics.  They are also
 available in the in-world Mesh Uploads distribution boxes found at the usual
@@ -43,10 +42,10 @@ builds a Ruth2 or Roth2 HUD.  Set that accordingly.
 * Rename the box on the ground "HUD maker"
 * Copy the following objects into the inventory of the new box:
   * the new box created above (from inventory) named 'Object'
-  * the button meshes: '4x2_button', '5x1-s_button', '6x1_button' and '8x1_button'
+  * the button meshes: '4x1_outline_button', '5x1-s_button' and '6x1_button'
   * the r2_hud_maker.lsl script
-* Take a copy of the HUD maker box because trying again is much simpler from this
-  stage than un-doing what the script is about to do
+* Take a copy of the HUD maker box because trying again is much simpler from
+  this stage than un-doing what the script is about to do
 * Light fuse (touch the HUD maker) and get away, the new HUD will be
   assembled around the box prim which will become the root prim of the HUD.
 * Remove the script and the other objects from the HUD root prim and copy in:
