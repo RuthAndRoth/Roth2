@@ -1,45 +1,38 @@
 # Roth2 v2 applier textures - OSGrid
 
-# Note that the number in the section names do not determine where
-# the skin appears on the HUD, they will appear in the order listed.  To
+# Note that the numbers in the section names do not determine where
+# the thumbnails appear on the HUD, they will appear in the order listed.  To
 # leave a gap use an empty section.
 
 # Skin textures
 
-#  Eloh Eliot/Starlight male light
-[skin0]
-head=0efa8a43-8a40-42d6-a5bb-0bf2d24be6e9
-upper=fb6105ff-963e-4e44-b2a7-d579a026fb4b
-lower=bb91f3f5-a4c6-4212-be63-68440f367a9a
-thumbnail=0efa8a43-8a40-42d6-a5bb-0bf2d24be6e9
-
-# Eloh Eliot/Starlight male medium
+#  Adamek Titanium
 [skin1]
-head=d60757e4-5ae9-4923-8bf2-d157af0d4023
-upper=7b0fc022-1a2f-41ed-b54d-1340e74dce00
-lower=025243de-234a-4ff7-9337-0be20b1540f5
-thumbnail=d60757e4-5ae9-4923-8bf2-d157af0d4023
+head=23e81daa-47cf-463f-8e5f-33919dc38865
+upper=27359afc-7e59-419d-a4f5-dcf360a895e1
+lower=4dd12056-ffe0-4cd7-a4ca-0e17d8a1ff35
+thumbnail=23e81daa-47cf-463f-8e5f-33919dc38865
 
-# Eloh Eliot/Starlight male dark
+#  Adamek Titanium
 [skin2]
-head=88948c10-7242-498d-bbc5-f6b3b7765d05
-upper=8891b92a-6707-4e1f-b8cd-24d9a4496421
-lower=8b42669e-ab4f-4bac-853f-678f0cd8aa5b
-thumbnail=88948c10-7242-498d-bbc5-f6b3b7765d05
+head=91894009-5c04-4345-992c-a404ded90ed2
+upper=4d8c3b40-524b-448e-9124-c5dfee34cb84
+lower=1a97e3e6-25ce-4758-b4ae-fe8b07bd278d
+thumbnail=91894009-5c04-4345-992c-a404ded90ed2
 
-# 
+#  Adamek Titanium
 [skin3]
-head=
-upper=
-lower=
-thumbnail=
+head=555f86d1-83be-4a8d-b19a-27445155a113
+upper=ab18b6c0-cf0c-44ce-afd2-cfaf8d3778b1
+lower=d3978c3d-0456-418c-b955-2022c8bf249c
+thumbnail=555f86d1-83be-4a8d-b19a-27445155a113
 
-# 
+#  Adamek Titanium
 [skin4]
-head=
-upper=
-lower=
-thumbnail=
+head=baf28278-66e7-4a7e-a7fe-2219fbd25097
+upper=37825d26-01dd-49e7-b1e9-86ccf5f8600f
+lower=ea43f05e-3ec2-4133-b587-4e2621a4e40b
+thumbnail=baf28278-66e7-4a7e-a7fe-2219fbd25097
 
 # 
 [skin5]
@@ -48,58 +41,66 @@ upper=
 lower=
 thumbnail=
 
-# 
-[skin6]
-head=
-upper=
-lower=
-thumbnail=
-
-# 
-[skin7]
-head=
-upper=
-lower=
-thumbnail=
-
-# 
-[skin8]
-head=
-upper=
-lower=
-thumbnail=
-
 # CMFF Template
-[skin9]
+[skin6]
 head=08f57720-2b0f-4812-85d3-44575da48ff6
 upper=16b78e85-c6b5-4b81-b62e-9ec59e5a6995
 lower=81af005e-8e09-4bc5-b1fd-3a5f26144b90
 thumbnail=08f57720-2b0f-4812-85d3-44575da48ff6
 
+# Eloh Eliot Another Skin
+[skin7]
+head=caadec0e-2ca7-4efe-b917-9d5ea52fcfbd
+upper=a93c3dcf-5dbb-418b-a48a-3a5ce70bb455
+lower=511476d5-916a-4a00-bd2c-5349231b0bd2
+thumbnail=caadec0e-2ca7-4efe-b917-9d5ea52fcfbd
+
+# Eloh Eliot Another Skin
+[skin8]
+head=54e83787-ea9a-4a68-bb6b-1bf857da95f9
+upper=98a7f87a-d199-41db-8d9c-2e0caebb6678
+lower=50b6ae67-1283-48c8-bc72-33969d2d7df8
+thumbnail=54e83787-ea9a-4a68-bb6b-1bf857da95f9
+
+# Eloh Eliot Another Skin
+[skin9]
+head=5531a1da-187f-46a7-b526-7653d8ac0264
+upper=202370dc-d545-4b8f-a499-0f0115821908
+lower=47ae9cf6-e81f-4131-b073-b8ef4287a316
+thumbnail=5531a1da-187f-46a7-b526-7653d8ac0264
+
 
 # Eye textures
 
-# 
-[eyes0]
-eyes=
-thumbnail=
-
 #
 [eyes1]
-eyes=8745c959-b9d1-48b1-9bd9-71caf862130f
-thumbnail=8745c959-b9d1-48b1-9bd9-71caf862130f
+eyes=6522e74d-1660-4e7f-b601-6f48c1659a77
+thumbnail=6522e74d-1660-4e7f-b601-6f48c1659a77
 
-# 
+# Ada Radius aqua
 [eyes2]
-eyes=
-thumbnail=
+eyes=888159d1-9a76-428b-8bd4-09bbe839ad4d
+thumbnail=888159d1-9a76-428b-8bd4-09bbe839ad4d
 
-# 
+# Ada Radius green
 [eyes3]
-eyes=
-thumbnail=
+eyes=998384dd-1355-4c1e-8922-786cd8ac4f27
+thumbnail=998384dd-1355-4c1e-8922-786cd8ac4f27
 
-# 
+# Ada Radius Indigo
 [eyes4]
-eyes=
-thumbnail=
+eyes=5e449887-e7db-43ae-96b9-f6eff575063e
+thumbnail=5e449887-e7db-43ae-96b9-f6eff575063e
+
+# Ada Radius black
+[eyes5]
+eyes=3f9e2555-7d39-4b00-86c5-ba9f717d0552
+thumbnail=3f9e2555-7d39-4b00-86c5-ba9f717d0552
+
+
+# unused, included for reference
+
+# Ada Radius gray
+#[eyes0]
+#eyes=3bcab2c3-f2db-4a49-8d75-fe5d12191f4e
+#thumbnail=3bcab2c3-f2db-4a49-8d75-fe5d12191f4e
