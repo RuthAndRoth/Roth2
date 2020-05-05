@@ -57,7 +57,7 @@ vector last_rot;
 integer VERBOSE = FALSE;
 
 // Memory limit
-integer MEM_LIMIT = 64000;
+integer MEM_LIMIT = 65000;
 
 // Ruth link messages
 integer LINK_RUTH_HUD = 40;
@@ -836,7 +836,6 @@ default {
 
             integer i;
             for (i=0; i<8; i+=2) {
-                llOwnerSay(" i="+(string)i);
                 set_outline_link_face_state("hp", 0+delta, i, 0.0, FALSE);
                 set_outline_link_face_state("hp", 1+delta, i, 0.0, FALSE);
                 set_outline_link_face_state("hp", 2+delta, i, 0.0, FALSE);
