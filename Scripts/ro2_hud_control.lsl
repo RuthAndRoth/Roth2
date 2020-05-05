@@ -5,7 +5,7 @@
 
 // v2.0 12Apr2020 <seriesumei@avimail.org> - Based on ru2_hud_control.lsl v3.2
 // v2.1 12Apr2020 <seriesumei@avimail.org> - New simpler alpha HUD
-// v2.2 03May2020 <seriesumei@avimail.org> - Rework skin panel
+// v2.2 04May2020 <seriesumei@avimail.org> - Rework skin panel
 
 // This is a heavily modified version of Shin's RC3 HUD scripts for alpha
 // and skin selections.
@@ -171,12 +171,6 @@ list alpha_buttons = [
 string gcPrevRtAnim = "";     //the previously selected animation on the right side
 string gcPrevLfAnim = "";     //the previously selected animation on the left side
 string gcWhichSide = "";      //Whether the currently selected animation is a right or left hand
-integer gnButtonNo = 0;       //The number of the button pressed by the user
-integer gnPrimNo;             //The prim which contains the button pressed
-integer gnPrimFace;           //The face of the prim containing the button pressed
-integer gnButtonStart;        //The starting number of a group of buttons
-vector gvONColor =  <0.224, 0.800, 0.800>;  //Teal color to indicate the button has been pressed
-vector gvOFFColor = <1.0, 1.0, 1.0>;  //white color to indicate the button has not been pressed
 
 integer hp_index = 0;
 integer do_hp = FALSE;
@@ -435,7 +429,7 @@ reset_alpha(float alpha) {
     integer j;
     for (link = 0; link <= 3; ++link) {
         for (j=0; j < 8; j+=2) {
-            set_outline_link_face_state("alpha", link, j, (alpha < 0.01));
+            set_outline_link_face_state("alpha", link, j, 1.0, (alpha < 0.01));
         }
     }
 }
@@ -477,19 +471,19 @@ integer lookup_button(list face_map, integer xlink, integer face) {
 }
 
 // Set state of an outline button given a link and face
-set_outline_link_face_state(string prefix, integer xlink, integer face, integer enabled) {
+set_outline_link_face_state(string prefix, integer xlink, integer face, float alpha, integer enabled) {
     integer link = llListFindList(link_map, [prefix + (string)xlink]);
     if (link >= 0) {
         if (enabled) {
             llSetLinkPrimitiveParamsFast(link, [
-                PRIM_COLOR, face, faceOnColor, 1.0,
-                PRIM_COLOR, face+1, buttonOnColor, 1.0,
+                PRIM_COLOR, face, faceOnColor, alpha,
+                PRIM_COLOR, face+1, buttonOnColor, alpha,
                 PRIM_TEXTURE, face+1, TEXTURE_BLANK, <1.0, 1.0, 0.0>, <0.0, 0.0, 0.0>, 0.0
             ]);
         } else {
             llSetLinkPrimitiveParamsFast(link, [
-                PRIM_COLOR, face, <1.0, 1.0, 1.0>, 1.0,
-                PRIM_COLOR, face+1, offColor, 1.0,
+                PRIM_COLOR, face, <1.0, 1.0, 1.0>, alpha,
+                PRIM_COLOR, face+1, offColor, alpha,
                 PRIM_TEXTURE, face+1, TEXTURE_TRANSPARENT, <1.0, 1.0, 0.0>, <0.0, 0.0, 0.0>, 0.0
             ]);
         }
@@ -501,7 +495,7 @@ set_outline_link_face_state(string prefix, integer xlink, integer face, integer 
 set_outline_button_state(list face_map, string prefix, integer index, integer enabled) {
     integer xlink = llList2Integer(face_map, (index * 2));
     integer face = llList2Integer(face_map, (index * 2) + 1);
-    set_outline_link_face_state(prefix, xlink, face, enabled);
+    set_outline_link_face_state(prefix, xlink, face, 1.0, enabled);
 }
 
 // Sets the texture and outline of an outline button using a map of button
@@ -686,7 +680,7 @@ default {
 
                 // Set button color
                 vector face_color = llList2Vector(llGetLinkPrimitiveParams(link, [PRIM_NAME, PRIM_COLOR, face]), 1);
-                set_outline_link_face_state("alpha", b, face, (face_color == offColor));
+                set_outline_link_face_state("alpha", b, face, 1.0, (face_color == offColor));
             }
         }
         else if (llGetSubString(name, 0, 4) == "amode") {
@@ -694,14 +688,14 @@ default {
             if (face == 2) {
                 // Alpha Masking
                 alpha_mode = PRIM_ALPHA_MODE_MASK;
-                set_outline_link_face_state("amode", 0, 2, TRUE);
-                set_outline_link_face_state("amode", 0, 4, FALSE);
+                set_outline_link_face_state("amode", 0, 2, 1.0, TRUE);
+                set_outline_link_face_state("amode", 0, 4, 1.0, FALSE);
             }
             else if (face == 4) {
                 // Alpha Blending
                 alpha_mode = PRIM_ALPHA_MODE_BLEND;
-                set_outline_link_face_state("amode", 0, 2, FALSE);
-                set_outline_link_face_state("amode", 0, 4, TRUE);
+                set_outline_link_face_state("amode", 0, 2, 1.0, FALSE);
+                set_outline_link_face_state("amode", 0, 4, 1.0, TRUE);
             }
             string cmd = llList2CSV(["ALPHAMODE", "all", -1, alpha_mode, mask_cutoff]);
             log(cmd);
@@ -717,7 +711,7 @@ default {
                     set_outline_button_state(skin_button_faces, "sk", current_skin, FALSE);
                 }
                 current_skin = -1;
-                set_outline_link_face_state("sk", b, face, TRUE);
+                set_outline_link_face_state("sk", b, face, 1.0, TRUE);
                 llMessageLinked(LINK_THIS, LINK_RUTH_APP, llList2CSV(["skin", "bom"]), "");
             } else {
                 integer index = lookup_button(skin_button_faces, b, face);
@@ -726,7 +720,7 @@ default {
                         set_outline_button_state(skin_button_faces, "sk", current_skin, FALSE);
                     } else {
                         // BoM button is hard coded to xlink 0, face 2
-                        set_outline_link_face_state("sk", 0, 2, FALSE);
+                        set_outline_link_face_state("sk", 0, 2, 1.0, FALSE);
                     }
                     current_skin = index;
                     set_outline_button_state(skin_button_faces, "sk", index, TRUE);
@@ -749,9 +743,7 @@ default {
                     set_outline_button_state(eye_button_faces, "eye", current_eye, FALSE);
                 }
                 current_eye = -1;
-                set_outline_link_face_state("eye", b, face, TRUE);
-//                texture_v2("lefteye", IMG_USE_BAKED_EYES, -1, <1,1,1>);
-//                texture_v2("righteye", IMG_USE_BAKED_EYES, -1, <1,1,1>);
+                set_outline_link_face_state("eye", b, face, 1.0, TRUE);
                 llMessageLinked(LINK_THIS, LINK_RUTH_APP, llList2CSV(["eyes", "bom"]), "");
            } else {
                 integer index = lookup_button(eye_button_faces, b, face);
@@ -760,7 +752,7 @@ default {
                         set_outline_button_state(eye_button_faces, "eye", current_eye, FALSE);
                     } else {
                         // BoM button is hard coded to xlink 0, face 2
-                        set_outline_link_face_state("eye", 0, 2, FALSE);
+                        set_outline_link_face_state("eye", 0, 2, 1.0, FALSE);
                     }
                     current_eye = index;
                     set_outline_button_state(eye_button_faces, "eye", index, TRUE);
@@ -841,7 +833,16 @@ default {
             // Calculate the usual 8 face stride and add one for the right side
             // and another one because the list is 1-based
             hp_index = ((b - delta) * 8) + face + ((integer)(b / 3)) + 1;
-            llOwnerSay("index: " + (string)hp_index);
+
+            integer i;
+            for (i=0; i<8; i+=2) {
+                llOwnerSay(" i="+(string)i);
+                set_outline_link_face_state("hp", 0+delta, i, 0.0, FALSE);
+                set_outline_link_face_state("hp", 1+delta, i, 0.0, FALSE);
+                set_outline_link_face_state("hp", 2+delta, i, 0.0, FALSE);
+            }
+            set_outline_link_face_state("hp", b, face, 0.4, TRUE);
+
             do_hp = TRUE;
             llRequestPermissions(llDetectedKey(0), PERMISSION_TRIGGER_ANIMATION);
         }
@@ -890,7 +891,7 @@ default {
                 }
                 if (current_skin == -1) {
                     // Skin Bakes on Mesh
-                    set_outline_link_face_state("sk", 0, 2, TRUE);
+                    set_outline_link_face_state("sk", 0, 2, 1.0, TRUE);
                 } else {
                     set_outline_button_state(skin_button_faces, "sk", current_skin, TRUE);
                 }
@@ -909,7 +910,7 @@ default {
                 }
                 if (current_eye == -1) {
                     // Eyes Bakes on Mesh
-                    set_outline_link_face_state("eye", 0, 2, TRUE);
+                    set_outline_link_face_state("eye", 0, 2, 1.0, TRUE);
                 } else {
                     set_outline_button_state(eye_button_faces, "eye", current_eye, TRUE);
                 }
@@ -950,8 +951,6 @@ default {
                         //When the Animation number matches the button number
                         if (anim != "") {
                             log("hp anim: " + anim);
-//                            ColorButton();
-                            //it also returns a value for gcWhichSide
 
                             if ((hp_index % 2) == 1) {
                                 log(" left");
@@ -969,7 +968,6 @@ default {
                                 gcPrevRtAnim = anim;
                             }
                             llStartAnimation(anim);
-                            //llOwnerSay("We started: "+anim+"  gcPrevLfAnim is: "+gcPrevLfAnim+"  " + "gcPrevRtAnim is: "+gcPrevRtAnim);
                             lFlag = TRUE; //We found the animation
                         }
                     }
@@ -1015,7 +1013,6 @@ default {
                             }
                             PrevFootAnim = anim;
                             llStartAnimation(anim);
-//                            llOwnerSay("We started: " + anim + "  PrevFootAnim is: " + PrevFootAnim);
                             nCounter = nTotCount;   // Implicit break
                         }
                     }
