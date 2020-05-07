@@ -17,6 +17,34 @@ BAKES ON MESH
 Roth2 v2 is a single layer mesh that is designed to work well with Bakes on Mesh.  It still has a simplified alpha capability. Skin textures may still be applied, but in Bakes on Mesh mode system layer alpha masks can be worn to give. more control over hidden areas.
 
 ============================================================
+BOX CONTENTS
+
+Roth2 v2 Mesh Avatar
+* ! README, ! LICENSE and ! CHANGES
+* Full Body (Body+Feet+Hands+Head) - Roth2v2-FULL
+* Eyes - ROTH2v2-EYES
+* HUD - Roth2v2-HUD
+* Dark Gray Top and Pants (Undershort and Underpants)
+
+Roth 2 v2 Extras
+* ! LICENSE
+  * Body+Feet+Hands - Roth2v2-NOHEAD
+  * Body - Roth2v2-BODY
+  * Feet - Roth2v2-FEET
+  * Hands - Roth2v2-HANDS
+  * Head - Roth2v2-HEAD
+  * Dark Grey T-Shirt Jacket length version of T-shirt
+
+Roth2 v2 Resources
+* ! LICENSE
+* Textures and other resources with original UUIDs as used within the other assets
+* All skin and eye textures and thumbnails used in default HUD
+
+Roth2 v2 Mesh Uploads
+* ! LICENSE
+* Collada (.dae) Mesh as originally uploaded and before attaching a root prim or any texturing.
+
+============================================================
 KNOWN ISSUES AND TROUBLESHOOTING
 
 There may be a small gap or seem at the neck joint between the mesh body and the classic avatar or addon mesh heads.
@@ -39,11 +67,10 @@ CREDITS
 * UV map is CC-BY Linden Lab.
 * Skin templates by Chip Midnight:  http://forums-archive.secondlife.com/109/72/40762/1.html
 * T-Shirt Texture by Robin (Soujourner) Wood: https://www.robinwood.com/Catalog/Technical/SL-Tuts/SLPages/RSW-TShirt.html
-* Skins included in the skin applier HUD:
-  TBD - Eloh Elliot Skins - arranged and donated by Chris Namaste.
-  TBD - Adamek Titanium Skins - Donated by Taarna Welles.
-  TBD - Other skins used?
-* Elf Ears: Original Blender mesh by AGPL by Fred K. Beckhusen (avatar: Ferd Frederix).
-  OpenSim adjustment and preparation by Ai Austin.
+* HUD mesh, textures and scripts by Serie Sumei using modifications to original scripts by Shin Ingen.
+* Skins included in the HUD:
+   - Eloh Elliot Skins - arranged and donated by Chris Namaste.
+   - Adamek Titanium Skins - Donated by Taarna Welles.
+* Elf Ears: AGPL by Fred K. Beckhusen (avatar: Ferd Frederix) and Ai Austin.
 * R2 Logo by Serie Sumei based on original by Shin Ingen: https://github.com/RuthAndRoth/Extras/tree/master/Textures/Logo
 * Thanks to all contributors as listed in the LICENSE text file.
