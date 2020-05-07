@@ -43,7 +43,7 @@ Roth2 v2 Resources - This box is not normally needed. It contains textures and o
 
 Roth2 v2 Mesh Uploads - This box is not normally needed.  It contains mesh for all Roth2v2 elements as originally uploaded and before attaching a root prim or any texturing.
 * !LICENSE
-* Collada (.dae) Mesh for all Roth2v2 elements as originally uploaded and before attaching a root prim or any texturing.
+* Collada (.dae) Mesh for all Roth2 v2 elements as originally uploaded and before attaching a root prim or any texturing.
 
 ============================================================
 KNOWN ISSUES AND TROUBLESHOOTING
