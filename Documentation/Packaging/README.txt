@@ -24,7 +24,7 @@ Roth2 v2 Mesh Avatar - This is the normal distribution box and is designed so th
 * Body+Feet+Hands+Head - Roth2_v2_ALL
 * Eyes - Roth2_v2_EYES
 * HUD - Roth2_v2_HUD
-* Dark Gray Top and Pants (Undershort and Underpants)
+* Dark Gray Top and Pants (Undershirt and Underpants)
 
 Roth 2 v2 Extras - This is a box of useful extra elements and options.
 * !LICENSE
