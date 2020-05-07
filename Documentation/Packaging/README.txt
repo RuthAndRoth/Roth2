@@ -35,6 +35,7 @@ Roth 2 v2 Extras - This is a box of useful extra elements and options.
 * Head - Roth2v2-HEAD
 * Elf Ears - Roth2v2-ELFEARS
 * Dark Grey T-Shirt Jacket length version of T-shirt
+* Alpha masks
 
 Roth2 v2 Resources - This box is not normally needed. It contains textures and other resources with original UUIDs as used within the other assets.. This can be useful of moving the assets across grid, or to repair elements.
 * ! LICENSE
