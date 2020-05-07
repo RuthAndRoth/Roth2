@@ -28,7 +28,7 @@ Roth2 v2 Mesh Avatar - This is the normal distribution box and is designed so th
 
 Roth 2 v2 Extras - This is a box of useful extra elements and options.
 * !LICENSE
-* Body+Feet+Hands - Roth2_v2_NOHEAD
+* Body+Feet+Hands - Roth2_v2_HEADLESS
 * Body - Roth2_v2_BODY
 * Feet - Roth2_v2_FEET
 * Hands - Roth2_v2_HANDS
