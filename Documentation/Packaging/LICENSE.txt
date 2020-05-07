@@ -6,7 +6,8 @@ License terms for this project vary by part type. Copyrights are by the original
 
 * Roth 2.0 Copyright 2018 by Shin Ingen, who can be found at https://plus.google.com/+ShinIngen and 2020 by Ada Radius. The following mesh body parts are AGPL:
   * Full Body (Body+Feet+Hands+Head) - Roth2v2
-  * Body+Feet+Hands - Roth2v2BODY
+  * Body+Feet+Hands - Roth2v2-NOHEAD
+  * Body - Roth2v2BODY
   * Feet - Roth2v2FEET
   * Hands - Roth0v2HANDS
   * Head - Roth2v2HEAD
