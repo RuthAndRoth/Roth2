@@ -37,7 +37,7 @@ README.txt - !README - The in-world README to explain the box content and its us
 * !LICENSE
 * !README-RESOURCES
 * Textures for skins used in HUD and Extra skins
-* texture for eyes used in HUD and Extra Eyes
+* Texture for eyes used in HUD and Extra Eyes
 
 ## Box - Mesh Uploads
 * !LICENSE
