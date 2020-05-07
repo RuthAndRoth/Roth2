@@ -19,40 +19,28 @@ Roth2 v2 is a single layer mesh that is designed to work well with Bakes on Mesh
 ============================================================
 BOX CONTENTS
 
-Roth2 v2 Mesh Avatar
-
-This is the normal distribution box and is designed so that once unpacked its contents can be "worn". It does not contain basic "classic" avatar shape, skin, eyes or hair so that the users own existing underlying avatar setup is used. The extras box contains examples of the basic avatar items to select from if needed.
-
+Roth2 v2 Mesh Avatar - This is the normal distribution box and is designed so that once unpacked its contents can be "worn". It does not contain basic "classic" avatar shape, skin, eyes or hair so that the users own existing underlying avatar setup is used. The extras box contains examples of the basic avatar items to select from if needed.
 * ! README, ! LICENSE and ! CHANGES
 * Full Body (Body+Feet+Hands+Head) - Roth2v2-FULL
 * Eyes - ROTH2v2-EYES
 * HUD - Roth2v2-HUD
 * Dark Gray Top and Pants (Undershort and Underpants)
 
-Roth 2 v2 Extras
-
-This is a box of useful extra elements and options.
-
+Roth 2 v2 Extras - This is a box of useful extra elements and options.
 * ! LICENSE
-  * Body+Feet+Hands - Roth2v2-NOHEAD
-  * Body - Roth2v2-BODY
-  * Feet - Roth2v2-FEET
-  * Hands - Roth2v2-HANDS
-  * Head - Roth2v2-HEAD
-  * Elf Ears - Roth2v2-ELFEARS
-  * Dark Grey T-Shirt Jacket length version of T-shirt
+* Body+Feet+Hands - Roth2v2-NOHEAD
+* Body - Roth2v2-BODY
+* Feet - Roth2v2-FEET
+* Hands - Roth2v2-HANDS
+* Head - Roth2v2-HEAD
+* Elf Ears - Roth2v2-ELFEARS
+* Dark Grey T-Shirt Jacket length version of T-shirt
 
-Roth2 v2 Resources
-
-This box is not normally needed. It contains textures and other resources with original UUIDs as used within the other assets.. This can be useful of moving the assets across grid, or to repair elements.
-
+Roth2 v2 Resources - This box is not normally needed. It contains textures and other resources with original UUIDs as used within the other assets.. This can be useful of moving the assets across grid, or to repair elements.
 * ! LICENSE
 * All skin and eye textures and thumbnails used in default HUD
 
-Roth2 v2 Mesh Uploads
-
-This box is not normally needed.  It contains mesh for all Roth2v2 elements as originally uploaded and before attaching a root prim or any texturing.
-
+Roth2 v2 Mesh Uploads - This box is not normally needed.  It contains mesh for all Roth2v2 elements as originally uploaded and before attaching a root prim or any texturing.
 * ! LICENSE
 * Collada (.dae) Mesh for all Roth2v2 elements as originally uploaded and before attaching a root prim or any texturing.
 
