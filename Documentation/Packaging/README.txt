@@ -21,25 +21,27 @@ BOX CONTENTS
 
 Roth2 v2 Mesh Avatar - This is the normal distribution box and is designed so that once unpacked its contents can be "worn". It does not contain basic "classic" avatar shape, skin, eyes or hair so that the users own existing underlying avatar setup is used. The extras box contains examples of the basic avatar items to select from if needed.
 * !README, !LICENSE and !CHANGES
-* Body+Feet+Hands+Head - Roth2_v2_ALL
-* Eyes - Roth2_v2_EYES
-* HUD - Roth2_v2_HUD
-* Dark Gray Top and Pants (Undershirt and Underpants)
+* Full Body - Roth2 v2 body+feet+hands+head
+* Eyes - Roth2 v2 eyes
+* HUD - Roth2 v2 HUD
+* Dark Gray Underwear Top and Pants
 
 Roth 2 v2 Extras - This is a box of useful extra elements and options.
 * !LICENSE
-* Body+Feet+Hands - Roth2_v2_HEADLESS
-* Body - Roth2_v2_BODY
-* Feet - Roth2_v2_FEET
-* Hands - Roth2_v2_HANDS
-* Head - Roth2_v2_HEAD
-* Elf Ears - Roth2_v2_ELFEARS
-* Dark Grey Top jacket length version
+* Roth2 v2 Body+Feet+Hands
+* Roth2 v2 Body
+* Roth2 v2 Feet
+* Roth2 v2 Hands
+* Roth2 v2 Head
+* Roth2 v2 Elf Ears
+* Dark Grey Underwear Top jacket length version
 * Alpha masks
+* Sample hair
+* HUD debug script
 
 Roth2 v2 Resources - This box is not normally needed. It contains textures and other resources with original UUIDs as used within the other assets.. This can be useful of moving the assets across grid, or to repair elements.
 * !LICENSE
-* All skin and eye textures and thumbnails used in default HUD
+* All skin and eye textures used in default HUD
 
 Roth2 v2 Mesh Uploads - This box is not normally needed.  It contains mesh for all Roth2v2 elements as originally uploaded and before attaching a root prim or any texturing.
 * !LICENSE
@@ -55,6 +57,8 @@ Not all the appearance sliders will work on the mesh body and parts.
 Roth2 v2 with attached Bento head will work with most shapes. The headless body, to use with system head or other mesh head, will work well with the sliders except body fat, and extremes to neck length and thickness, because of the neck seam. There are a few head sliders that don't work: Head Shape, Ear Angle, Jowls, Chin Cleft.  Things on the list for another release sometime down the road: figure out the neck issue, improve pointy ears.
 
 Foot skin problems? For best result, paint over the system toenails and remove as much detail as you can from your foot skin that is probably designed for the system avatar's duck feet.
+
+HUD issues? The Extras box contains a HUD debug script. Add this to the HUD contentsto allow for a long mouse press to bring up menu with diagnostic and further options.
 
 Please send us your feedback by posting on our Discord Channel.
 
