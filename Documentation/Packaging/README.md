@@ -19,9 +19,8 @@ README.txt - !README - The in-world README to explain the box content and its us
 * Mesh body+feet+hands+head
 * Mesh eyes
 * HUD
-* Classic avatar bald hair
-* Classic avatar underclothing
-* Does not include classic avatar shape, skin or eyes in order that the currently worn items for the user will be used.
+* Includes an intial classic avatar shape, skin, eyes and hair. You can replace those with your own usual versions.
+* Classic avatar underwear
 
 ## Box - Extras
 * !LICENSE
@@ -30,14 +29,18 @@ README.txt - !README - The in-world README to explain the box content and its us
 * Eyes
 * Shapes
 * Skins
-* Classic avatar underclothing (jacket length)
+* Classic avatar underwear (jacket length)
+* Sample hair attachment
+* Elf ears (unrigged, scripted to respond to Roth2 v2 HUD)
 * HUD debug script - add to HUD to get a debug menu on long mouse press
 
 ## Box - Resources
 * !LICENSE
 * !README-RESOURCES
+* Roth 2 v2 Box Art
 * Textures for skins used in HUD and Extra skins
 * Texture for eyes used in HUD and Extra Eyes
+* Textures for underwear
 
 ## Box - Mesh Uploads
 * !LICENSE
