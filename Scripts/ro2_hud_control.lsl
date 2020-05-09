@@ -5,7 +5,7 @@
 
 // v2.0 12Apr2020 <seriesumei@avimail.org> - Based on ru2_hud_control.lsl v3.2
 // v2.1 12Apr2020 <seriesumei@avimail.org> - New simpler alpha HUD
-// v2.2 04May2020 <seriesumei@avimail.org> - Rework skin panel
+// v2.2 09May2020 <seriesumei@avimail.org> - Rework skin panel
 
 // This is a heavily modified version of Shin's RC3 HUD scripts for alpha
 // and skin selections.
@@ -259,7 +259,7 @@ integer can_haz_script(string name) {
             return TRUE;
         }
     }
-    llOwnerSay("Script " + name + " not found");
+    log("Script " + name + " not found");
     return FALSE;
 }
 
@@ -560,7 +560,7 @@ default {
                 string command = llToUpper(llList2String(cmdargs, 0));
 
                 if (command == "STATUS") {
-                    llOwnerSay(
+                    log(
                         "STATUS: " +
                         "API v" + llList2String(cmdargs, 1) + ", " +
                         "Type " + llList2String(cmdargs, 2) + ", " +
@@ -932,7 +932,7 @@ default {
                 }
                 // removing all anims can create problems - this sorts things out
                 llStartAnimation("stand");
-                llOwnerSay("All finished: " + (string)len + llGetSubString(" animations",0,-1 - (len == 1))+" stopped.\n");
+//                llOwnerSay("All finished: " + (string)len + llGetSubString(" animations",0,-1 - (len == 1))+" stopped.\n");
                 do_hp = FALSE;
             }
             else if (do_hp && hp_index > 0) {
