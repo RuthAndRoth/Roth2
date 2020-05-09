@@ -2,9 +2,9 @@
 
 # <link-name>, <face>, <section>, <body-region>, <group>
 [Elements]
-head, 0, head, 0, 0
-head, 1, head, 0, 0
-head, 1, face, 0, 0
-head, 0, hair, 0, 0
-head, 2, neck, 1, 1
-head, 3, torso, 1, 1
+head, 0, hair, 0
+head, 1, face, 0
+head, 2, neck, 1
+head, 3, torso, 1
+head, 3, head, 0
+head, 2, head, 0
