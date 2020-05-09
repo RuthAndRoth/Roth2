@@ -16,6 +16,13 @@ BAKES ON MESH
 
 Roth2 v2 is a single layer mesh that is designed to work well with Bakes on Mesh.  It still has a simplified alpha capability. Skin textures may still be applied, but in Bakes on Mesh mode system layer alpha masks can be worn to give. more control over hidden areas.
 
+The "Roth2 v2 Mesh Avatar" box contents are designed so that they form a complete initial avatar using Bakes on Mesh. You can switch to your own shape, skin, eyes and hair and/or use the HUD to change your appearance.
+
+============================================================
+HUD
+
+Roth2 v2 uses a single combination HUD for alpha masking, skin and eye texture applier and other features. The skins and eyes that are available is set via a notecard (!CONFIG) in the Contents of the HUD which can be edited to incorporate your own skin and/or eye textures.
+
 ============================================================
 BOX CONTENTS
 
