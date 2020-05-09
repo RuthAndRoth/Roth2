@@ -2,42 +2,42 @@
 <linden_genepool version="1.0">
 
 	<archetype name="???">
-		<param id="1" name="big_brow" display="Brow Size" value="0.000" u8="33" type="param_driver" wearable="shape" group="0"/>
-		<param id="2" name="nose_big_out" display="Nose Size" value="0.025" u8="63" type="param_driver" wearable="shape" group="0"/>
-		<param id="4" name="broad_nostrils" display="Nostril Width" value="0.025" u8="89" type="param_driver" wearable="shape" group="0"/>
+		<param id="1" name="big_brow" display="Brow Size" value="0.298" u8="66" type="param_driver" wearable="shape" group="0"/>
+		<param id="2" name="nose_big_out" display="Nose Size" value="0.020" u8="63" type="param_driver" wearable="shape" group="0"/>
+		<param id="4" name="broad_nostrils" display="Nostril Width" value="0.020" u8="88" type="param_driver" wearable="shape" group="0"/>
 		<param id="5" name="cleft_chin" display="Chin Cleft" value="0.010" u8="25" type="param_morph" wearable="shape" group="0"/>
-		<param id="6" name="bulbous_nose_tip" display="Nose Tip Shape" value="0.051" u8="68" type="param_driver" wearable="shape" group="0"/>
-		<param id="7" name="weak_chin" display="Chin Angle" value="-0.050" u8="114" type="param_driver" wearable="shape" group="0"/>
+		<param id="6" name="bulbous_nose_tip" display="Nose Tip Shape" value="0.090" u8="76" type="param_driver" wearable="shape" group="0"/>
+		<param id="7" name="weak_chin" display="Chin Angle" value="0.050" u8="140" type="param_driver" wearable="shape" group="0"/>
 		<param id="8" name="double_chin" display="Chin-Neck" value="0.100" u8="76" type="param_driver" wearable="shape" group="0"/>
-		<param id="10" name="sunken_cheeks" display="Lower Cheeks" value="0.000" u8="85" type="param_driver" wearable="shape" group="0"/>
-		<param id="11" name="noble_nose_bridge" display="Upper Bridge" value="0.000" u8="63" type="param_driver" wearable="shape" group="0"/>
-		<param id="12" name="jowls" display="Jowls" value="0.000" u8="42" type="param_morph" wearable="shape" group="0"/>
+		<param id="10" name="sunken_cheeks" display="Lower Cheeks" value="0.070" u8="88" type="param_driver" wearable="shape" group="0"/>
+		<param id="11" name="noble_nose_bridge" display="Upper Bridge" value="0.200" u8="89" type="param_driver" wearable="shape" group="0"/>
+		<param id="12" name="jowls" display="Jowls" value="0.100" u8="51" type="param_morph" wearable="shape" group="0"/>
 		<param id="13" name="cleft_chin_upper" display="Upper Chin Cleft" value="0.000" u8="0" type="param_morph" wearable="shape" group="0"/>
-		<param id="14" name="high_cheek_bones" display="Cheek Bones" value="0.000" u8="85" type="param_driver" wearable="shape" group="0"/>
+		<param id="14" name="high_cheek_bones" display="Cheek Bones" value="0.175" u8="114" type="param_driver" wearable="shape" group="0"/>
 		<param id="15" name="ears_out" display="Ear Angle" value="0.000" u8="63" type="param_driver" wearable="shape" group="0"/>
 		<param id="16" name="pointy_eyebrows" display="Eyebrow Points" value="-0.500" u8="0" type="param_driver" wearable="hair" group="0"/>
 		<param id="17" name="square_jaw" display="Jaw Shape" value="-0.050" u8="76" type="param_driver" wearable="shape" group="0"/>
-		<param id="18" name="puffy_upper_cheeks" display="Upper Cheeks" value="0.000" u8="95" type="param_driver" wearable="shape" group="0"/>
-		<param id="19" name="upturned_nose_tip" display="Nose Tip Angle" value="-0.325" u8="119" type="param_driver" wearable="shape" group="0"/>
-		<param id="20" name="bulbous_nose" display="Nose Thickness" value="0.020" u8="66" type="param_driver" wearable="shape" group="0"/>
-		<param id="21" name="upper_eyelid_fold" display="Upper Eyelid Fold" value="0.340" u8="91" type="param_driver" wearable="shape" group="0"/>
+		<param id="18" name="puffy_upper_cheeks" display="Upper Cheeks" value="-0.100" u8="89" type="param_driver" wearable="shape" group="0"/>
+		<param id="19" name="upturned_nose_tip" display="Nose Tip Angle" value="-0.500" u8="102" type="param_driver" wearable="shape" group="0"/>
+		<param id="20" name="bulbous_nose" display="Nose Thickness" value="0.000" u8="63" type="param_driver" wearable="shape" group="0"/>
+		<param id="21" name="upper_eyelid_fold" display="Upper Eyelid Fold" value="0.250" u8="76" type="param_driver" wearable="shape" group="0"/>
 		<param id="22" name="attached_earlobes" display="Attached Earlobes" value="0.000" u8="0" type="param_morph" wearable="shape" group="0"/>
-		<param id="23" name="baggy_eyes" display="Eye Bags" value="0.220" u8="91" type="param_driver" wearable="shape" group="0"/>
-		<param id="24" name="wide_eyes" display="Eye Opening" value="0.215" u8="124" type="param_driver" wearable="shape" group="0"/>
-		<param id="25" name="wide_lip_cleft" display="Lip Cleft" value="0.258" u8="117" type="param_driver" wearable="shape" group="0"/>
-		<param id="26" name="lips_thin" display="Lips_Thin" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
-		<param id="27" name="wide_nose_bridge" display="Bridge Width" value="-0.525" u8="79" type="param_driver" wearable="shape" group="0"/>
-		<param id="28" name="lips_fat" display="Lips_Fat" value="0.160" u8="20" type="param_morph" wearable="shape" group="1"/>
+		<param id="23" name="baggy_eyes" display="Eye Bags" value="0.320" u8="104" type="param_driver" wearable="shape" group="0"/>
+		<param id="24" name="wide_eyes" display="Eye Opening" value="0.250" u8="127" type="param_driver" wearable="shape" group="0"/>
+		<param id="25" name="wide_lip_cleft" display="Lip Cleft" value="0.230" u8="114" type="param_driver" wearable="shape" group="0"/>
+		<param id="26" name="lips_thin" display="Lips_Thin" value="0.014" u8="5" type="param_morph" wearable="shape" group="1"/>
+		<param id="27" name="wide_nose_bridge" display="Bridge Width" value="-0.550" u8="76" type="param_driver" wearable="shape" group="0"/>
+		<param id="28" name="lips_fat" display="Lips_Fat" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
 		<param id="29" name="wide_upper_lip" display="Wide_Upper_Lip" value="0.100" u8="102" type="param_morph" wearable="shape" group="1"/>
 		<param id="30" name="wide_lower_lip" display="Wide_Lower_Lip" value="0.100" u8="102" type="param_morph" wearable="shape" group="1"/>
 		<param id="31" name="arced_eyebrows" display="Eyebrow Arc" value="0.000" u8="0" type="param_driver" wearable="hair" group="0"/>
 		<param id="32" name="male_skeleton" display="Male_Skeleton" value="1.000" u8="255" type="param_skeleton" wearable="shape" group="1"/>
-		<param id="33" name="height" display="Height" value="-0.150" u8="127" type="param_skeleton" wearable="shape" group="0"/>
-		<param id="34" name="thickness" display="Body Thickness" value="0.180" u8="102" type="param_skeleton" wearable="shape" group="0"/>
-		<param id="35" name="big_ears" display="Ear Size" value="0.000" u8="85" type="param_driver" wearable="shape" group="0"/>
+		<param id="33" name="height" display="Height" value="-0.365" u8="114" type="param_skeleton" wearable="shape" group="0"/>
+		<param id="34" name="thickness" display="Body Thickness" value="-0.260" u8="50" type="param_skeleton" wearable="shape" group="0"/>
+		<param id="35" name="big_ears" display="Ear Size" value="-0.100" u8="76" type="param_driver" wearable="shape" group="0"/>
 		<param id="36" name="shoulders" display="Shoulders" value="-0.840" u8="76" type="param_skeleton" wearable="shape" group="0"/>
-		<param id="37" name="hip width" display="Hip Width" value="0.220" u8="145" type="param_skeleton" wearable="shape" group="0"/>
-		<param id="38" name="torso length" display="Torso Length" value="0.020" u8="130" type="param_skeleton" wearable="shape" group="0"/>
+		<param id="37" name="hip width" display="Hip Width" value="-0.200" u8="127" type="param_skeleton" wearable="shape" group="0"/>
+		<param id="38" name="torso length" display="Torso Length" value="-0.040" u8="122" type="param_skeleton" wearable="shape" group="0"/>
 		<param id="40" name="male_head" display="Male_Head" value="1.000" u8="255" type="param_morph" wearable="shape" group="1"/>
 		<param id="41" name="old" display="Old" value="0.000" u8="0" type="param_morph" wearable="invalid" group="1"/>
 		<param id="51" name="furrowed_eyebrows" display="Furrowed_Eyebrows" value="0.000" u8="0" type="param_morph" wearable="invalid" group="1"/>
@@ -52,7 +52,7 @@
 		<param id="80" name="male" display="male" value="1.000" u8="255" type="param_driver" wearable="shape" group="0"/>
 		<param id="93" name="glove length" display="Glove Length" value="0.800" u8="203" type="param_driver" wearable="gloves" group="0"/>
 		<param id="98" name="eye lightness" display="Eye Lightness" value="0.000" u8="0" type="param_color" wearable="eyes" group="0"/>
-		<param id="99" name="eye color" display="Eye Color" value="0.500" u8="127" type="param_color" wearable="eyes" group="0"/>
+		<param id="99" name="eye color" display="Eye Color" value="0.000" u8="0" type="param_color" wearable="eyes" group="0"/>
 		<param id="100" name="male_torso" display="Male_Torso" value="1.000" u8="255" type="param_morph" wearable="shape" group="1"/>
 		<param id="101" name="hands_relaxed" display="Hands_Relaxed" value="1.000" u8="255" type="param_morph" wearable="invalid" group="1"/>
 		<param id="102" name="hands_point" display="Hands_Point" value="0.000" u8="0" type="param_morph" wearable="invalid" group="1"/>
@@ -63,13 +63,13 @@
 		<param id="107" name="muscular_torso" display="Torso Muscles" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
 		<param id="108" name="rainbow color" display="Rainbow Color" value="0.000" u8="0" type="param_color" wearable="skin" group="0"/>
 		<param id="110" name="red skin" display="Ruddiness" value="0.000" u8="0" type="param_color" wearable="skin" group="0"/>
-		<param id="111" name="pigment" display="Pigment" value="0.000" u8="0" type="param_color" wearable="skin" group="0"/>
+		<param id="111" name="pigment" display="Pigment" value="0.500" u8="127" type="param_color" wearable="skin" group="0"/>
 		<param id="112" name="rainbow color" display="Rainbow Color" value="0.000" u8="0" type="param_color" wearable="hair" group="0"/>
 		<param id="113" name="red hair" display="Red Hair" value="0.000" u8="0" type="param_color" wearable="hair" group="0"/>
 		<param id="114" name="blonde hair" display="Blonde Hair" value="0.500" u8="127" type="param_color" wearable="hair" group="0"/>
 		<param id="115" name="white hair" display="White Hair" value="0.000" u8="0" type="param_color" wearable="hair" group="0"/>
 		<param id="116" name="rosy complexion" display="Rosy Complexion" value="0.000" u8="0" type="param_color" wearable="skin" group="0"/>
-		<param id="117" name="lip pinkness" display="Lip Pinkness" value="1.000" u8="255" type="param_color" wearable="skin" group="0"/>
+		<param id="117" name="lip pinkness" display="Lip Pinkness" value="0.000" u8="0" type="param_color" wearable="skin" group="0"/>
 		<param id="118" name="wrinkles" display="Wrinkles" value="0.000" u8="0" type="param_alpha" wearable="skin" group="1"/>
 		<param id="119" name="eyebrow size" display="Eyebrow Size" value="0.000" u8="0" type="param_driver" wearable="hair" group="0"/>
 		<param id="125" name="shading" display="Shading" value="0.000" u8="0" type="param_color" wearable="skin" group="1"/>
@@ -94,7 +94,7 @@
 		<param id="149" name="bangs_back_down" display="Back Bangs Down" value="0.000" u8="0" type="param_morph" wearable="hair" group="1"/>
 		<param id="150" name="body definition" display="Body Definition" value="0.000" u8="0" type="param_driver" wearable="skin" group="0"/>
 		<param id="151" name="big_butt_legs" display="Butt Size" value="0.143" u8="36" type="param_morph" wearable="shape" group="1"/>
-		<param id="152" name="muscular_legs" display="Leg Muscles" value="0.300" u8="51" type="param_morph" wearable="shape" group="1"/>
+		<param id="152" name="muscular_legs" display="Leg Muscles" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
 		<param id="153" name="male_legs" display="Male_Legs" value="1.000" u8="255" type="param_morph" wearable="shape" group="1"/>
 		<param id="155" name="lip width" display="Lip Width" value="-0.020" u8="102" type="param_driver" wearable="shape" group="0"/>
 		<param id="156" name="big_belly_legs" display="Big_Belly_Legs" value="0.150" u8="38" type="param_morph" wearable="shape" group="1"/>
@@ -126,16 +126,16 @@
 		<param id="184" name="hair_spiked" display="Spiked Hair" value="0.000" u8="0" type="param_morph" wearable="hair" group="0"/>
 		<param id="185" name="deep_chin" display="Chin Depth" value="-0.200" u8="102" type="param_driver" wearable="shape" group="0"/>
 		<param id="186" name="egg_head" display="Egg Head" value="-0.150" u8="127" type="param_morph" wearable="shape" group="1"/>
-		<param id="187" name="squash_stretch_head" display="Squash/Stretch Head" value="-0.275" u8="38" type="param_morph" wearable="shape" group="1"/>
-		<param id="188" name="square_head" display="Square_Head" value="0.042" u8="15" type="param_morph" wearable="shape" group="1"/>
+		<param id="187" name="squash_stretch_head" display="Squash/Stretch Head" value="0.100" u8="102" type="param_morph" wearable="shape" group="1"/>
+		<param id="188" name="square_head" display="Square_Head" value="0.070" u8="25" type="param_morph" wearable="shape" group="1"/>
 		<param id="189" name="round_head" display="Round_Head" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
 		<param id="190" name="hair_tilt_right" display="Hair Tilted Right" value="0.000" u8="0" type="param_morph" wearable="hair" group="1"/>
 		<param id="191" name="hair_tilt_left" display="Hair Tilted Left" value="0.000" u8="0" type="param_morph" wearable="hair" group="1"/>
 		<param id="192" name="bangs_part_middle" display="Part Bangs" value="0.000" u8="0" type="param_morph" wearable="hair" group="0"/>
-		<param id="193" name="head shape" display="Head Shape" value="0.470" u8="119" type="param_driver" wearable="shape" group="0"/>
-		<param id="194" name="eye_spread" display="Eye_Spread" value="-1.160" u8="53" type="param_morph" wearable="shape" group="1"/>
-		<param id="195" name="eyebone_spread" display="EyeBone_Spread" value="-0.580" u8="53" type="param_skeleton" wearable="shape" group="1"/>
-		<param id="196" name="eye spacing" display="Eye Spacing" value="-1.370" u8="53" type="param_driver" wearable="shape" group="0"/>
+		<param id="193" name="head shape" display="Head Shape" value="0.450" u8="114" type="param_driver" wearable="shape" group="0"/>
+		<param id="194" name="eye_spread" display="Eye_Spread" value="-1.080" u8="58" type="param_morph" wearable="shape" group="1"/>
+		<param id="195" name="eyebone_spread" display="EyeBone_Spread" value="-0.540" u8="58" type="param_skeleton" wearable="shape" group="1"/>
+		<param id="196" name="eye spacing" display="Eye Spacing" value="-1.310" u8="58" type="param_driver" wearable="shape" group="0"/>
 		<param id="197" name="shoe_heels" display="Shoe_Heels" value="0.000" u8="0" type="param_skeleton" wearable="shoes" group="1"/>
 		<param id="198" name="heel height" display="Heel Height" value="0.000" u8="0" type="param_driver" wearable="shoes" group="0"/>
 		<param id="300" name="express_closed_mouth" display="Express_Closed_Mouth" value="1.000" u8="255" type="param_morph" wearable="invalid" group="1"/>
@@ -162,8 +162,8 @@
 		<param id="501" name="shoe_platform_height" display="Platform Height" value="0.000" u8="0" type="param_morph" wearable="shoes" group="1"/>
 		<param id="502" name="shoe_platform" display="Shoe_Platform" value="0.000" u8="0" type="param_skeleton" wearable="shoes" group="1"/>
 		<param id="503" name="platform height" display="Platform Height" value="0.000" u8="0" type="param_driver" wearable="shoes" group="0"/>
-		<param id="505" name="lip thickness" display="Lip Thickness" value="0.540" u8="137" type="param_driver" wearable="shape" group="0"/>
-		<param id="506" name="mouth_height" display="Mouth Position" value="0.160" u8="137" type="param_driver" wearable="shape" group="0"/>
+		<param id="505" name="lip thickness" display="Lip Thickness" value="0.490" u8="124" type="param_driver" wearable="shape" group="0"/>
+		<param id="506" name="mouth_height" display="Mouth Position" value="0.200" u8="140" type="param_driver" wearable="shape" group="0"/>
 		<param id="507" name="breast_gravity" display="Breast Buoyancy" value="0.000" u8="109" type="param_morph" wearable="shape" group="0"/>
 		<param id="508" name="shoe_platform_width" display="Platform Width" value="0.000" u8="85" type="param_morph" wearable="shoes" group="0"/>
 		<param id="509" name="shoe_heel_point" display="Heel Shape" value="0.000" u8="0" type="param_morph" wearable="shoes" group="1"/>
@@ -172,10 +172,10 @@
 		<param id="512" name="shoe_toe_square" display="Toe Shape" value="0.000" u8="0" type="param_morph" wearable="shoes" group="1"/>
 		<param id="513" name="heel shape" display="Heel Shape" value="0.500" u8="127" type="param_driver" wearable="shoes" group="0"/>
 		<param id="514" name="toe shape" display="Toe Shape" value="0.500" u8="127" type="param_driver" wearable="shoes" group="0"/>
-		<param id="515" name="foot_size" display="Foot Size" value="2.000" u8="191" type="param_morph" wearable="shape" group="0"/>
+		<param id="515" name="foot_size" display="Foot Size" value="-0.200" u8="51" type="param_morph" wearable="shape" group="0"/>
 		<param id="516" name="displace_loose_lowerbody" display="Pants Fit" value="0.000" u8="0" type="param_morph" wearable="pants" group="1"/>
-		<param id="517" name="wide_nose" display="Nose Width" value="-0.065" u8="73" type="param_driver" wearable="shape" group="0"/>
-		<param id="518" name="eyelashes_long" display="Eyelash Length" value="0.000" u8="42" type="param_morph" wearable="shape" group="0"/>
+		<param id="517" name="wide_nose" display="Nose Width" value="-0.050" u8="76" type="param_driver" wearable="shape" group="0"/>
+		<param id="518" name="eyelashes_long" display="Eyelash Length" value="-0.030" u8="38" type="param_morph" wearable="shape" group="0"/>
 		<param id="600" name="sleeve length cloth" display="Sleeve Length Cloth" value="0.700" u8="209" type="param_alpha" wearable="shirt" group="1"/>
 		<param id="601" name="shirt bottom cloth" display="Shirt Bottom Cloth" value="0.800" u8="204" type="param_alpha" wearable="shirt" group="1"/>
 		<param id="602" name="collar front height cloth" display="Collar Front Height Cloth" value="0.800" u8="204" type="param_alpha" wearable="shirt" group="1"/>
@@ -200,8 +200,8 @@
 		<param id="626" name="big_chest" display="Chest Size" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
 		<param id="627" name="small_chest" display="Chest Size" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
 		<param id="628" name="displace_loose_upperbody" display="Shirt Fit" value="0.000" u8="0" type="param_morph" wearable="shirt" group="1"/>
-		<param id="629" name="forehead angle" display="Forehead Angle" value="0.500" u8="127" type="param_driver" wearable="shape" group="0"/>
-		<param id="630" name="forehead_round" display="Round Forehead" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
+		<param id="629" name="forehead angle" display="Forehead Angle" value="0.400" u8="102" type="param_driver" wearable="shape" group="0"/>
+		<param id="630" name="forehead_round" display="Round Forehead" value="0.200" u8="50" type="param_morph" wearable="shape" group="1"/>
 		<param id="631" name="forehead_slant" display="Slanted Forehead" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
 		<param id="632" name="express_open_mouth" display="Express_Open_Mouth" value="0.000" u8="0" type="param_morph" wearable="invalid" group="1"/>
 		<param id="633" name="fat_head" display="Fat Head" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
@@ -210,21 +210,21 @@
 		<param id="637" name="body fat" display="Body Fat" value="0.000" u8="0" type="param_driver" wearable="shape" group="0"/>
 		<param id="638" name="low_crotch" display="Pants Crotch" value="0.000" u8="0" type="param_morph" wearable="pants" group="0"/>
 		<param id="640" name="hair_egg_head" display="Hair_Egg_Head" value="-0.150" u8="127" type="param_morph" wearable="hair" group="1"/>
-		<param id="641" name="hair_squash_stretch_head" display="Hair_Squash_Stretch_Head" value="-0.275" u8="38" type="param_morph" wearable="hair" group="1"/>
-		<param id="642" name="hair_square_head" display="Hair_Square_Head" value="0.060" u8="15" type="param_morph" wearable="hair" group="1"/>
+		<param id="641" name="hair_squash_stretch_head" display="Hair_Squash_Stretch_Head" value="0.100" u8="102" type="param_morph" wearable="hair" group="1"/>
+		<param id="642" name="hair_square_head" display="Hair_Square_Head" value="0.100" u8="25" type="param_morph" wearable="hair" group="1"/>
 		<param id="643" name="hair_round_head" display="Hair_Round_Head" value="0.000" u8="0" type="param_morph" wearable="hair" group="1"/>
-		<param id="644" name="hair_forehead_round" display="Hair_Forehead_Round" value="0.000" u8="0" type="param_morph" wearable="hair" group="1"/>
+		<param id="644" name="hair_forehead_round" display="Hair_Forehead_Round" value="0.200" u8="50" type="param_morph" wearable="hair" group="1"/>
 		<param id="645" name="hair_forehead_slant" display="Hair_Forehead_Slant" value="0.000" u8="0" type="param_morph" wearable="hair" group="1"/>
 		<param id="646" name="egg_head" display="Egg Head" value="-0.150" u8="127" type="param_driver" wearable="shape" group="0"/>
-		<param id="647" name="squash_stretch_head" display="Head Stretch" value="-0.275" u8="38" type="param_driver" wearable="shape" group="0"/>
+		<param id="647" name="squash_stretch_head" display="Head Stretch" value="0.100" u8="102" type="param_driver" wearable="shape" group="0"/>
 		<param id="648" name="scrawny_torso" display="Torso Muscles" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
 		<param id="649" name="torso muscles" display="Torso Muscles" value="0.500" u8="127" type="param_driver" wearable="shape" group="0"/>
-		<param id="650" name="eyelid_corner_up" display="Outer Eye Corner" value="0.175" u8="150" type="param_driver" wearable="shape" group="0"/>
+		<param id="650" name="eyelid_corner_up" display="Outer Eye Corner" value="0.200" u8="153" type="param_driver" wearable="shape" group="0"/>
 		<param id="651" name="scrawny_legs" display="Scrawny Leg" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
-		<param id="652" name="leg muscles" display="Leg Muscles" value="0.600" u8="153" type="param_driver" wearable="shape" group="0"/>
-		<param id="653" name="tall_lips" display="Lip Fullness" value="-0.010" u8="84" type="param_driver" wearable="shape" group="0"/>
+		<param id="652" name="leg muscles" display="Leg Muscles" value="0.500" u8="127" type="param_driver" wearable="shape" group="0"/>
+		<param id="653" name="tall_lips" display="Lip Fullness" value="0.350" u8="114" type="param_driver" wearable="shape" group="0"/>
 		<param id="654" name="shoe_toe_thick" display="Toe Thickness" value="0.000" u8="0" type="param_morph" wearable="shoes" group="0"/>
-		<param id="655" name="head size" display="Head Size" value="-0.082" u8="122" type="param_skeleton" wearable="shape" group="1"/>
+		<param id="655" name="head size" display="Head Size" value="0.030" u8="204" type="param_skeleton" wearable="shape" group="1"/>
 		<param id="656" name="crooked_nose" display="Crooked Nose" value="-0.200" u8="114" type="param_driver" wearable="shape" group="0"/>
 		<param id="657" name="smile_mouth" display="Mouth Corner" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
 		<param id="658" name="frown_mouth" display="Mouth Corner" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
@@ -234,7 +234,7 @@
 		<param id="662" name="face shear" display="Face Shear" value="0.500" u8="127" type="param_driver" wearable="shape" group="0"/>
 		<param id="663" name="shift_mouth" display="Shift Mouth" value="0.000" u8="127" type="param_driver" wearable="shape" group="0"/>
 		<param id="664" name="pop_eye" display="Eye Pop" value="0.000" u8="127" type="param_morph" wearable="shape" group="0"/>
-		<param id="665" name="jaw_jut" display="Jaw Jut" value="0.480" u8="158" type="param_driver" wearable="shape" group="0"/>
+		<param id="665" name="jaw_jut" display="Jaw Jut" value="0.200" u8="140" type="param_driver" wearable="shape" group="0"/>
 		<param id="666" name="hands_relaxed_l" display="Hands_Relaxed_L" value="0.000" u8="0" type="param_morph" wearable="invalid" group="1"/>
 		<param id="667" name="hands_point_l" display="Hands_Point_L" value="0.000" u8="0" type="param_morph" wearable="invalid" group="1"/>
 		<param id="668" name="hands_fist_l" display="Hands_Fist_L" value="0.000" u8="0" type="param_morph" wearable="invalid" group="1"/>
@@ -247,26 +247,26 @@
 		<param id="676" name="love_handles" display="Love Handles" value="0.500" u8="127" type="param_driver" wearable="shape" group="0"/>
 		<param id="677" name="scrawny_torso_male" display="Torso Scrawny" value="0.260" u8="51" type="param_morph" wearable="shape" group="1"/>
 		<param id="678" name="torso muscles" display="Torso Muscles" value="0.400" u8="102" type="param_driver" wearable="shape" group="0"/>
-		<param id="679" name="eyeball_size" display="Eyeball Size" value="-0.082" u8="122" type="param_morph" wearable="shape" group="1"/>
-		<param id="680" name="eyeball_size" display="Eyeball Size" value="-0.082" u8="122" type="param_morph" wearable="shape" group="1"/>
-		<param id="681" name="eyeball_size" display="Eyeball Size" value="-0.082" u8="122" type="param_morph" wearable="shape" group="1"/>
-		<param id="682" name="head size" display="Head Size" value="0.480" u8="122" type="param_driver" wearable="shape" group="0"/>
-		<param id="683" name="neck thickness" display="Neck Thickness" value="-0.196" u8="86" type="param_skeleton" wearable="shape" group="0"/>
+		<param id="679" name="eyeball_size" display="Eyeball Size" value="0.030" u8="204" type="param_morph" wearable="shape" group="1"/>
+		<param id="680" name="eyeball_size" display="Eyeball Size" value="0.030" u8="204" type="param_morph" wearable="shape" group="1"/>
+		<param id="681" name="eyeball_size" display="Eyeball Size" value="0.030" u8="204" type="param_morph" wearable="shape" group="1"/>
+		<param id="682" name="head size" display="Head Size" value="0.800" u8="204" type="param_driver" wearable="shape" group="0"/>
+		<param id="683" name="neck thickness" display="Neck Thickness" value="-0.130" u8="114" type="param_skeleton" wearable="shape" group="0"/>
 		<param id="684" name="breast_female_cleavage" display="Breast Cleavage" value="0.000" u8="47" type="param_morph" wearable="shape" group="0"/>
-		<param id="685" name="chest_male_no_pecs" display="Pectorals" value="0.124" u8="99" type="param_morph" wearable="shape" group="0"/>
+		<param id="685" name="chest_male_no_pecs" display="Pectorals" value="0.300" u8="127" type="param_morph" wearable="shape" group="0"/>
 		<param id="686" name="head_eyes_big" display="Eye Size" value="-0.600" u8="89" type="param_morph" wearable="shape" group="1"/>
 		<param id="687" name="eyeball_size" display="Big Eyeball" value="-0.075" u8="89" type="param_morph" wearable="shape" group="1"/>
 		<param id="688" name="eyeball_size" display="Big Eyeball" value="-0.075" u8="89" type="param_morph" wearable="shape" group="1"/>
 		<param id="689" name="eyebone_big_eyes" display="EyeBone_Big_Eyes" value="-0.300" u8="89" type="param_skeleton" wearable="shape" group="1"/>
 		<param id="690" name="eye size" display="Eye Size" value="0.350" u8="89" type="param_driver" wearable="shape" group="0"/>
 		<param id="691" name="eyeball_size" display="Big Eyeball" value="-0.075" u8="89" type="param_morph" wearable="shape" group="1"/>
-		<param id="692" name="leg length" display="Leg Length" value="0.280" u8="163" type="param_skeleton" wearable="shape" group="0"/>
-		<param id="693" name="arm length" display="Arm Length" value="0.480" u8="188" type="param_skeleton" wearable="shape" group="0"/>
-		<param id="694" name="eyeball_size" display="Eyeball Size" value="-0.082" u8="122" type="param_morph" wearable="shape" group="1"/>
+		<param id="692" name="leg length" display="Leg Length" value="0.200" u8="153" type="param_skeleton" wearable="shape" group="0"/>
+		<param id="693" name="arm length" display="Arm Length" value="0.700" u8="216" type="param_skeleton" wearable="shape" group="0"/>
+		<param id="694" name="eyeball_size" display="Eyeball Size" value="0.030" u8="204" type="param_morph" wearable="shape" group="1"/>
 		<param id="695" name="eyeball_size" display="Big Eyeball" value="-0.075" u8="89" type="param_morph" wearable="shape" group="1"/>
-		<param id="700" name="lipstick color" display="Lipstick Color" value="0.010" u8="2" type="param_color" wearable="skin" group="0"/>
-		<param id="701" name="lipstick" display="Lipstick" value="0.500" u8="141" type="param_alpha" wearable="skin" group="0"/>
-		<param id="702" name="lipgloss" display="Lipgloss" value="0.260" u8="66" type="param_alpha" wearable="skin" group="0"/>
+		<param id="700" name="lipstick color" display="Lipstick Color" value="0.250" u8="63" type="param_color" wearable="skin" group="0"/>
+		<param id="701" name="lipstick" display="Lipstick" value="0.000" u8="0" type="param_alpha" wearable="skin" group="0"/>
+		<param id="702" name="lipgloss" display="Lipgloss" value="0.000" u8="0" type="param_alpha" wearable="skin" group="0"/>
 		<param id="703" name="eyeliner" display="Eyeliner" value="0.000" u8="0" type="param_alpha" wearable="skin" group="0"/>
 		<param id="704" name="blush" display="Blush" value="0.000" u8="0" type="param_alpha" wearable="skin" group="0"/>
 		<param id="705" name="blush color" display="Blush Color" value="0.500" u8="127" type="param_color" wearable="skin" group="0"/>
@@ -283,23 +283,23 @@
 		<param id="750" name="eyebrow density" display="Eyebrow Density" value="0.000" u8="0" type="param_driver" wearable="hair" group="0"/>
 		<param id="751" name="5 o'clock shadow" display="5 O'Clock Shadow" value="0.000" u8="0" type="param_color" wearable="hair" group="1"/>
 		<param id="752" name="hair thickness" display="Hair Thickness" value="0.500" u8="127" type="param_driver" wearable="hair" group="0"/>
-		<param id="753" name="saddlebags" display="Saddle Bags" value="1.530" u8="147" type="param_driver" wearable="shape" group="0"/>
+		<param id="753" name="saddlebags" display="Saddle Bags" value="1.430" u8="140" type="param_driver" wearable="shape" group="0"/>
 		<param id="754" name="hair_taper_back" display="Taper Back" value="0.000" u8="85" type="param_morph" wearable="hair" group="0"/>
 		<param id="755" name="hair_taper_front" display="Taper Front" value="0.050" u8="131" type="param_morph" wearable="hair" group="0"/>
-		<param id="756" name="neck length" display="Neck Length" value="-0.800" u8="25" type="param_skeleton" wearable="shape" group="0"/>
+		<param id="756" name="neck length" display="Neck Length" value="-0.600" u8="50" type="param_skeleton" wearable="shape" group="0"/>
 		<param id="757" name="lower_eyebrows" display="Eyebrow Height" value="-1.000" u8="127" type="param_driver" wearable="hair" group="0"/>
-		<param id="758" name="lower_bridge_nose" display="Lower Bridge" value="-0.480" u8="86" type="param_driver" wearable="shape" group="0"/>
-		<param id="759" name="low_septum_nose" display="Nostril Division" value="0.375" u8="140" type="param_driver" wearable="shape" group="0"/>
-		<param id="760" name="jaw_angle" display="Jaw Angle" value="0.528" u8="137" type="param_driver" wearable="shape" group="0"/>
+		<param id="758" name="lower_bridge_nose" display="Lower Bridge" value="-0.330" u8="99" type="param_driver" wearable="shape" group="0"/>
+		<param id="759" name="low_septum_nose" display="Nostril Division" value="0.380" u8="140" type="param_driver" wearable="shape" group="0"/>
+		<param id="760" name="jaw_angle" display="Jaw Angle" value="0.560" u8="140" type="param_driver" wearable="shape" group="0"/>
 		<param id="761" name="hair_volume_small" display="Hair Volume" value="1.300" u8="255" type="param_morph" wearable="hair" group="1"/>
 		<param id="762" name="hair_shear_front" display="Shear Front" value="0.000" u8="0" type="param_morph" wearable="hair" group="0"/>
 		<param id="763" name="hair volume" display="Hair Volume" value="0.000" u8="0" type="param_driver" wearable="hair" group="0"/>
-		<param id="764" name="lip_cleft_deep" display="Lip Cleft Depth" value="0.095" u8="89" type="param_driver" wearable="shape" group="0"/>
-		<param id="765" name="puffy_lower_lids" display="Puffy Eyelids" value="0.000" u8="27" type="param_driver" wearable="shape" group="0"/>
+		<param id="764" name="lip_cleft_deep" display="Lip Cleft Depth" value="0.100" u8="90" type="param_driver" wearable="shape" group="0"/>
+		<param id="765" name="puffy_lower_lids" display="Puffy Eyelids" value="0.120" u8="38" type="param_driver" wearable="shape" group="0"/>
 		<param id="766" name="hands_salute_r" display="Hands_Salute_R" value="0.000" u8="0" type="param_morph" wearable="invalid" group="1"/>
-		<param id="767" name="bug_eyed_head" display="Eye Depth" value="-0.400" u8="102" type="param_morph" wearable="shape" group="1"/>
-		<param id="768" name="eyebone_bug" display="EyeBone_Bug" value="-0.400" u8="102" type="param_skeleton" wearable="shape" group="1"/>
-		<param id="769" name="eye depth" display="Eye Depth" value="0.400" u8="102" type="param_driver" wearable="shape" group="0"/>
+		<param id="767" name="bug_eyed_head" display="Eye Depth" value="-0.600" u8="89" type="param_morph" wearable="shape" group="1"/>
+		<param id="768" name="eyebone_bug" display="EyeBone_Bug" value="-0.600" u8="89" type="param_skeleton" wearable="shape" group="1"/>
+		<param id="769" name="eye depth" display="Eye Depth" value="0.350" u8="89" type="param_driver" wearable="shape" group="0"/>
 		<param id="770" name="elongate_head" display="Shear Face" value="0.000" u8="127" type="param_morph" wearable="shape" group="1"/>
 		<param id="771" name="elongate_head_hair" display="Elongate_Head_Hair" value="0.000" u8="127" type="param_morph" wearable="hair" group="1"/>
 		<param id="772" name="eyebone_head_elongate" display="EyeBone_Head_Elongate" value="0.000" u8="127" type="param_skeleton" wearable="shape" group="1"/>
@@ -326,10 +326,10 @@
 		<param id="793" name="leg_longcuffs" display="Longcuffs" value="0.000" u8="0" type="param_morph" wearable="pants" group="1"/>
 		<param id="794" name="small_butt" display="Butt Size" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
 		<param id="795" name="butt size" display="Butt Size" value="0.400" u8="102" type="param_driver" wearable="shape" group="0"/>
-		<param id="796" name="pointy_ears" display="Ear Tips" value="0.000" u8="30" type="param_driver" wearable="shape" group="0"/>
-		<param id="797" name="fat_upper_lip" display="Fat Upper Lip" value="0.150" u8="25" type="param_morph" wearable="shape" group="1"/>
-		<param id="798" name="fat_lower_lip" display="Fat Lower Lip" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
-		<param id="799" name="lip ratio" display="Lip Ratio" value="0.450" u8="114" type="param_driver" wearable="shape" group="0"/>
+		<param id="796" name="pointy_ears" display="Ear Tips" value="0.010" u8="30" type="param_driver" wearable="shape" group="0"/>
+		<param id="797" name="fat_upper_lip" display="Fat Upper Lip" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
+		<param id="798" name="fat_lower_lip" display="Fat Lower Lip" value="0.060" u8="10" type="param_morph" wearable="shape" group="1"/>
+		<param id="799" name="lip ratio" display="Lip Ratio" value="0.520" u8="132" type="param_driver" wearable="shape" group="0"/>
 		<param id="800" name="sleeve length" display="Sleeve Length" value="0.890" u8="226" type="param_driver" wearable="shirt" group="0"/>
 		<param id="801" name="shirt bottom" display="Shirt Bottom" value="1.000" u8="255" type="param_driver" wearable="shirt" group="0"/>
 		<param id="802" name="collar front" display="Collar Front" value="0.780" u8="198" type="param_driver" wearable="shirt" group="0"/>
@@ -368,20 +368,20 @@
 		<param id="835" name="jacket_green" display="jacket_green" value="1.000" u8="255" type="param_driver" wearable="jacket" group="0"/>
 		<param id="836" name="jacket_blue" display="jacket_blue" value="1.000" u8="255" type="param_driver" wearable="jacket" group="0"/>
 		<param id="840" name="shirtsleeve_flair" display="Sleeve Looseness" value="0.000" u8="0" type="param_morph" wearable="shirt" group="0"/>
-		<param id="841" name="bowed_legs" display="Knee Angle" value="0.440" u8="183" type="param_driver" wearable="shape" group="0"/>
+		<param id="841" name="bowed_legs" display="Knee Angle" value="0.200" u8="153" type="param_driver" wearable="shape" group="0"/>
 		<param id="842" name="hip length" display="Hip Length" value="0.100" u8="140" type="param_skeleton" wearable="shape" group="0"/>
 		<param id="843" name="no_chest" display="Chest Size" value="0.000" u8="0" type="param_morph" wearable="shape" group="1"/>
 		<param id="844" name="glove fingers" display="Glove Fingers" value="1.000" u8="255" type="param_driver" wearable="gloves" group="0"/>
 		<param id="845" name="skirt_poofy" display="poofy skirt" value="0.000" u8="0" type="param_morph" wearable="skirt" group="1"/>
 		<param id="846" name="skirt_loose" display="loose skirt" value="0.000" u8="0" type="param_morph" wearable="skirt" group="1"/>
-		<param id="847" name="skirt_bowlegs" display="legs skirt" value="0.440" u8="183" type="param_morph" wearable="skirt" group="1"/>
+		<param id="847" name="skirt_bowlegs" display="legs skirt" value="0.200" u8="153" type="param_morph" wearable="skirt" group="1"/>
 		<param id="848" name="skirt_bustle" display="bustle skirt" value="0.200" u8="25" type="param_morph" wearable="skirt" group="0"/>
 		<param id="849" name="skirt_belly" display="big belly skirt" value="0.150" u8="38" type="param_morph" wearable="skirt" group="1"/>
-		<param id="850" name="skirt_saddlebags" display="skirt_saddlebags" value="1.530" u8="147" type="param_morph" wearable="skirt" group="1"/>
+		<param id="850" name="skirt_saddlebags" display="skirt_saddlebags" value="1.430" u8="140" type="param_morph" wearable="skirt" group="1"/>
 		<param id="851" name="skirt_chubby" display="skirt_chubby" value="0.000" u8="0" type="param_morph" wearable="skirt" group="1"/>
 		<param id="852" name="skirt_bigbutt" display="bigbutt skirt" value="0.143" u8="36" type="param_morph" wearable="skirt" group="1"/>
-		<param id="853" name="bowed_legs" display="Knee Angle" value="0.440" u8="183" type="param_morph" wearable="shape" group="1"/>
-		<param id="854" name="saddlebags" display="Saddlebags" value="1.530" u8="147" type="param_morph" wearable="shape" group="1"/>
+		<param id="853" name="bowed_legs" display="Knee Angle" value="0.200" u8="153" type="param_morph" wearable="shape" group="1"/>
+		<param id="854" name="saddlebags" display="Saddlebags" value="1.430" u8="140" type="param_morph" wearable="shape" group="1"/>
 		<param id="855" name="love_handles" display="Love_Handles" value="0.500" u8="127" type="param_morph" wearable="shape" group="1"/>
 		<param id="856" name="skirt_lovehandles" display="skirt_lovehandles" value="0.500" u8="127" type="param_morph" wearable="skirt" group="1"/>
 		<param id="857" name="skirt_male" display="skirt_male" value="1.000" u8="255" type="param_morph" wearable="skirt" group="1"/>
@@ -404,8 +404,8 @@
 		<param id="876" name="jacket upper wrinkles" display="jacket upper Wrinkles" value="0.000" u8="0" type="param_color" wearable="jacket" group="1"/>
 		<param id="877" name="jacket wrinkles" display="Jacket Wrinkles" value="0.000" u8="0" type="param_driver" wearable="jacket" group="3"/>
 		<param id="878" name="bump upperdef" display="Bump upperdef" value="0.000" u8="0" type="param_alpha" wearable="skin" group="1"/>
-		<param id="879" name="male_package" display="Package" value="0.025" u8="53" type="param_driver" wearable="shape" group="0"/>
-		<param id="880" name="eyelid_inner_corner_up" display="Inner Eye Corner" value="-0.600" u8="71" type="param_driver" wearable="shape" group="0"/>
+		<param id="879" name="male_package" display="Package" value="0.000" u8="51" type="param_driver" wearable="shape" group="0"/>
+		<param id="880" name="eyelid_inner_corner_up" display="Inner Eye Corner" value="-0.550" u8="76" type="param_driver" wearable="shape" group="0"/>
 		<param id="899" name="upper clothes shading" display="Upper Clothes Shading" value="0.000" u8="0" type="param_color" wearable="shirt" group="1"/>
 		<param id="900" name="sleeve length shadow" display="Sleeve Length Shadow" value="0.000" u8="0" type="param_alpha" wearable="shirt" group="1"/>
 		<param id="901" name="shirt shadow bottom" display="Shirt Shadow Bottom" value="0.000" u8="0" type="param_alpha" wearable="shirt" group="1"/>
@@ -576,94 +576,94 @@
 		<param id="10032" name="breast_physics_leftright_damping" display="Breast Physics LeftRight Damping" value="0.200" u8="51" type="param_driver" wearable="physics" group="0"/>
 		<param id="11000" name="appearancemessage_version" display="AppearanceMessage Version" value="0.000" u8="0" type="param_driver" wearable="invalid" group="0"/>
 		<param id="11001" name="hover" display="Hover" value="0.000" u8="127" type="param_skeleton" wearable="shape" group="0"/>
-		<param id="20001" name="big_brow" display="Big_Brow" value="0.000" u8="33" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20002" name="nose_big_out" display="Nose_Big_Out" value="0.025" u8="63" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20004" name="broad_nostrils" display="Broad_Nostrils" value="0.025" u8="89" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20006" name="bulbous_nose_tip" display="Bulbous_Nose_Tip" value="0.051" u8="68" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20007" name="weak_chin" display="Weak_Chin" value="-0.050" u8="114" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20001" name="big_brow" display="Big_Brow" value="0.298" u8="66" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20002" name="nose_big_out" display="Nose_Big_Out" value="0.020" u8="63" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20004" name="broad_nostrils" display="Broad_Nostrils" value="0.020" u8="88" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20006" name="bulbous_nose_tip" display="Bulbous_Nose_Tip" value="0.090" u8="76" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20007" name="weak_chin" display="Weak_Chin" value="0.050" u8="140" type="param_morph" wearable="invalid" group="1"/>
 		<param id="20008" name="double_chin" display="Double_Chin" value="0.100" u8="76" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20010" name="sunken_cheeks" display="Sunken_Cheeks" value="0.000" u8="85" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20011" name="noble_nose_bridge" display="Noble_Nose_Bridge" value="0.000" u8="63" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20014" name="high_cheek_bones" display="High_Cheek_Bones" value="0.000" u8="85" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20010" name="sunken_cheeks" display="Sunken_Cheeks" value="0.070" u8="88" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20011" name="noble_nose_bridge" display="Noble_Nose_Bridge" value="0.200" u8="89" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20014" name="high_cheek_bones" display="High_Cheek_Bones" value="0.175" u8="114" type="param_morph" wearable="invalid" group="1"/>
 		<param id="20015" name="ears_out" display="Ears_Out" value="0.000" u8="63" type="param_morph" wearable="invalid" group="1"/>
 		<param id="20017" name="square_jaw" display="Square_Jaw" value="-0.050" u8="76" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20018" name="puffy_upper_cheeks" display="Puffy_Upper_Cheeks" value="0.000" u8="95" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20019" name="upturned_nose_tip" display="Upturned_Nose_Tip" value="-0.325" u8="119" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20020" name="bulbous_nose" display="Bulbous_Nose" value="0.020" u8="66" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20021" name="upper_eyelid_fold" display="Upper_Eyelid_Fold" value="0.340" u8="91" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20023" name="baggy_eyes" display="Baggy_Eyes" value="0.220" u8="91" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20024" name="wide_eyes" display="Wide_Eyes" value="0.215" u8="124" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20025" name="wide_lip_cleft" display="Wide_Lip_Cleft" value="0.258" u8="117" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20027" name="wide_nose_bridge" display="Wide_Nose_Bridge" value="-0.525" u8="79" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20035" name="big_ears" display="Big_Ears" value="0.000" u8="85" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20018" name="puffy_upper_cheeks" display="Puffy_Upper_Cheeks" value="-0.100" u8="89" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20019" name="upturned_nose_tip" display="Upturned_Nose_Tip" value="-0.500" u8="102" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20020" name="bulbous_nose" display="Bulbous_Nose" value="0.000" u8="63" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20021" name="upper_eyelid_fold" display="Upper_Eyelid_Fold" value="0.250" u8="76" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20023" name="baggy_eyes" display="Baggy_Eyes" value="0.320" u8="104" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20024" name="wide_eyes" display="Wide_Eyes" value="0.250" u8="127" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20025" name="wide_lip_cleft" display="Wide_Lip_Cleft" value="0.230" u8="114" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20027" name="wide_nose_bridge" display="Wide_Nose_Bridge" value="-0.550" u8="76" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20035" name="big_ears" display="Big_Ears" value="-0.100" u8="76" type="param_morph" wearable="invalid" group="1"/>
 		<param id="20185" name="deep_chin" display="Deep_Chin" value="-0.200" u8="102" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20506" name="mouth_height" display="Mouth_Height" value="0.160" u8="137" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20517" name="wide_nose" display="Wide_Nose" value="-0.065" u8="73" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20650" name="eyelid_corner_up" display="Eyelid_Corner_Up" value="0.175" u8="150" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20653" name="tall_lips" display="Tall_Lips" value="-0.010" u8="84" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20506" name="mouth_height" display="Mouth_Height" value="0.200" u8="140" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20517" name="wide_nose" display="Wide_Nose" value="-0.050" u8="76" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20650" name="eyelid_corner_up" display="Eyelid_Corner_Up" value="0.200" u8="153" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20653" name="tall_lips" display="Tall_Lips" value="0.350" u8="114" type="param_morph" wearable="invalid" group="1"/>
 		<param id="20656" name="crooked_nose" display="Crooked_Nose" value="-0.200" u8="114" type="param_morph" wearable="invalid" group="1"/>
 		<param id="20663" name="shift_mouth" display="Shift_Mouth" value="0.000" u8="127" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20665" name="jaw_jut" display="Jaw_Jut" value="0.480" u8="158" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20758" name="lower_bridge_nose" display="Lower_Bridge_Nose" value="-0.480" u8="86" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20759" name="low_septum_nose" display="Low_Septum_Nose" value="0.375" u8="140" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20760" name="jaw_angle" display="Jaw_Angle" value="0.528" u8="137" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20764" name="lip_cleft_deep" display="Lip_Cleft_Deep" value="0.095" u8="89" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20765" name="puffy_lower_lids" display="Puffy_Lower_Lids" value="0.000" u8="27" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20796" name="pointy_ears" display="Pointy_Ears" value="0.000" u8="30" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20879" name="male_package" display="Male_Package" value="0.025" u8="53" type="param_morph" wearable="invalid" group="1"/>
-		<param id="20880" name="eyelid_inner_corner_up" display="Eyelid_Inner_Corner_Up" value="-0.600" u8="71" type="param_morph" wearable="invalid" group="1"/>
-		<param id="30001" name="big_brow" display="Big_Brow" value="0.000" u8="33" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30002" name="nose_big_out" display="Nose_Big_Out" value="0.025" u8="63" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30004" name="broad_nostrils" display="Broad_Nostrils" value="0.025" u8="89" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30006" name="bulbous_nose_tip" display="Bulbous_Nose_Tip" value="-0.325" u8="68" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30007" name="weak_chin" display="Weak_Chin" value="-0.050" u8="114" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="20665" name="jaw_jut" display="Jaw_Jut" value="0.200" u8="140" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20758" name="lower_bridge_nose" display="Lower_Bridge_Nose" value="-0.330" u8="99" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20759" name="low_septum_nose" display="Low_Septum_Nose" value="0.380" u8="140" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20760" name="jaw_angle" display="Jaw_Angle" value="0.560" u8="140" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20764" name="lip_cleft_deep" display="Lip_Cleft_Deep" value="0.100" u8="90" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20765" name="puffy_lower_lids" display="Puffy_Lower_Lids" value="0.120" u8="38" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20796" name="pointy_ears" display="Pointy_Ears" value="0.010" u8="30" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20879" name="male_package" display="Male_Package" value="0.000" u8="51" type="param_morph" wearable="invalid" group="1"/>
+		<param id="20880" name="eyelid_inner_corner_up" display="Eyelid_Inner_Corner_Up" value="-0.550" u8="76" type="param_morph" wearable="invalid" group="1"/>
+		<param id="30001" name="big_brow" display="Big_Brow" value="0.298" u8="66" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30002" name="nose_big_out" display="Nose_Big_Out" value="0.020" u8="63" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30004" name="broad_nostrils" display="Broad_Nostrils" value="0.020" u8="88" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30006" name="bulbous_nose_tip" display="Bulbous_Nose_Tip" value="-0.250" u8="76" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30007" name="weak_chin" display="Weak_Chin" value="0.050" u8="140" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30008" name="double_chin" display="Double_Chin" value="0.100" u8="76" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30010" name="sunken_cheeks" display="Sunken_Cheeks" value="0.000" u8="85" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30011" name="noble_nose_bridge" display="Noble_Nose_Bridge" value="0.000" u8="63" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30014" name="high_cheek_bones" display="High_Cheek_Bones" value="0.000" u8="85" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30010" name="sunken_cheeks" display="Sunken_Cheeks" value="0.070" u8="88" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30011" name="noble_nose_bridge" display="Noble_Nose_Bridge" value="0.200" u8="89" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30014" name="high_cheek_bones" display="High_Cheek_Bones" value="0.175" u8="114" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30015" name="ears_out" display="Ears_Out" value="0.000" u8="63" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30016" name="pointy_eyebrows" display="Pointy_Eyebrows" value="-0.500" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30017" name="square_jaw" display="Square_Jaw" value="-0.050" u8="76" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30018" name="puffy_upper_cheeks" display="Puffy_Upper_Cheeks" value="0.000" u8="95" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30019" name="upturned_nose_tip" display="Upturned_Nose_Tip" value="-0.325" u8="119" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30020" name="bulbous_nose" display="Bulbous_Nose" value="0.020" u8="66" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30021" name="upper_eyelid_fold" display="Upper_Eyelid_Fold" value="0.340" u8="91" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30023" name="baggy_eyes" display="Baggy_Eyes" value="0.220" u8="91" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30024" name="wide_eyes" display="Wide_Eyes" value="0.215" u8="124" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30025" name="wide_lip_cleft" display="Wide_Lip_Cleft" value="0.258" u8="117" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30027" name="wide_nose_bridge" display="Wide_Nose_Bridge" value="-0.525" u8="79" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30018" name="puffy_upper_cheeks" display="Puffy_Upper_Cheeks" value="-0.100" u8="89" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30019" name="upturned_nose_tip" display="Upturned_Nose_Tip" value="-0.500" u8="102" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30020" name="bulbous_nose" display="Bulbous_Nose" value="0.000" u8="63" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30021" name="upper_eyelid_fold" display="Upper_Eyelid_Fold" value="0.250" u8="76" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30023" name="baggy_eyes" display="Baggy_Eyes" value="0.320" u8="104" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30024" name="wide_eyes" display="Wide_Eyes" value="0.250" u8="127" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30025" name="wide_lip_cleft" display="Wide_Lip_Cleft" value="0.230" u8="114" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30027" name="wide_nose_bridge" display="Wide_Nose_Bridge" value="-0.550" u8="76" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30031" name="arced_eyebrows" display="Arced_Eyebrows" value="0.000" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30035" name="big_ears" display="Big_Ears" value="0.000" u8="85" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30035" name="big_ears" display="Big_Ears" value="-0.100" u8="76" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30119" name="eyebrow size" display="Eyebrow Size" value="0.000" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30155" name="lip width" display="Lip Width" value="-0.020" u8="102" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30185" name="deep_chin" display="Deep_Chin" value="-0.200" u8="102" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30193" name="square_head" display="Square_Head" value="-0.060" u8="119" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30505" name="lip_thickness" display="Lip_Thickness" value="0.000" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30506" name="mouth_height" display="Mouth_Height" value="0.160" u8="137" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30517" name="wide_nose" display="Wide_Nose" value="-0.065" u8="73" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30193" name="square_head" display="Square_Head" value="-0.100" u8="114" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30505" name="lip_thickness" display="Lip_Thickness" value="0.014" u8="5" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30506" name="mouth_height" display="Mouth_Height" value="0.200" u8="140" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30517" name="wide_nose" display="Wide_Nose" value="-0.050" u8="76" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30646" name="egg_head" display="Egg_Head" value="-0.150" u8="127" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30647" name="squash_stretch_head" display="Squash_Stretch_Head" value="-0.275" u8="38" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30650" name="eyelid_corner_up" display="Eyelid_Corner_Up" value="0.175" u8="150" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30653" name="tall_lips" display="Tall_Lips" value="-0.010" u8="84" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30647" name="squash_stretch_head" display="Squash_Stretch_Head" value="0.100" u8="102" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30650" name="eyelid_corner_up" display="Eyelid_Corner_Up" value="0.200" u8="153" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30653" name="tall_lips" display="Tall_Lips" value="0.350" u8="114" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30656" name="crooked_nose" display="Crooked_Nose" value="-0.200" u8="114" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30657" name="smile_mouth" display="Smile_Mouth" value="0.000" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30658" name="frown_mouth" display="Frown_Mouth" value="0.000" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30665" name="jaw_jut" display="Jaw_Jut" value="0.480" u8="158" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30665" name="jaw_jut" display="Jaw_Jut" value="0.200" u8="140" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30689" name="eyebone_big_eyes" display="EyeBone_Big_Eyes" value="-0.330" u8="89" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30757" name="lower_eyebrows" display="Lower_Eyebrows" value="-1.000" u8="127" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30758" name="lower_bridge_nose" display="Lower_Bridge_Nose" value="-0.480" u8="86" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30759" name="low_septum_nose" display="Low_Septum_Nose" value="0.375" u8="140" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30760" name="jaw_angle" display="Jaw_Angle" value="0.528" u8="137" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30764" name="lip_cleft_deep" display="Lip_Cleft_Deep" value="-0.230" u8="89" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30765" name="puffy_lower_lids" display="Puffy_Lower_Lids" value="0.000" u8="27" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30758" name="lower_bridge_nose" display="Lower_Bridge_Nose" value="-0.330" u8="99" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30759" name="low_septum_nose" display="Low_Septum_Nose" value="0.380" u8="140" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30760" name="jaw_angle" display="Jaw_Angle" value="0.560" u8="140" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30764" name="lip_cleft_deep" display="Lip_Cleft_Deep" value="-0.224" u8="90" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30765" name="puffy_lower_lids" display="Puffy_Lower_Lids" value="0.120" u8="38" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="30772" name="eyebone_head_elongate" display="EyeBone_Head_Elongate" value="0.000" u8="127" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30796" name="pointy_ears" display="Pointy_Ears" value="0.000" u8="30" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30797" name="fat_upper_lip" display="Fat_Upper_Lip" value="0.150" u8="25" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30798" name="fat_lower_lip" display="Fat_Lower_Lip" value="0.000" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30879" name="male_package" display="Male_Package" value="0.025" u8="53" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="30880" name="eyelid_inner_corner_up" display="Eyelid_Inner_Corner_Up" value="-0.600" u8="71" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="31505" name="lip_thickness" display="Lip_Thickness" value="0.080" u8="20" type="param_skeleton" wearable="invalid" group="1"/>
-		<param id="31629" name="forehead angle" display="Forehead Angle" value="0.000" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30796" name="pointy_ears" display="Pointy_Ears" value="0.010" u8="30" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30797" name="fat_upper_lip" display="Fat_Upper_Lip" value="0.000" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30798" name="fat_lower_lip" display="Fat_Lower_Lip" value="0.060" u8="10" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30879" name="male_package" display="Male_Package" value="0.000" u8="51" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="30880" name="eyelid_inner_corner_up" display="Eyelid_Inner_Corner_Up" value="-0.550" u8="76" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="31505" name="lip_thickness" display="Lip_Thickness" value="0.000" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
+		<param id="31629" name="forehead angle" display="Forehead Angle" value="0.200" u8="50" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="31663" name="shift_mouth" display="Shift_Mouth" value="0.000" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="31772" name="eyebone_head_elongate" display="EyeBone_Head_Elongate" value="0.000" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
 		<param id="32629" name="forehead angle" display="Forehead Angle" value="0.000" u8="0" type="param_skeleton" wearable="invalid" group="1"/>
@@ -692,65 +692,65 @@
 		<texture te="42" uuid="00000000-0000-0000-0000-000000000000"/>
 		<texture te="43" uuid="00000000-0000-0000-0000-000000000000"/>
 		<texture te="44" uuid="00000000-0000-0000-0000-000000000000"/>
-		<root name="mRoot" position="225.778107 123.530502 21.706232" scale="1.000000 1.000000 1.000000"/>
+		<root name="mRoot" position="219.145432 123.197968 21.911524" scale="1.000000 1.000000 1.000000"/>
 		<bone name="mAnkleLeft" position="-0.029000 0.001000 -0.468000" scale="1.000000 1.000000 1.000000"/>
 		<bone name="mAnkleRight" position="-0.029000 0.000000 -0.468000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mChest" position="-0.015000 0.000000 0.205000" scale="1.051199 1.000800 1.042500"/>
-		<bone name="mCollarLeft" position="-0.021000 0.068200 0.165000" scale="1.000000 1.436000 1.000000"/>
-		<bone name="mCollarRight" position="-0.021000 -0.068200 0.165000" scale="1.000000 1.436000 1.000000"/>
-		<bone name="mElbowLeft" position="0.000000 0.248000 0.000000" scale="1.018000 1.235000 1.018000"/>
-		<bone name="mElbowRight" position="0.000000 -0.248000 0.000000" scale="1.018000 1.235000 1.018000"/>
-		<bone name="mEyeLeft" position="0.097500 0.030780 0.079000" scale="0.836160 0.835500 0.835500"/>
-		<bone name="mEyeRight" position="0.097500 -0.030780 0.079000" scale="0.836160 0.835500 0.835500"/>
-		<bone name="mFaceCheekLowerLeft" position="0.050000 0.033175 -0.033155" scale="0.918000 0.930000 0.918000"/>
-		<bone name="mFaceCheekLowerRight" position="0.050000 -0.033175 -0.033155" scale="0.918000 0.930000 0.918000"/>
-		<bone name="mFaceCheekUpperLeft" position="0.070000 0.033175 -0.005750" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceCheekUpperRight" position="0.070000 -0.033175 -0.005750" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceChin" position="0.078590 0.000000 -0.048875" scale="0.918000 0.932500 0.780500"/>
-		<bone name="mFaceEar1Left" position="0.000000 0.080000 0.002000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mFaceEar1Right" position="0.000000 -0.080000 0.002000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mFaceEar2Left" position="-0.019000 0.018000 0.025000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mFaceEar2Right" position="-0.019000 -0.018000 0.025000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mFaceEyeAltLeft" position="0.072500 0.029130 0.034670" scale="0.836160 0.835500 0.835500"/>
-		<bone name="mFaceEyeAltRight" position="0.072500 -0.029130 0.034670" scale="0.836160 0.835500 0.835500"/>
-		<bone name="mFaceEyeLidLowerLeft" position="0.071000 0.029212 0.034285" scale="0.918000 0.849500 0.861000"/>
-		<bone name="mFaceEyeLidLowerRight" position="0.071000 -0.029212 0.034285" scale="0.918000 0.849500 0.861000"/>
-		<bone name="mFaceEyeLidUpperLeft" position="0.071000 0.029212 0.032540" scale="0.918000 0.849500 0.751000"/>
-		<bone name="mFaceEyeLidUpperRight" position="0.071000 -0.029212 0.032540" scale="0.918000 0.849500 0.751000"/>
-		<bone name="mFaceEyebrowCenterLeft" position="0.069600 0.035477 0.057616" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceEyebrowCenterRight" position="0.069600 -0.035477 0.057616" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceEyebrowInnerLeft" position="0.074200 0.015664 0.054170" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceEyebrowInnerRight" position="0.074200 -0.015984 0.054170" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceEyebrowOuterLeft" position="0.063480 0.046042 0.050782" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceEyebrowOuterRight" position="0.063480 -0.046042 0.050782" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceEyecornerInnerLeft" position="0.074500 0.013686 0.030105" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceEyecornerInnerRight" position="0.074500 -0.014086 0.030105" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceForeheadCenter" position="0.069150 0.000000 0.066500" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceForeheadLeft" position="0.062500 0.035600 0.085100" scale="0.918000 0.978000 0.888000"/>
-		<bone name="mFaceForeheadRight" position="0.062500 -0.035600 0.085100" scale="0.918000 0.978000 0.888000"/>
-		<bone name="mFaceJaw" position="-0.001000 0.000000 -0.015000" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceJawShaper" position="0.000000 0.000000 0.015840" scale="0.918000 0.918500 0.968000"/>
-		<bone name="mFaceLipCornerLeft" position="0.028180 -0.019558 -0.009850" scale="0.932000 0.918000 0.924000"/>
-		<bone name="mFaceLipCornerRight" position="0.028180 0.019158 -0.009850" scale="0.932000 0.918000 0.924000"/>
-		<bone name="mFaceLipLowerCenter" position="0.045260 0.000000 -0.000065" scale="0.932000 0.918000 0.940000"/>
-		<bone name="mFaceLipLowerLeft" position="0.045260 -0.000060 -0.000075" scale="0.932000 0.918000 0.940000"/>
-		<bone name="mFaceLipLowerRight" position="0.045260 0.000060 -0.000075" scale="0.932000 0.918000 0.940000"/>
-		<bone name="mFaceLipUpperCenter" position="0.044810 -0.000600 -0.002025" scale="0.947000 0.918000 1.031000"/>
-		<bone name="mFaceLipUpperLeft" position="0.044810 -0.000460 -0.002495" scale="0.947000 0.943800 0.969000"/>
-		<bone name="mFaceLipUpperRight" position="0.044810 -0.000340 -0.002495" scale="0.947000 0.943800 0.969000"/>
-		<bone name="mFaceNoseBase" position="0.093675 -0.001400 -0.018623" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceNoseBridge" position="0.089950 -0.000800 0.021030" scale="0.920500 0.710500 0.822000"/>
-		<bone name="mFaceNoseCenter" position="0.100730 -0.001800 -0.002530" scale="0.895500 0.845750 0.892000"/>
-		<bone name="mFaceNoseLeft" position="0.085610 0.012760 -0.004100" scale="0.918000 0.931500 0.918000"/>
-		<bone name="mFaceNoseRight" position="0.085610 -0.014760 -0.004100" scale="0.918000 0.931500 0.918000"/>
-		<bone name="mFaceRoot" position="0.025000 0.000000 0.045750" scale="0.918000 0.956000 0.880000"/>
-		<bone name="mFaceTeethLower" position="0.024840 0.000000 -0.041315" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceTeethUpper" position="0.020000 -0.000600 -0.032965" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceTongueBase" position="0.039000 0.000000 0.005000" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mFaceTongueTip" position="0.022000 0.000000 0.007000" scale="0.918000 0.918000 0.918000"/>
+		<bone name="mChest" position="-0.015000 0.000000 0.205000" scale="1.007200 0.956800 1.031750"/>
+		<bone name="mCollarLeft" position="-0.021000 0.068200 0.165000" scale="1.000000 1.348000 1.000000"/>
+		<bone name="mCollarRight" position="-0.021000 -0.068200 0.165000" scale="1.000000 1.348000 1.000000"/>
+		<bone name="mElbowLeft" position="0.000000 0.248000 0.000000" scale="0.974000 1.288100 0.974000"/>
+		<bone name="mElbowRight" position="0.000000 -0.248000 0.000000" scale="0.974000 1.288100 0.974000"/>
+		<bone name="mEyeLeft" position="0.096500 0.031140 0.079000" scale="0.948160 0.947500 0.947500"/>
+		<bone name="mEyeRight" position="0.096500 -0.031140 0.079000" scale="0.948160 0.947500 0.947500"/>
+		<bone name="mFaceCheekLowerLeft" position="0.050000 0.034300 -0.031955" scale="1.030000 1.041600 1.030000"/>
+		<bone name="mFaceCheekLowerRight" position="0.050000 -0.034300 -0.031955" scale="1.030000 1.041600 1.030000"/>
+		<bone name="mFaceCheekUpperLeft" position="0.069800 0.034300 -0.002400" scale="1.015000 1.020000 1.020000"/>
+		<bone name="mFaceCheekUpperRight" position="0.069800 -0.034300 -0.002400" scale="1.015000 1.020000 1.020000"/>
+		<bone name="mFaceChin" position="0.070350 0.000000 -0.049750" scale="1.030000 1.015000 1.080000"/>
+		<bone name="mFaceEar1Left" position="0.000000 0.080200 0.001900" scale="0.945000 0.945000 0.945000"/>
+		<bone name="mFaceEar1Right" position="0.000000 -0.080200 0.001900" scale="0.945000 0.945000 0.945000"/>
+		<bone name="mFaceEar2Left" position="-0.019149 0.018010 0.025160" scale="1.000000 1.000000 1.000000"/>
+		<bone name="mFaceEar2Right" position="-0.019149 -0.018010 0.025160" scale="1.000000 1.000000 1.000000"/>
+		<bone name="mFaceEyeAltLeft" position="0.071500 0.031065 0.033245" scale="0.948160 0.947500 0.947500"/>
+		<bone name="mFaceEyeAltRight" position="0.071500 -0.031065 0.033245" scale="0.948160 0.947500 0.947500"/>
+		<bone name="mFaceEyeLidLowerLeft" position="0.070000 0.031035 0.032985" scale="1.036000 0.971000 1.036000"/>
+		<bone name="mFaceEyeLidLowerRight" position="0.070000 -0.031035 0.032985" scale="1.036000 0.971000 1.036000"/>
+		<bone name="mFaceEyeLidUpperLeft" position="0.070000 0.031035 0.031880" scale="1.030000 0.965000 0.870000"/>
+		<bone name="mFaceEyeLidUpperRight" position="0.070000 -0.031035 0.031880" scale="1.030000 0.965000 0.870000"/>
+		<bone name="mFaceEyebrowCenterLeft" position="0.070592 0.037525 0.055629" scale="1.059799 1.030000 1.030000"/>
+		<bone name="mFaceEyebrowCenterRight" position="0.070592 -0.037525 0.055629" scale="1.059799 1.030000 1.030000"/>
+		<bone name="mFaceEyebrowInnerLeft" position="0.074992 0.016867 0.052370" scale="1.059799 1.030000 1.030000"/>
+		<bone name="mFaceEyebrowInnerRight" position="0.074992 -0.017187 0.052370" scale="1.059799 1.030000 1.030000"/>
+		<bone name="mFaceEyebrowOuterLeft" position="0.064412 0.048230 0.049120" scale="1.030000 1.030000 1.030000"/>
+		<bone name="mFaceEyebrowOuterRight" position="0.064412 -0.048230 0.049120" scale="1.030000 1.030000 1.030000"/>
+		<bone name="mFaceEyecornerInnerLeft" position="0.073500 0.014850 0.029105" scale="1.036000 1.036000 1.036000"/>
+		<bone name="mFaceEyecornerInnerRight" position="0.073500 -0.015250 0.029105" scale="1.036000 1.036000 1.036000"/>
+		<bone name="mFaceForeheadCenter" position="0.071836 0.000000 0.064548" scale="1.032000 1.030000 1.046000"/>
+		<bone name="mFaceForeheadLeft" position="0.066500 0.036000 0.085500" scale="1.030000 1.130000 1.016001"/>
+		<bone name="mFaceForeheadRight" position="0.066500 -0.036000 0.085500" scale="1.030000 1.130000 1.016001"/>
+		<bone name="mFaceJaw" position="-0.001000 0.000000 -0.015000" scale="1.030000 1.030000 1.030000"/>
+		<bone name="mFaceJawShaper" position="0.000000 0.000000 0.016800" scale="1.030000 1.042501 1.080000"/>
+		<bone name="mFaceLipCornerLeft" position="0.024940 -0.019530 -0.010120" scale="1.102800 1.030000 1.091600"/>
+		<bone name="mFaceLipCornerRight" position="0.024940 0.019130 -0.010120" scale="1.102800 1.030000 1.091600"/>
+		<bone name="mFaceLipLowerCenter" position="0.041760 0.000000 -0.001003" scale="1.108801 1.030000 1.106601"/>
+		<bone name="mFaceLipLowerLeft" position="0.041760 -0.000060 -0.000653" scale="1.108801 1.030000 1.106601"/>
+		<bone name="mFaceLipLowerRight" position="0.041760 0.000060 -0.000653" scale="1.108801 1.030000 1.106601"/>
+		<bone name="mFaceLipUpperCenter" position="0.041520 -0.000600 -0.002151" scale="1.102800 1.030000 1.113953"/>
+		<bone name="mFaceLipUpperLeft" position="0.041562 -0.000460 -0.003046" scale="1.102800 1.053000 1.024542"/>
+		<bone name="mFaceLipUpperRight" position="0.041562 -0.000340 -0.003046" scale="1.102800 1.053000 1.024542"/>
+		<bone name="mFaceNoseBase" position="0.093500 -0.001400 -0.017670" scale="1.030000 1.030000 1.030000"/>
+		<bone name="mFaceNoseBridge" position="0.092095 -0.000800 0.018930" scale="1.062000 0.814000 1.104000"/>
+		<bone name="mFaceNoseCenter" position="0.101680 -0.001800 -0.003080" scale="1.010000 0.968500 1.007000"/>
+		<bone name="mFaceNoseLeft" position="0.085450 0.013650 -0.003750" scale="1.030000 1.036000 1.030000"/>
+		<bone name="mFaceNoseRight" position="0.085450 -0.015650 -0.003750" scale="1.030000 1.036000 1.030000"/>
+		<bone name="mFaceRoot" position="0.025000 0.000000 0.045750" scale="1.030000 1.030499 1.029501"/>
+		<bone name="mFaceTeethLower" position="0.022600 0.000000 -0.040955" scale="1.030000 1.030000 1.030000"/>
+		<bone name="mFaceTeethUpper" position="0.020000 -0.000600 -0.032005" scale="1.030000 1.030000 1.030000"/>
+		<bone name="mFaceTongueBase" position="0.039000 0.000000 0.005000" scale="1.030000 1.030000 1.030000"/>
+		<bone name="mFaceTongueTip" position="0.022000 0.000000 0.007000" scale="1.030000 1.030000 1.030000"/>
 		<bone name="mFootLeft" position="0.112000 0.000000 -0.061000" scale="1.000000 1.000000 1.000000"/>
 		<bone name="mFootRight" position="0.112000 0.000000 -0.061000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mGroin" position="0.064000 0.000000 -0.097000" scale="1.012500 1.006250 1.002500"/>
+		<bone name="mGroin" position="0.064000 0.000000 -0.097000" scale="1.000000 1.000000 1.000000"/>
 		<bone name="mHandIndex1Left" position="0.038000 0.097000 0.015000" scale="0.850000 0.850000 0.850000"/>
 		<bone name="mHandIndex1Right" position="0.038000 -0.097000 0.015000" scale="0.850000 0.850000 0.850000"/>
 		<bone name="mHandIndex2Left" position="0.017000 0.036000 -0.006000" scale="0.850000 0.850000 0.850000"/>
@@ -781,77 +781,77 @@
 		<bone name="mHandThumb2Right" position="0.028000 -0.032000 -0.001000" scale="0.850000 0.850000 0.850000"/>
 		<bone name="mHandThumb3Left" position="0.023000 0.031000 -0.001000" scale="0.850000 0.850000 0.850000"/>
 		<bone name="mHandThumb3Right" position="0.023000 -0.031000 -0.001000" scale="0.850000 0.850000 0.850000"/>
-		<bone name="mHead" position="0.000000 0.000000 0.076000" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mHindLimb1Left" position="-0.204000 0.129880 -0.125000" scale="1.073400 1.073400 1.039000"/>
-		<bone name="mHindLimb1Right" position="-0.204000 -0.129880 -0.125000" scale="1.073400 1.073400 1.039000"/>
-		<bone name="mHindLimb2Left" position="0.002000 -0.046000 -0.491000" scale="1.071600 1.071600 1.140000"/>
-		<bone name="mHindLimb2Right" position="0.002000 0.046000 -0.491000" scale="1.071600 1.071600 1.140000"/>
+		<bone name="mHead" position="0.000000 0.000000 0.076000" scale="1.030000 1.030000 1.030000"/>
+		<bone name="mHindLimb1Left" position="-0.204000 0.128200 -0.125000" scale="1.016200 1.016200 1.007500"/>
+		<bone name="mHindLimb1Right" position="-0.204000 -0.128200 -0.125000" scale="1.016200 1.016200 1.007500"/>
+		<bone name="mHindLimb2Left" position="0.002000 -0.046000 -0.491000" scale="1.018800 1.018800 1.105500"/>
+		<bone name="mHindLimb2Right" position="0.002000 0.046000 -0.491000" scale="1.018800 1.018800 1.105500"/>
 		<bone name="mHindLimb3Left" position="-0.030000 -0.003000 -0.468000" scale="1.000000 1.000000 1.000000"/>
 		<bone name="mHindLimb3Right" position="-0.030000 0.003000 -0.468000" scale="1.000000 1.000000 1.000000"/>
 		<bone name="mHindLimb4Left" position="0.112000 0.000000 -0.061000" scale="1.000000 1.000000 1.000000"/>
 		<bone name="mHindLimb4Right" position="0.112000 0.000000 -0.061000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mHindLimbsRoot" position="-0.200000 0.000000 0.084000" scale="1.018000 1.040000 1.032000"/>
-		<bone name="mHipLeft" position="0.034000 0.127880 -0.041000" scale="1.073400 1.073400 1.039000"/>
-		<bone name="mHipRight" position="0.034000 -0.129880 -0.041000" scale="1.073400 1.073400 1.039000"/>
-		<bone name="mKneeLeft" position="-0.001000 -0.046000 -0.491000" scale="1.071600 1.071600 1.140000"/>
-		<bone name="mKneeRight" position="-0.001000 0.049000 -0.491000" scale="1.071600 1.071600 1.140000"/>
-		<bone name="mNeck" position="-0.010000 0.000000 0.251000" scale="0.813600 0.796800 0.797000"/>
-		<bone name="mPelvis" position="0.010431 0.000550 0.010349" scale="1.018000 1.040000 1.032000"/>
-		<bone name="mShoulderLeft" position="0.000000 0.079000 0.000000" scale="1.018000 1.434000 1.018000"/>
-		<bone name="mShoulderRight" position="0.000000 -0.079000 0.000000" scale="1.018000 1.434000 1.018000"/>
-		<bone name="mSkull" position="0.000000 0.000000 0.070800" scale="0.918000 0.918000 0.918000"/>
-		<bone name="mSpine1" position="0.000000 0.000000 0.084000" scale="1.018000 1.040000 1.032000"/>
-		<bone name="mSpine2" position="0.000000 0.000000 -0.084000" scale="1.018000 1.040000 1.032000"/>
-		<bone name="mSpine3" position="-0.015000 0.000000 0.205000" scale="1.018000 1.018000 1.048500"/>
-		<bone name="mSpine4" position="0.015000 0.000000 -0.205000" scale="1.018000 1.018000 1.048500"/>
-		<bone name="mTail1" position="-0.113000 0.000000 0.047000" scale="1.009000 1.029000 1.018000"/>
-		<bone name="mTail2" position="-0.194000 0.000000 0.000000" scale="1.009000 1.022400 1.018000"/>
-		<bone name="mTail3" position="-0.165000 0.000000 0.000000" scale="1.009000 1.020200 1.018000"/>
-		<bone name="mTail4" position="-0.139000 0.000000 0.000000" scale="1.009000 1.018000 1.018000"/>
-		<bone name="mTail5" position="-0.109000 0.000000 0.000000" scale="1.009000 1.018000 1.018000"/>
-		<bone name="mTail6" position="-0.091000 0.000000 0.000000" scale="1.009000 1.018000 1.018000"/>
+		<bone name="mHindLimbsRoot" position="-0.200000 0.000000 0.084000" scale="0.974000 0.954000 1.026000"/>
+		<bone name="mHipLeft" position="0.034000 0.126200 -0.041000" scale="1.016200 1.016200 1.007500"/>
+		<bone name="mHipRight" position="0.034000 -0.128200 -0.041000" scale="1.016200 1.016200 1.007500"/>
+		<bone name="mKneeLeft" position="-0.001000 -0.046000 -0.491000" scale="1.018800 1.018800 1.105500"/>
+		<bone name="mKneeRight" position="-0.001000 0.049000 -0.491000" scale="1.018800 1.018800 1.105500"/>
+		<bone name="mNeck" position="-0.010000 0.000000 0.251000" scale="0.835600 0.818800 0.892700"/>
+		<bone name="mPelvis" position="0.012741 0.000839 0.008774" scale="0.974000 0.954000 1.026000"/>
+		<bone name="mShoulderLeft" position="0.000000 0.079000 0.000000" scale="0.974000 1.460800 0.974000"/>
+		<bone name="mShoulderRight" position="0.000000 -0.079000 0.000000" scale="0.974000 1.460800 0.974000"/>
+		<bone name="mSkull" position="0.000000 0.000000 0.082000" scale="1.030000 1.030000 1.030000"/>
+		<bone name="mSpine1" position="0.000000 0.000000 0.084000" scale="0.974000 0.954000 1.026000"/>
+		<bone name="mSpine2" position="0.000000 0.000000 -0.084000" scale="0.974000 0.954000 1.026000"/>
+		<bone name="mSpine3" position="-0.015000 0.000000 0.205000" scale="0.974000 0.974000 1.019750"/>
+		<bone name="mSpine4" position="0.015000 0.000000 -0.205000" scale="0.974000 0.974000 1.019750"/>
+		<bone name="mTail1" position="-0.108700 0.000000 0.047000" scale="0.987000 0.964000 0.974000"/>
+		<bone name="mTail2" position="-0.189700 0.000000 0.000000" scale="0.987000 0.970000 0.974000"/>
+		<bone name="mTail3" position="-0.160700 0.000000 0.000000" scale="0.987000 0.972000 0.974000"/>
+		<bone name="mTail4" position="-0.134700 0.000000 0.000000" scale="0.987000 0.974000 0.974000"/>
+		<bone name="mTail5" position="-0.104700 0.000000 0.000000" scale="0.987000 0.974000 0.974000"/>
+		<bone name="mTail6" position="-0.086700 0.000000 0.000000" scale="0.987000 0.974000 0.974000"/>
 		<bone name="mToeLeft" position="0.109000 0.000000 0.000000" scale="1.000000 1.000000 1.000000"/>
 		<bone name="mToeRight" position="0.109000 0.000000 0.000000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mTorso" position="0.000000 0.000000 0.084000" scale="1.018000 1.018000 1.048500"/>
-		<bone name="mWing1Left" position="-0.150800 0.090000 0.181000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mWing1Right" position="-0.150800 -0.090000 0.181000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mWing2Left" position="-0.165750 0.166750 0.067000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mWing2Right" position="-0.165750 -0.166750 0.067000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mWing3Left" position="-0.177250 0.179250 0.000000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mWing3Right" position="-0.177250 -0.179250 0.000000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mWing4FanLeft" position="-0.166500 0.168500 0.000000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mWing4FanRight" position="-0.166500 -0.168500 0.000000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mWing4Left" position="-0.166500 0.168500 0.000000" scale="1.000000 1.000000 1.000000"/>
-		<bone name="mWing4Right" position="-0.166500 -0.168500 0.000000" scale="1.000000 1.000000 1.000000"/>
+		<bone name="mTorso" position="0.000000 0.000000 0.084000" scale="0.974000 0.974000 1.019750"/>
+		<bone name="mWing1Left" position="-0.146400 0.085600 0.181000" scale="1.000000 1.000000 1.000000"/>
+		<bone name="mWing1Right" position="-0.146400 -0.085600 0.181000" scale="1.000000 1.000000 1.000000"/>
+		<bone name="mWing2Left" position="-0.162525 0.163525 0.067000" scale="1.000000 1.000000 1.000000"/>
+		<bone name="mWing2Right" position="-0.162525 -0.163525 0.067000" scale="1.000000 1.000000 1.000000"/>
+		<bone name="mWing3Left" position="-0.171875 0.173875 0.000000" scale="1.000000 1.000000 1.000000"/>
+		<bone name="mWing3Right" position="-0.171875 -0.173875 0.000000" scale="1.000000 1.000000 1.000000"/>
+		<bone name="mWing4FanLeft" position="-0.160050 0.162050 0.000000" scale="1.000000 1.000000 1.000000"/>
+		<bone name="mWing4FanRight" position="-0.160050 -0.162050 0.000000" scale="1.000000 1.000000 1.000000"/>
+		<bone name="mWing4Left" position="-0.160050 0.162050 0.000000" scale="1.000000 1.000000 1.000000"/>
+		<bone name="mWing4Right" position="-0.160050 -0.162050 0.000000" scale="1.000000 1.000000 1.000000"/>
 		<bone name="mWingsRoot" position="-0.014000 0.000000 0.000000" scale="1.000000 1.000000 1.000000"/>
 		<bone name="mWristLeft" position="0.000000 0.205000 0.000000" scale="0.850000 0.850000 0.850000"/>
 		<bone name="mWristRight" position="0.000000 -0.205000 0.000000" scale="0.850000 0.850000 0.850000"/>
-		<collision_volume name="BELLY" position="0.011100 0.000000 0.049500" scale="0.130270 0.175740 0.161775"/>
-		<collision_volume name="BUTT" position="-0.060000 0.000000 -0.100000" scale="0.101800 0.104000 0.103200"/>
-		<collision_volume name="CHEST" position="0.000600 0.000000 0.060000" scale="0.140432 0.184920 0.228500"/>
-		<collision_volume name="HEAD" position="0.020000 0.000000 0.060000" scale="0.103180 0.084270 0.116035"/>
-		<collision_volume name="LEFT_HANDLE" position="0.000000 0.112500 0.058000" scale="0.050900 0.050900 0.052425"/>
-		<collision_volume name="LEFT_PEC" position="0.123280 0.049024 0.050760" scale="0.052560 0.050040 0.052125"/>
-		<collision_volume name="LOWER_BACK" position="0.000000 0.000000 0.023000" scale="0.091620 0.142340 0.157275"/>
-		<collision_volume name="L_CLAVICLE" position="0.000000 0.000000 0.018700" scale="0.090000 0.193240 0.058700"/>
-		<collision_volume name="L_FOOT" position="0.097000 0.000000 -0.041000" scale="0.170000 0.070000 0.050000"/>
+		<collision_volume name="BELLY" position="0.011100 0.000000 0.049500" scale="0.126310 0.170020 0.157462"/>
+		<collision_volume name="BUTT" position="-0.060000 0.000000 -0.100000" scale="0.097400 0.095400 0.102600"/>
+		<collision_volume name="CHEST" position="0.000600 0.000000 0.060000" scale="0.135592 0.178320 0.226350"/>
+		<collision_volume name="HEAD" position="0.020000 0.000000 0.060000" scale="0.112500 0.092100 0.135100"/>
+		<collision_volume name="LEFT_HANDLE" position="0.000000 0.112500 0.058000" scale="0.048700 0.048700 0.050987"/>
+		<collision_volume name="LEFT_PEC" position="0.118000 0.044800 0.049000" scale="0.050360 0.047840 0.051587"/>
+		<collision_volume name="LOWER_BACK" position="0.000000 0.000000 0.023000" scale="0.087660 0.136620 0.152962"/>
+		<collision_volume name="L_CLAVICLE" position="0.000000 0.000000 0.018700" scale="0.090000 0.180920 0.058700"/>
+		<collision_volume name="L_FOOT" position="0.075000 0.000000 -0.041000" scale="0.126000 0.048000 0.050000"/>
 		<collision_volume name="L_HAND" position="0.010000 0.050000 0.000000" scale="0.042500 0.068000 0.025500"/>
-		<collision_volume name="L_LOWER_ARM" position="-0.001300 0.100000 -0.005000" scale="0.044420 0.172900 0.043120"/>
-		<collision_volume name="L_LOWER_LEG" position="-0.020000 0.013200 -0.200000" scale="0.067296 0.067296 0.285000"/>
-		<collision_volume name="L_UPPER_ARM" position="0.000000 0.120000 0.000000" scale="0.058300 0.241180 0.055700"/>
-		<collision_volume name="L_UPPER_LEG" position="-0.020000 -0.036800 -0.220000" scale="0.101106 0.101106 0.332480"/>
-		<collision_volume name="NECK" position="0.000000 0.000000 0.020000" scale="0.055680 0.057808 0.063760"/>
-		<collision_volume name="PELVIS" position="-0.003786 0.000000 -0.026571" scale="0.137696 0.210650 0.182797"/>
-		<collision_volume name="RIGHT_HANDLE" position="0.000000 -0.112500 0.058000" scale="0.050900 0.050900 0.052425"/>
-		<collision_volume name="RIGHT_PEC" position="0.123280 -0.049024 0.050760" scale="0.052560 0.050040 0.052125"/>
-		<collision_volume name="R_CLAVICLE" position="0.000000 0.000000 0.018700" scale="0.090000 0.193240 0.058700"/>
-		<collision_volume name="R_FOOT" position="0.097000 0.000000 -0.041000" scale="0.170000 0.070000 0.050000"/>
+		<collision_volume name="L_LOWER_ARM" position="-0.001300 0.100000 -0.005000" scale="0.042660 0.180334 0.041360"/>
+		<collision_volume name="L_LOWER_LEG" position="-0.020000 0.006000 -0.200000" scale="0.061128 0.061128 0.276375"/>
+		<collision_volume name="L_UPPER_ARM" position="0.000000 0.120000 0.000000" scale="0.056100 0.245736 0.053500"/>
+		<collision_volume name="L_UPPER_LEG" position="-0.020000 -0.044000 -0.220000" scale="0.091458 0.091458 0.322400"/>
+		<collision_volume name="NECK" position="0.000000 0.000000 0.020000" scale="0.056780 0.059128 0.071416"/>
+		<collision_volume name="PELVIS" position="-0.003786 0.000000 -0.026571" scale="0.132416 0.194390 0.181777"/>
+		<collision_volume name="RIGHT_HANDLE" position="0.000000 -0.112500 0.058000" scale="0.048700 0.048700 0.050987"/>
+		<collision_volume name="RIGHT_PEC" position="0.118000 -0.044800 0.049000" scale="0.050360 0.047840 0.051587"/>
+		<collision_volume name="R_CLAVICLE" position="0.000000 0.000000 0.018700" scale="0.090000 0.180920 0.058700"/>
+		<collision_volume name="R_FOOT" position="0.075000 0.000000 -0.041000" scale="0.126000 0.048000 0.050000"/>
 		<collision_volume name="R_HAND" position="0.010000 -0.050000 0.000000" scale="0.042500 0.068000 0.025500"/>
-		<collision_volume name="R_LOWER_ARM" position="-0.001300 -0.100000 -0.005000" scale="0.044420 0.172900 0.043120"/>
-		<collision_volume name="R_LOWER_LEG" position="-0.020000 -0.013200 -0.200000" scale="0.067296 0.067296 0.285000"/>
-		<collision_volume name="R_UPPER_ARM" position="0.000000 -0.120000 0.000000" scale="0.058300 0.241180 0.055700"/>
-		<collision_volume name="R_UPPER_LEG" position="-0.020000 0.036800 -0.220000" scale="0.101106 0.101106 0.332480"/>
-		<collision_volume name="UPPER_BACK" position="0.000000 0.000000 0.017000" scale="0.092008 0.127504 0.156375"/>
+		<collision_volume name="R_LOWER_ARM" position="-0.001300 -0.100000 -0.005000" scale="0.042660 0.180334 0.041360"/>
+		<collision_volume name="R_LOWER_LEG" position="-0.020000 -0.006000 -0.200000" scale="0.061128 0.061128 0.276375"/>
+		<collision_volume name="R_UPPER_ARM" position="0.000000 -0.120000 0.000000" scale="0.056100 0.245736 0.053500"/>
+		<collision_volume name="R_UPPER_LEG" position="-0.020000 0.044000 -0.220000" scale="0.091458 0.091458 0.322400"/>
+		<collision_volume name="UPPER_BACK" position="0.000000 0.000000 0.017000" scale="0.088048 0.121784 0.154762"/>
 		<attachment_point name="Alt Left Ear" position="0.000000 0.000000 0.000000" scale="1.000000 1.000000 1.000000"/>
 		<attachment_point name="Alt Left Eye" position="0.000000 0.000000 0.000000" scale="1.000000 1.000000 1.000000"/>
 		<attachment_point name="Alt Right Ear" position="0.000000 0.000000 0.000000" scale="1.000000 1.000000 1.000000"/>
@@ -907,111 +907,6 @@
 		<attachment_point name="Top" position="0.000000 0.000000 0.500000" scale="1.000000 1.000000 1.000000"/>
 		<attachment_point name="Top Left" position="0.000000 0.500000 0.500000" scale="1.000000 1.000000 1.000000"/>
 		<attachment_point name="Top Right" position="0.000000 -0.500000 0.500000" scale="1.000000 1.000000 1.000000"/>
-		<joint_rig_info num="15" name="mFaceForeheadLeft" min="-0.040381 -0.014941 -0.034824" max="0.019219 0.036188 0.022359" tmin="-0.101440 -0.076149 0.720226" tmax="-0.036484 -0.014641 0.771029"/>
-		<joint_rig_info num="16" name="mFaceForeheadRight" min="-0.032291 -0.030500 -0.029001" max="0.019219 0.013919 0.020583" tmin="-0.121094 0.011162 0.725376" tmax="-0.064896 0.064537 0.769428"/>
-		<joint_rig_info num="17" name="mFaceEyebrowOuterLeft" min="-0.019986 -0.006650 -0.005974" max="0.017213 0.013628 0.014376" tmin="-0.096176 -0.063393 0.715473" tmax="-0.058594 -0.037247 0.734163"/>
-		<joint_rig_info num="18" name="mFaceEyebrowCenterLeft" min="-0.002118 -0.007044 -0.002561" max="0.019573 0.007402 0.002743" tmin="-0.106201 -0.049858 0.724613" tmax="-0.083725 -0.032272 0.729490"/>
-		<joint_rig_info num="19" name="mFaceEyebrowInnerLeft" min="0.000000 -0.003408 -0.002990" max="0.008966 0.000000 0.001946" tmin="-0.104538 -0.023544 0.721186" tmax="-0.095795 -0.018562 0.725719"/>
-		<joint_rig_info num="20" name="mFaceEyebrowOuterRight" min="-0.019821 -0.013902 -0.005974" max="0.017213 0.006639 0.014110" tmin="-0.118500 0.028389 0.715448" tmax="-0.081009 0.054733 0.733896"/>
-		<joint_rig_info num="21" name="mFaceEyebrowCenterRight" min="-0.002410 -0.007342 -0.002544" max="0.020693 0.007425 0.003089" tmin="-0.123260 0.015800 0.724613" tmax="-0.099457 0.033974 0.729792"/>
-		<joint_rig_info num="22" name="mFaceEyebrowInnerRight" min="0.000000 0.000000 -0.002990" max="0.008966 0.003402 0.001946" tmin="-0.110916 0.002823 0.721178" tmax="-0.102188 0.007797 0.725712"/>
-		<joint_rig_info num="23" name="mFaceEyeLidUpperLeft" min="0.000000 -0.011819 -0.000323" max="0.022411 0.015386 0.006484" tmin="-0.112228 -0.051064 0.704655" tmax="-0.086792 -0.023750 0.709776"/>
-		<joint_rig_info num="24" name="mFaceEyeLidLowerLeft" min="0.000000 -0.009280 -0.007016" max="0.019078 0.014808 0.000000" tmin="-0.108749 -0.049866 0.700392" tmax="-0.086914 -0.025848 0.706442"/>
-		<joint_rig_info num="25" name="mFaceEyeLidUpperRight" min="0.000000 -0.015418 -0.000323" max="0.022411 0.011793 0.006457" tmin="-0.126129 0.006187 0.704638" tmax="-0.100677 0.033501 0.709738"/>
-		<joint_rig_info num="26" name="mFaceEyeLidLowerRight" min="0.000000 -0.014839 -0.007016" max="0.019078 0.009249 0.000080" tmin="-0.123032 0.009010 0.700377" tmax="-0.101196 0.033028 0.706493"/>
-		<joint_rig_info num="27" name="mFaceEar1Left" min="-0.001460 -0.000904 -0.003343" max="0.001200 0.001121 0.000852" tmin="-0.016449 -0.066704 0.674707" tmax="-0.013397 -0.064110 0.678904"/>
-		<joint_rig_info num="28" name="mFaceEar2Left" min="-0.003981 -0.012630 -0.024108" max="0.016723 0.000000 0.000470" tmin="-0.011597 -0.082291 0.678946" tmax="0.011505 -0.065125 0.703527"/>
-		<joint_rig_info num="29" name="mFaceEar1Right" min="-0.001460 -0.001125 -0.003343" max="0.001200 0.000900 0.000841" tmin="-0.052582 0.082161 0.674669" tmax="-0.049515 0.084755 0.678854"/>
-		<joint_rig_info num="30" name="mFaceEar2Right" min="-0.003981 0.000000 -0.024108" max="0.018169 0.012901 0.000469" tmin="-0.054581 0.088470 0.678902" tmax="-0.030014 0.106239 0.703485"/>
-		<joint_rig_info num="31" name="mFaceNoseLeft" min="0.000000 -0.001806 -0.003112" max="0.009230 0.004982 0.009676" tmin="-0.115250 -0.027901 0.669794" tmax="-0.105515 -0.019760 0.681538"/>
-		<joint_rig_info num="32" name="mFaceNoseCenter" min="-0.002221 -0.009702 -0.010772" max="0.021283 0.009683 0.012119" tmin="-0.143845 -0.023582 0.664413" tmax="-0.119522 -0.002686 0.684841"/>
-		<joint_rig_info num="33" name="mFaceNoseRight" min="0.000000 -0.004992 -0.003112" max="0.009230 0.001799 0.009676" tmin="-0.122147 0.000557 0.669786" tmax="-0.112411 0.008698 0.681528"/>
-		<joint_rig_info num="34" name="mFaceCheekLowerLeft" min="-0.021439 -0.025011 -0.014797" max="0.038939 0.026543 0.009272" tmin="-0.110458 -0.065071 0.633499" tmax="-0.045288 -0.005409 0.655617"/>
-		<joint_rig_info num="35" name="mFaceCheekUpperLeft" min="-0.030215 -0.005653 -0.010701" max="0.023542 0.030956 0.023931" tmin="-0.110321 -0.069695 0.661379" tmax="-0.054428 -0.025391 0.693188"/>
-		<joint_rig_info num="36" name="mFaceCheekLowerRight" min="-0.021439 -0.026567 -0.014797" max="0.044570 0.034755 0.009358" tmin="-0.130783 -0.012062 0.633482" tmax="-0.058441 0.057640 0.655682"/>
-		<joint_rig_info num="37" name="mFaceCheekUpperRight" min="-0.031426 -0.030987 -0.010701" max="0.023542 0.005636 0.023931" tmin="-0.130753 0.014542 0.661358" tmax="-0.073792 0.059120 0.693167"/>
-		<joint_rig_info num="38" name="mFaceJaw" min="0.000000 -0.013522 -0.021154" max="0.050767 0.013502 0.000000" tmin="-0.080429 -0.013832 0.643641" tmax="-0.029282 0.021271 0.663074"/>
-		<joint_rig_info num="39" name="mFaceChin" min="-0.029864 -0.041964 -0.021956" max="0.025935 0.041940 0.009100" tmin="-0.134674 -0.051430 0.601040" tmax="-0.066452 0.036682 0.625309"/>
-		<joint_rig_info num="40" name="mFaceTeethLower" min="0.000000 -0.023028 -0.000556" max="0.077283 0.022994 0.014647" tmin="-0.128296 -0.033417 0.624613" tmax="-0.049393 0.024368 0.638592"/>
-		<joint_rig_info num="41" name="mFaceLipLowerLeft" min="0.000000 -0.001030 -0.002475" max="0.018164 0.010981 0.006378" tmin="-0.111435 -0.019707 0.622732" tmax="-0.092377 -0.005005 0.631060"/>
-		<joint_rig_info num="42" name="mFaceLipLowerRight" min="0.000000 -0.010998 -0.002475" max="0.018164 0.001021 0.006378" tmin="-0.113556 -0.010933 0.622730" tmax="-0.094513 0.003784 0.631058"/>
-		<joint_rig_info num="43" name="mFaceLipLowerCenter" min="0.000000 -0.016203 -0.000671" max="0.026027 0.016169 0.009227" tmin="-0.121826 -0.026115 0.624434" tmax="-0.091248 0.008484 0.633749"/>
-		<joint_rig_info num="44" name="mFaceTongueBase" min="-0.004496 -0.011436 -0.005203" max="0.016083 0.011412 0.002771" tmin="-0.105988 -0.018280 0.624941" tmax="-0.082672 0.006561 0.632271"/>
-		<joint_rig_info num="45" name="mFaceTongueTip" min="-0.002046 -0.006235 -0.003896" max="0.004179 0.006216 0.000000" tmin="-0.113861 -0.015823 0.632566" tmax="-0.105606 -0.003372 0.636147"/>
-		<joint_rig_info num="46" name="mFaceJawShaper" min="0.000000 -0.011001 -0.039529" max="0.014819 0.010993 0.000000" tmin="-0.048721 -0.004036 0.651941" tmax="-0.030716 0.018814 0.690212"/>
-		<joint_rig_info num="47" name="mFaceForeheadCenter" min="-0.029798 -0.020942 -0.006193" max="0.025807 0.021245 0.041229" tmin="-0.122391 -0.030495 0.729084" tmax="-0.063629 0.019180 0.772636"/>
-		<joint_rig_info num="48" name="mFaceNoseBase" min="0.000000 -0.002062 -0.000612" max="0.004638 0.002056 0.001538" tmin="-0.121567 -0.012817 0.659304" tmax="-0.116547 -0.008141 0.661280"/>
-		<joint_rig_info num="49" name="mFaceTeethUpper" min="0.000000 -0.025325 -0.013075" max="0.079632 0.025291 0.006650" tmin="-0.127609 -0.034576 0.635237" tmax="-0.045609 0.027809 0.653370"/>
-		<joint_rig_info num="50" name="mFaceLipUpperLeft" min="0.000000 -0.001567 -0.005509" max="0.032993 0.014184 0.007656" tmin="-0.121872 -0.024445 0.639616" tmax="-0.087997 -0.002632 0.652382"/>
-		<joint_rig_info num="51" name="mFaceLipUpperRight" min="0.000000 -0.014213 -0.005509" max="0.032993 0.001558 0.007656" tmin="-0.124664 -0.012978 0.639612" tmax="-0.090790 0.008858 0.652378"/>
-		<joint_rig_info num="52" name="mFaceLipCornerLeft" min="0.000000 0.000000 -0.005019" max="0.027374 0.032084 0.006970" tmin="-0.105255 -0.018074 0.633566" tmax="-0.073517 0.016563 0.644655"/>
-		<joint_rig_info num="53" name="mFaceLipCornerRight" min="0.000000 -0.032102 -0.005019" max="0.027374 0.000000 0.006970" tmin="-0.103821 -0.023987 0.633568" tmax="-0.072083 0.010666 0.644657"/>
-		<joint_rig_info num="54" name="mFaceLipUpperCenter" min="0.000000 -0.003054 -0.003038" max="0.014591 0.003047 0.002127" tmin="-0.105270 -0.009918 0.642256" tmax="-0.090530 -0.001221 0.647585"/>
-		<joint_rig_info num="55" name="mFaceEyecornerInnerLeft" min="0.000000 -0.001180 -0.005807" max="0.012179 0.005743 0.001539" tmin="-0.107620 -0.027596 0.697422" tmax="-0.095261 -0.018784 0.704170"/>
-		<joint_rig_info num="56" name="mFaceEyecornerInnerRight" min="0.000000 -0.005751 -0.005807" max="0.012179 0.001172 0.001539" tmin="-0.114868 0.002289 0.697412" tmax="-0.102493 0.011093 0.704161"/>
-		<joint_rig_info num="57" name="mFaceNoseBridge" min="0.000000 -0.009918 -0.002713" max="0.011246 0.009902 0.012518" tmin="-0.125259 -0.019005 0.692530" tmax="-0.111877 -0.002876 0.705055"/>
-		<joint_rig_info num="61" name="mWristLeft" min="-0.041932 -0.007212 -0.020372" max="0.032133 0.072172 0.018523" tmin="0.104523 -0.271530 -0.175564" tmax="0.173798 -0.226868 -0.100412"/>
-		<joint_rig_info num="62" name="mHandMiddle1Left" min="-0.007465 -0.008062 -0.017573" max="0.011060 0.029286 0.001526" tmin="0.109268 -0.275322 -0.219887" tmax="0.128098 -0.254486 -0.185444"/>
-		<joint_rig_info num="63" name="mHandMiddle2Left" min="-0.007059 -0.001577 -0.013431" max="0.010310 0.035177 0.003882" tmin="0.108139 -0.276817 -0.258753" tmax="0.125854 -0.257599 -0.225054"/>
-		<joint_rig_info num="64" name="mHandMiddle3Left" min="-0.007067 -0.000186 -0.008041" max="0.007013 0.032999 0.004837" tmin="0.109085 -0.275398 -0.298502" tmax="0.123566 -0.260452 -0.268444"/>
-		<joint_rig_info num="65" name="mHandIndex1Left" min="-0.003441 -0.006656 -0.015390" max="0.016737 0.030028 0.002112" tmin="0.083618 -0.277077 -0.215164" tmax="0.103699 -0.257568 -0.181337"/>
-		<joint_rig_info num="66" name="mHandIndex2Left" min="-0.003271 -0.001680 -0.010943" max="0.016629 0.028141 0.003368" tmin="0.067383 -0.277420 -0.243004" tmax="0.086670 -0.261307 -0.215282"/>
-		<joint_rig_info num="67" name="mHandIndex3Left" min="-0.002280 -0.001226 -0.007813" max="0.014684 0.024658 0.004897" tmin="0.055466 -0.277176 -0.266390" tmax="0.071976 -0.262955 -0.242319"/>
-		<joint_rig_info num="68" name="mHandRing1Left" min="-0.018408 -0.008752 -0.012215" max="0.016642 0.029645 0.005019" tmin="0.124054 -0.272133 -0.220631" tmax="0.156799 -0.251900 -0.184481"/>
-		<joint_rig_info num="69" name="mHandRing2Left" min="-0.016289 -0.000836 -0.011521" max="0.005633 0.035892 0.008508" tmin="0.141541 -0.271568 -0.259270" tmax="0.163254 -0.249840 -0.225050"/>
-		<joint_rig_info num="70" name="mHandRing3Left" min="-0.012847 -0.000853 -0.007777" max="0.004369 0.027239 0.005752" tmin="0.151596 -0.264107 -0.286764" tmax="0.168488 -0.248962 -0.260738"/>
-		<joint_rig_info num="71" name="mHandPinky1Left" min="-0.021753 -0.009576 -0.009060" max="0.004487 0.024125 0.006360" tmin="0.152451 -0.265518 -0.214369" tmax="0.177399 -0.247749 -0.182888"/>
-		<joint_rig_info num="72" name="mHandPinky2Left" min="-0.015112 -0.003109 -0.006988" max="0.002467 0.016559 0.006347" tmin="0.173294 -0.260872 -0.230490" tmax="0.190018 -0.246735 -0.211554"/>
-		<joint_rig_info num="73" name="mHandPinky3Left" min="-0.014417 -0.001372 -0.005026" max="0.002011 0.016855 0.004903" tmin="0.185272 -0.257332 -0.246964" tmax="0.200729 -0.246262 -0.229647"/>
-		<joint_rig_info num="74" name="mHandThumb1Left" min="-0.001115 -0.006568 -0.019315" max="0.023365 0.013111 0.003022" tmin="0.087830 -0.259659 -0.142862" tmax="0.110916 -0.237572 -0.122623"/>
-		<joint_rig_info num="75" name="mHandThumb2Left" min="-0.006447 -0.004491 -0.017995" max="0.023050 0.021086 0.001649" tmin="0.062256 -0.263145 -0.175123" tmax="0.089737 -0.242470 -0.149874"/>
-		<joint_rig_info num="76" name="mHandThumb3Left" min="-0.004039 -0.003832 -0.013326" max="0.017828 0.024576 0.001766" tmin="0.045547 -0.266823 -0.202269" tmax="0.066483 -0.250099 -0.175543"/>
-		<joint_rig_info num="80" name="mWristRight" min="-0.037765 -0.071216 -0.020372" max="0.032133 0.007368 0.018523" tmin="-0.009659 0.217766 -0.187195" tmax="0.061951 0.283653 -0.113607"/>
-		<joint_rig_info num="81" name="mHandMiddle1Right" min="-0.007465 -0.028452 -0.017248" max="0.011074 0.008552 0.001530" tmin="-0.005936 0.229973 -0.232748" tmax="0.017838 0.254646 -0.199276"/>
-		<joint_rig_info num="82" name="mHandMiddle2Right" min="-0.007058 -0.034371 -0.013428" max="0.010262 0.001764 0.003878" tmin="-0.005234 0.225830 -0.271481" tmax="0.016937 0.248833 -0.238895"/>
-		<joint_rig_info num="83" name="mHandMiddle3Right" min="-0.007069 -0.031999 -0.008043" max="0.006681 0.000424 0.004713" tmin="-0.000992 0.222610 -0.310724" tmax="0.016342 0.240448 -0.281733"/>
-		<joint_rig_info num="84" name="mHandIndex1Right" min="-0.003330 -0.027648 -0.015184" max="0.016799 0.007076 0.002112" tmin="-0.027695 0.217529 -0.226288" tmax="-0.003601 0.241722 -0.194662"/>
-		<joint_rig_info num="85" name="mHandIndex2Right" min="-0.003308 -0.027219 -0.010938" max="0.016625 0.001946 0.003367" tmin="-0.039154 0.205811 -0.254770" tmax="-0.016876 0.227371 -0.227962"/>
-		<joint_rig_info num="86" name="mHandIndex3Right" min="-0.002281 -0.023683 -0.007815" max="0.014684 0.001640 0.004896" tmin="-0.046997 0.196037 -0.277424" tmax="-0.027771 0.214813 -0.254166"/>
-		<joint_rig_info num="87" name="mHandRing1Right" min="-0.018070 -0.028681 -0.012678" max="0.015737 0.009269 0.005053" tmin="0.008286 0.237610 -0.233959" tmax="0.042404 0.268707 -0.198454"/>
-		<joint_rig_info num="88" name="mHandRing2Right" min="-0.016289 -0.034950 -0.011113" max="0.005629 0.001089 0.008500" tmin="0.024536 0.240471 -0.272148" tmax="0.051041 0.267235 -0.239180"/>
-		<joint_rig_info num="89" name="mHandRing3Right" min="-0.012780 -0.026115 -0.007755" max="0.004369 0.001148 0.005736" tmin="0.038589 0.240753 -0.298866" tmax="0.058395 0.260315 -0.273928"/>
-		<joint_rig_info num="90" name="mHandPinky1Right" min="-0.020173 -0.023178 -0.008908" max="0.004135 0.010482 0.006400" tmin="0.033981 0.251884 -0.227682" tmax="0.060043 0.276535 -0.196678"/>
-		<joint_rig_info num="91" name="mHandPinky2Right" min="-0.014797 -0.015885 -0.006644" max="0.002465 0.004026 0.006341" tmin="0.054092 0.259834 -0.243984" tmax="0.073380 0.278534 -0.225267"/>
-		<joint_rig_info num="92" name="mHandPinky3Right" min="-0.014439 -0.015898 -0.005039" max="0.002015 0.001761 0.004920" tmin="0.066650 0.263962 -0.260237" tmax="0.083847 0.279984 -0.243597"/>
-		<joint_rig_info num="93" name="mHandThumb1Right" min="-0.001111 -0.012601 -0.019315" max="0.023366 0.007130 0.003022" tmin="-0.018341 0.213470 -0.153603" tmax="0.010437 0.242126 -0.134111"/>
-		<joint_rig_info num="94" name="mHandThumb2Right" min="-0.006447 -0.020402 -0.017995" max="0.023050 0.005051 0.001649" tmin="-0.038803 0.197845 -0.185278" tmax="-0.007462 0.227364 -0.160625"/>
-		<joint_rig_info num="95" name="mHandThumb3Right" min="-0.004039 -0.023699 -0.013377" max="0.017909 0.004689 0.001774" tmin="-0.052750 0.189552 -0.212126" tmax="-0.028687 0.212601 -0.185778"/>
-		<joint_rig_info num="109" name="mAnkleRight" min="-0.039276 -0.028305 -0.049565" max="0.067611 0.026082 0.019507" tmin="-0.099869 0.052437 -1.129967" tmax="0.007477 0.107750 -1.060766"/>
-		<joint_rig_info num="110" name="mFootRight" min="-0.003534 -0.031376 -0.005132" max="0.079238 0.029931 0.016732" tmin="-0.223495 0.047714 -1.146603" tmax="-0.140228 0.109695 -1.124615"/>
-		<joint_rig_info num="114" name="mAnkleLeft" min="-0.039280 -0.027919 -0.049570" max="0.067608 0.026405 0.019504" tmin="-0.026306 -0.125038 -1.121906" tmax="0.090805 -0.015137 -1.052580"/>
-		<joint_rig_info num="115" name="mFootLeft" min="-0.003535 -0.031915 -0.005149" max="0.080052 0.029407 0.016717" tmin="-0.125122 -0.206238 -1.138279" tmax="-0.021606 -0.105789 -1.116182"/>
-		<joint_rig_info num="133" name="PELVIS" min="-0.607140 -0.799151 -0.703326" max="1.020722 0.799000 0.219400" tmin="-0.188492 -0.201347 -0.167892" tmax="0.134964 0.183762 0.038010"/>
-		<joint_rig_info num="134" name="BUTT" min="-0.471549 -0.489179 -0.484089" max="0.295185 0.489022 0.875573" tmin="0.007431 -0.047012 -0.143539" tmax="0.110046 0.073380 -0.000797"/>
-		<joint_rig_info num="135" name="BELLY" min="0.000000 -0.316512 -0.316384" max="0.702157 0.316422 0.261197" tmin="-0.130936 -0.080292 0.082491" tmax="-0.001144 0.051270 0.192156"/>
-		<joint_rig_info num="136" name="LEFT_HANDLE" min="-0.495423 -0.141688 -0.839408" max="0.500596 0.664305 0.343042" tmin="-0.010468 -0.151047 0.116711" tmax="0.050186 -0.097023 0.180626"/>
-		<joint_rig_info num="137" name="RIGHT_HANDLE" min="-0.495423 -0.664730 -0.839408" max="0.500596 0.141618 0.343041" tmin="-0.074463 0.096352 0.108961" tmax="-0.013809 0.150391 0.172876"/>
-		<joint_rig_info num="138" name="LOWER_BACK" min="-0.668643 -0.398557 -0.163247" max="0.006250 0.398422 0.280512" tmin="-0.027191 -0.056602 0.093733" tmax="0.062531 0.070488 0.167793"/>
-		<joint_rig_info num="139" name="CHEST" min="-0.509075 -0.792036 -0.554565" max="0.823238 0.791883 0.528672" tmin="-0.166306 -0.168800 0.236183" tmax="0.111847 0.174683 0.511644"/>
-		<joint_rig_info num="140" name="LEFT_PEC" min="-0.451388 -0.134694 -0.225437" max="0.085206 0.759547 0.670324" tmin="-0.128189 -0.109673 0.345638" tmax="-0.083374 -0.059006 0.397110"/>
-		<joint_rig_info num="141" name="RIGHT_PEC" min="-0.451387 -0.759751 -0.225437" max="0.085206 0.134613 0.670327" tmin="-0.160583 0.015549 0.341717" tmax="-0.115768 0.066216 0.393188"/>
-		<joint_rig_info num="142" name="UPPER_BACK" min="-0.515923 -0.289384 -0.139686" max="0.016741 0.289317 0.379252" tmin="-0.016815 -0.028305 0.306730" tmax="0.054596 0.056526 0.393030"/>
-		<joint_rig_info num="143" name="NECK" min="-0.818005 -0.993418 -0.365182" max="0.914734 0.992875 0.415025" tmin="-0.073502 -0.054153 0.563906" tmax="0.049683 0.081062 0.618444"/>
-		<joint_rig_info num="144" name="HEAD" min="-0.972146 -0.973731 -0.374556" max="0.635386 0.973350 0.804426" tmin="-0.111725 -0.085098 0.645861" tmax="0.088181 0.113495 0.782734"/>
-		<joint_rig_info num="145" name="L_CLAVICLE" min="-0.479447 -0.044663 -0.618653" max="0.264061 0.195605 0.508278" tmin="-0.000916 -0.096771 0.465490" tmax="0.077316 -0.030167 0.538315"/>
-		<joint_rig_info num="146" name="L_UPPER_ARM" min="-1.416129 -0.438689 -1.234218" max="1.041317 0.528640 1.028248" tmin="0.007935 -0.275604 0.169254" tmax="0.206558 -0.116028 0.445780"/>
-		<joint_rig_info num="147" name="L_LOWER_ARM" min="-0.734958 -0.428847 -1.080310" max="1.119707 0.488491 0.956717" tmin="0.085983 -0.285698 -0.066534" tmax="0.174698 -0.186844 0.095051"/>
-		<joint_rig_info num="148" name="L_HAND" min="-0.112043 -0.034635 -0.045639" max="0.079839 0.108711 0.034930" tmin="0.120560 -0.254112 -0.160133" tmax="0.130890 -0.251007 -0.148588"/>
-		<joint_rig_info num="149" name="R_CLAVICLE" min="-0.479447 -0.195159 -0.618646" max="0.264065 0.044955 0.508278" tmin="-0.049088 0.066277 0.456957" tmax="0.038208 0.132347 0.539055"/>
-		<joint_rig_info num="150" name="R_UPPER_ARM" min="-1.416129 -0.525880 -1.235469" max="1.035613 0.441585 1.027101" tmin="-0.098938 0.131088 0.162640" tmax="0.126511 0.328156 0.431879"/>
-		<joint_rig_info num="151" name="R_LOWER_ARM" min="-0.716267 -0.484696 -1.062111" max="1.115675 0.418051 0.935736" tmin="-0.030258 0.183311 -0.083090" tmax="0.086731 0.318001 0.085678"/>
-		<joint_rig_info num="152" name="R_HAND" min="-0.111854 -0.108042 -0.045732" max="0.080028 0.035257 0.034838" tmin="0.011215 0.239662 -0.173052" tmax="0.020660 0.247810 -0.161325"/>
-		<joint_rig_info num="153" name="R_UPPER_LEG" min="-0.998750 -1.184232 -0.546013" max="1.053827 0.798240 0.415847" tmin="-0.175262 -0.011116 -0.453627" tmax="0.076172 0.248222 -0.116323"/>
-		<joint_rig_info num="154" name="R_LOWER_LEG" min="-1.419873 -1.232697 -0.671385" max="0.600018 0.695599 0.455501" tmin="-0.098373 0.042992 -0.972782" tmax="0.064865 0.212402 -0.642893"/>
-		<joint_rig_info num="155" name="R_FOOT" min="-0.237628 -0.217182 -0.202421" max="0.263029 0.207445 0.523553" tmin="-0.177704 0.063454 -1.139156" tmax="-0.087341 0.093910 -1.088549"/>
-		<joint_rig_info num="156" name="L_UPPER_LEG" min="-1.000146 -0.776978 -0.546241" max="1.052377 1.205330 0.415618" tmin="-0.117966 -0.251785 -0.449064" tmax="0.162994 0.006050 -0.108036"/>
-		<joint_rig_info num="157" name="L_LOWER_LEG" min="-1.420258 -0.714771 -0.671242" max="0.599630 1.214129 0.455611" tmin="-0.013992 -0.193336 -0.964508" tmax="0.156784 -0.009087 -0.634439"/>
-		<joint_rig_info num="158" name="L_FOOT" min="-0.237636 -0.220242 -0.202456" max="0.266007 0.204257 0.523522" tmin="-0.079117 -0.165321 -1.130875" tmax="0.009827 -0.084969 -1.080320"/>
 	</archetype>
 
 </linden_genepool>
