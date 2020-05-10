@@ -11,28 +11,28 @@
 head=9c9e84d5-4517-9c9d-4d11-394cfa013c2b
 upper=12fc1130-1b5e-03f2-d3b1-90905ed0d58f
 lower=72e21065-386b-3493-5a5a-ebd0f06e12d1
-thumbnail=9c9e84d5-4517-9c9d-4d11-394cfa013c2b
+thumbnail=9816e401-1188-c617-98d3-f0ee3096d5e0
 
 #  Adamek Titanium 2
 [skin2]
 head=5625feca-e0d3-5b98-f5bd-f90e67f0dc3b
 upper=62bdda96-f229-ec4a-b381-fd0fea4aef83
 lower=36a8f158-1539-c52f-0aa1-b9596398a2c6
-thumbnail=5625feca-e0d3-5b98-f5bd-f90e67f0dc3b
+thumbnail=be8a3772-4fc0-b1ab-6d76-cd024a49de1e
 
 #  Adamek Titanium 3
 [skin3]
 head=b331fb33-0052-fd26-df93-291aa9bcc3e1
 upper=cb31fac9-e1e2-e786-1760-10a2ca21ade9
 lower=459997d4-f501-8413-bc17-ca59230d1c0a
-thumbnail=b331fb33-0052-fd26-df93-291aa9bcc3e1
+thumbnail=d096d76a-8832-43bd-c2f1-916d83180013
 
 #  Adamek Titanium 4
 [skin4]
 head=9de42f26-399c-4305-f9ec-63c4793c8833
 upper=c3c2d505-2014-dea4-931d-2f3f173b70f3
 lower=688c9118-ba1d-90b4-d16f-6920b5e3f3e4
-thumbnail=9de42f26-399c-4305-f9ec-63c4793c8833
+thumbnail=d3708c30-3620-bf83-9c0d-1d11c194b7a9
 
 #
 [skin5]
@@ -53,21 +53,21 @@ thumbnail=0585d463-b6e4-2c6c-46a3-19aa9c512a3c
 head=10e3e0cc-1d9a-a87e-fdd7-c49b9664c6be
 upper=74445f2f-799a-bbeb-2ded-824cc704b3f2
 lower=0c962c0c-152d-5eb4-fc55-0097344448b3
-thumbnail=10e3e0cc-1d9a-a87e-fdd7-c49b9664c6be
+thumbnail=4b32509f-0075-d483-10b1-944f6194427e
 
 # Eloh Eliot Another Skin - Medium
 [skin8]
 head=d110d14d-391d-c988-e6d1-208efb6ca4b1
 upper=e469fcff-b862-3b13-16a9-1edfc7f980c5
 lower=e9acaebe-6fd6-9afa-e218-afd04a55542e
-thumbnail=d110d14d-391d-c988-e6d1-208efb6ca4b1
+thumbnail=3ceb9dd1-561a-862d-1f13-f7c55e7935ce
 
 # Eloh Eliot Another Skin - Dark
 [skin9]
 head=f91584ba-e55b-7607-f62f-070bf16924c4
 upper=7cf9b70f-453e-2a2d-7229-30abd9881e02
 lower=b104ec44-6b4e-d6b2-06ef-63ebfa30bcda
-thumbnail=f91584ba-e55b-7607-f62f-070bf16924c4
+thumbnail=3dd4aaa5-1a78-73c7-6cea-c3e0ec9e69ed
 
 #
 [skin10]
@@ -82,24 +82,24 @@ thumbnail=
 # Ada Radius aqua
 [eyes1]
 eyes=e4b29c0c-c00a-6cdc-d557-79aef0b563de
-thumbnail=e4b29c0c-c00a-6cdc-d557-79aef0b563de
+thumbnail=45ef2921-534d-a670-f039-d2d1ea55567d
 
 # Ada Radius green
 [eyes2]
 eyes=c3db71c8-7411-1709-749b-bae32e84f20e
-thumbnail=c3db71c8-7411-1709-749b-bae32e84f20e
+thumbnail=0ec202da-b9bc-ae23-a126-1b2533186295
 
 # Ada Radius indigo
 [eyes3]
 eyes=d45db142-d9aa-f977-7dae-4828410c2c81
-thumbnail=d45db142-d9aa-f977-7dae-4828410c2c81
+thumbnail=8b83166f-f1db-f97a-7ffb-fa724cff3af3
 
 # Ada Radius gray
 [eyes4]
 eyes=43909204-1c34-59eb-69c9-d13359518117
-thumbnail=43909204-1c34-59eb-69c9-d13359518117
+thumbnail=00ec701d-44ed-43a5-04bb-39b1963ac208
 
 # Ada Radius black
 [eyes5]
 eyes=affba257-601d-336f-d607-41427fbb4405
-thumbnail=affba257-601d-336f-d607-41427fbb4405
+thumbnail=ee8cd869-2e49-3424-76d7-46fc6040bdd5

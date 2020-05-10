@@ -6,33 +6,33 @@
 
 # Skin textures
 
-#  Adamek Titanium
+#  Adamek Titanium 1
 [skin1]
 head=23e81daa-47cf-463f-8e5f-33919dc38865
 upper=27359afc-7e59-419d-a4f5-dcf360a895e1
 lower=4dd12056-ffe0-4cd7-a4ca-0e17d8a1ff35
-thumbnail=d36dd8da-c20a-483e-8e29-a765e766f39b
+thumbnail=8b6d806d-5c18-4146-9bba-72b05d22f306
 
-#  Adamek Titanium
+#  Adamek Titanium 2
 [skin2]
 head=91894009-5c04-4345-992c-a404ded90ed2
 upper=4d8c3b40-524b-448e-9124-c5dfee34cb84
 lower=1a97e3e6-25ce-4758-b4ae-fe8b07bd278d
-thumbnail=88fad504-d11d-4497-a863-2510142bfbc4
+thumbnail=e86f89e4-c57c-427d-9854-934f7effcf93
 
-#  Adamek Titanium
+#  Adamek Titanium 3
 [skin3]
 head=555f86d1-83be-4a8d-b19a-27445155a113
 upper=ab18b6c0-cf0c-44ce-afd2-cfaf8d3778b1
 lower=d3978c3d-0456-418c-b955-2022c8bf249c
-thumbnail=49d794fc-7dfc-4e54-9919-aeeabb95c322
+thumbnail=15c51819-adcc-474a-8fa8-a3809861a70a
 
-#  Adamek Titanium
+#  Adamek Titanium 4
 [skin4]
 head=baf28278-66e7-4a7e-a7fe-2219fbd25097
 upper=37825d26-01dd-49e7-b1e9-86ccf5f8600f
 lower=ea43f05e-3ec2-4133-b587-4e2621a4e40b
-thumbnail=cdc5e7a5-68b0-4c30-b0b6-3413fd9f4273
+thumbnail=fdb753f5-072d-4df8-a352-3f8b550ecfe4
 
 # 
 [skin5]
@@ -53,28 +53,28 @@ thumbnail=94acc967-abc6-40cc-9cf3-a0d34f07d5e2
 head=815bc9f8-7067-4b12-9357-728e8866bf59
 upper=340abaad-61a9-4c22-80f0-a3b3035fc6e0
 lower=0c148d05-2bbf-43ce-9154-da3708e82d07
-thumbnail=f2cc7974-1e02-40ce-b45c-77422b14587d
+thumbnail=2b42652f-9468-484d-acc7-e29d818f5bf9
 
 # Eloh Eliot Another Skin - Medium
 [skin8]
 head=43ecc90a-966d-4255-9784-784fc12db263
 upper=bb1177c5-b2ad-4d30-9772-2b59c7f621a2
 lower=bfe1fbba-57db-4d49-8f40-b9b860143d3f
-thumbnail=527a9d274-380b-4020-8299-62676a959036
+thumbnail=c6da7464-e76f-4d04-be1d-52f56a396257
 
 # Eloh Eliot Another Skin - Medium Alt
 # [skin8]
 # head=a0031c11-3fae-4e41-86b5-c466507cb14c
 # upper=1bb6679b-6aad-42f7-af19-a7fbabe97f59
 # lower=50007a87-b3be-404c-b59c-ad1207d62314
-# thumbnail=02234d30-84e6-4540-aa7f-42569a0e18fc
+# thumbnail=f351ef64-98d0-4ad7-b3f3-e2985a484767
 
 # Eloh Eliot Starlight - Dark
 [skin9]
 head=88948c10-7242-498d-bbc5-f6b3b7765d05
 upper=8891b92a-6707-4e1f-b8cd-24d9a4496421
 lower=8b42669e-ab4f-4bac-853f-678f0cd8aa5b
-thumbnail=b3ded6be-880d-4dd5-89d3-2275a53d5bf4
+thumbnail=f351ef64-98d0-4ad7-b3f3-e2985a484767
 
 
 # Eye textures
@@ -82,24 +82,24 @@ thumbnail=b3ded6be-880d-4dd5-89d3-2275a53d5bf4
 # Ada Radius Aqua
 [eyes1]
 eyes=888159d1-9a76-428b-8bd4-09bbe839ad4d
-thumbnail=dd33a9b7-e4a3-4e95-abcd-e4cb7e9643ad
+thumbnail=a249e37c-9fcd-4db6-858d-d76ed58f5666
 
 # Ada Radius Green
 [eyes2]
 eyes=998384dd-1355-4c1e-8922-786cd8ac4f27
-thumbnail=c1f8daf5-7f04-4fb2-9e00-f75c867c2121
+thumbnail=e01740d9-4d10-4805-afcc-a46730affcd8
 
 # Ada Radius Indigo
 [eyes3]
 eyes=5e449887-e7db-43ae-96b9-f6eff575063e
-thumbnail=8f9447f5-6102-4824-9b34-3dfc58a16abf
+thumbnail=fc8d8e1b-0678-4eb0-b649-e7f359da5488
 
 # Ada Radius Gray
 [eyes4]
 eyes=3bcab2c3-f2db-4a49-8d75-fe5d12191f4e
-thumbnail=a89e822c-972c-48aa-814e-1aaebeb6684e
+thumbnail=6150ef20-ede4-44e2-9f7e-74ea4f9b77c6
 
 # Ada Radius Black
 [eyes5]
 eyes=3f9e2555-7d39-4b00-86c5-ba9f717d0552
-thumbnail=e46d1c20-4c2c-4827-95d4-edecc5097c26
+thumbnail=0c5bcc87-1cce-433e-b26e-5bf700bb08a0
