@@ -53,21 +53,28 @@ thumbnail=0585d463-b6e4-2c6c-46a3-19aa9c512a3c
 head=10e3e0cc-1d9a-a87e-fdd7-c49b9664c6be
 upper=74445f2f-799a-bbeb-2ded-824cc704b3f2
 lower=0c962c0c-152d-5eb4-fc55-0097344448b3
-thumbnail=4b32509f-0075-d483-10b1-944f6194427e
+thumbnail=1e09582c-2040-5581-678f-ee4994959f33
 
 # Eloh Eliot Another Skin - Medium
 [skin8]
 head=d110d14d-391d-c988-e6d1-208efb6ca4b1
 upper=e469fcff-b862-3b13-16a9-1edfc7f980c5
 lower=e9acaebe-6fd6-9afa-e218-afd04a55542e
-thumbnail=3ceb9dd1-561a-862d-1f13-f7c55e7935ce
+thumbnail=73ca77d7-eee4-ca03-5469-a2cc0cb41b6b
 
-# Eloh Eliot Another Skin - Dark
+# Eloh Eliot Another Skin - Medium Alt
+#[skin9]
+#head=f91584ba-e55b-7607-f62f-070bf16924c4
+#upper=7cf9b70f-453e-2a2d-7229-30abd9881e02
+#lower=b104ec44-6b4e-d6b2-06ef-63ebfa30bcda
+#thumbnail=3dd4aaa5-1a78-73c7-6cea-c3e0ec9e69ed
+
+# Eloh Eliot Starlight - Dark
 [skin9]
-head=f91584ba-e55b-7607-f62f-070bf16924c4
-upper=7cf9b70f-453e-2a2d-7229-30abd9881e02
-lower=b104ec44-6b4e-d6b2-06ef-63ebfa30bcda
-thumbnail=3dd4aaa5-1a78-73c7-6cea-c3e0ec9e69ed
+head=0ed8791e-533a-8592-e540-1dcd83b12739
+upper=b974c96f-d632-23a4-d8bf-a4ffaa3b69fd
+lower=6aa14ddd-fd45-49ed-6c15-9d1660833c34
+thumbnail=71ce2a3b-477e-b761-a8d4-6e50f49f9f88
 
 #
 [skin10]
