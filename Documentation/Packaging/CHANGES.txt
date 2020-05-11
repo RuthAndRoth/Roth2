@@ -58,14 +58,13 @@ Roth2 v2 is a single layer mesh that is designed to work well with Bakes on Mesh
 2020-04-23
   - Use Roth2.0v2DRAFT5 mesh from Github commit ff9c733a1511
 
-Changes from Roth2 v1 (Roth 2.0 RC#1) to Roth2 v2
+Changes from Roth2 v1 (Roth 2.0 RC#1 Prepared 2018-12-29) to Roth2 v2
 * Revised mesh with shape changes resulting from community feedback.
 * Revised bento head to better respond to animations.
-* Improved righging and vertex weights.
+* Improved rigging and vertex weights.
 * Reduced number of mesh faces to avoid separate alpha cut mesh parts.
-* Single combination HUD for alpha, skins and options suhc as hand poses. 
+* Single combination HUD for alpha, skins and options such as hand poses. 
 
 Known Issues
 * The Roth2 v2 body mesh is no-trans as it is still a draft and is not ready for general consumption
-* HUD Alpha Panel
-  * The Fingernails and Toenails buttons are not hooked up yet
+* Fingernails and Toenails are not yet included.
