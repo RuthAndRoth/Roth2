@@ -66,5 +66,5 @@ Changes from Roth2 v1 (Roth 2.0 RC#1 Prepared 2018-12-29) to Roth2 v2
 * Single combination HUD for alpha, skins and options such as hand poses. 
 
 Known Issues
-* The Roth2 v2 body mesh is no-trans as it is still a draft and is not ready for general consumption
+* The Roth2 v2 body mesh is no-transfer as it is still a draft and is not ready for general consumption.
 * Fingernails and Toenails are not yet included.
