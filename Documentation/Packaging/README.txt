@@ -88,12 +88,3 @@ CREDITS
 * Elf Ears: AGPL by Fred K. Beckhusen (avatar: Ferd Frederix) and Ai Austin.
 * R2 Logo by Serie Sumei based on original by Shin Ingen: https://github.com/RuthAndRoth/Extras/tree/master/Textures/Logo
 * Thanks to all contributors as listed in the LICENSE text file.
-
-Roth2 v2 Resources
-* !LICENSE
-* Textures and other resources with original UUIDs as used within the other assets
-* All skin and eye textures and thumbnails used in default HUD
-
-Roth2 v2 Mesh Uploads
-* !LICENSE
-* Collada (.dae) Mesh as originally uploaded and before attaching a root prim or any texturing.
