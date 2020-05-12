@@ -13,16 +13,16 @@ The "Roth2 v2 Mesh Avatar" box contents are designed so that they form a complet
 ============================================================
 HUD
 
-Roth2 v2 uses a single combination HUD for alpha masking, skin and eye texture applier and other features. The skins and eyes that are available is set via a notecard (!CONFIG) in the Contents of the HUD which can be edited to incorporate your own skins (10 slots are available) and/or eye textures (5 slots are available).
+Roth2 v2 uses a single combination HUD for alpha masking, skin and eye texture applier and other features. The skins and eyes that are available are set via a notecard (!CONFIG) in the Contents of the HUD which can be edited to incorporate your own skins (10 slots are available) and/or eye textures (5 slots are available).
 
 ============================================================
 BOX CONTENTS
 
 Roth2 v2 Mesh Avatar - This is the normal distribution box and is designed so that once unpacked its contents can be "worn". It does not contain basic "classic" avatar shape, skin, eyes or hair so that the users own existing underlying avatar setup is used. The extras box contains examples of the basic avatar items to select from if needed.
 * !README, !LICENSE and !CHANGES
-* Full Body - Roth2 v2 body+feet+hands+head
-* Eyes - Roth2 v2 eyes
-* HUD - Roth2 v2 HUD
+* Roth2 v2 Full (Body+Feet+Hands+Head)
+* Roth2 v2 Eyes
+* Roth2 v2 HUD
 * Initial skin, shape, basic eyes and basic hair
 * Dark gray underwear
 
@@ -32,7 +32,7 @@ Roth 2 v2 Extras - This is a box of useful extra elements and options.
 * Roth2 v2 Feet
 * Roth2 v2 Hands
 * Roth2 v2 Head
-* Roth2 v2 Headless (body+feet+hands)
+* Roth2 v2 Headless (Body+Feet+Hands)
 * Roth2 v2 Head+Vneck (section of body)
 * Roth2 v2 Elf Ears
 * Dark grey underwear top jacket length version
