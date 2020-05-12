@@ -1,22 +1,14 @@
 Roth2 - Open Source Mesh Avatar for Virtual Worlds
 Prepared: Date TBD - Filled in when inworld box created
 
-Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is built to use standard Second Life(TM) UV maps using scratch-built open source mesh by Shin Ingen, Ada Radius and other contributors from the OpenSimulator Community.
-
-* Github Repository: https://github.com/RuthAndRoth/Roth2
-* Discord Discussion Channel: https://discordapp.com/channels/619919380154810380/619919380691550240
-* Discord Discussion Channel Invitation (open to all): https://discord.gg/UMyaZkc
-* MeWe Community Page: https://mewe.com/group/5bbe0189a5f4e57c73569fb9
-* Second Life Groups: "RuthAndRoth" and "Ruth and Roth Community"
-* OpenSim Group: OSGrid RuthAndRoth
-* OpenSim Region: OSGrid RuthAndRoth hop://login.osgrid.org/RuthAndRoth/128/128/26
+Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is built to use standard Second Life(TM) UV maps using a scratch-built open source mesh by Shin Ingen, Ada Radius and other contributors from the OpenSimulator Community.
 
 ============================================================
 BAKES ON MESH
 
-Roth2 v2 is a single layer mesh that is designed to work well with Bakes on Mesh.  It still has a simplified alpha capability. Skin textures may still be applied, but in Bakes on Mesh mode system layer alpha masks can be worn to give more control over hidden areas.
+Roth2 v2 is provided as a single mesh that is designed to work well with Bakes on Mesh. It has a simple alpha capability without needing separate mesh parts and alpha masks can be worn to give more control over hidden areas. rather than use Bakes on mesh, skin textures may be applied, but you should then add a full body alpha mask to hide the underlying system avatar.
 
-The "Roth2 v2 Mesh Avatar" box contents are designed so that they form a complete initial avatar using Bakes on Mesh. You can switch to your own shape, skin, eyes and hair and/or use the HUD to change your appearance.
+The "Roth2 v2 Mesh Avatar" box contents are designed so that they form a complete initial avatar using Bakes on Mesh. You can switch to your own shape, skin, eyes and hair and/or use the HUD to change your appearance. Some example skins, hair, clothing  and a range of alpha masks are provided in the "Roth2 v2 Extras" box.
 
 ============================================================
 HUD
@@ -69,7 +61,19 @@ Foot skin problems? For best result, paint over the system toenails and remove a
 
 HUD issues? The Extras box contains a HUD debug script. Add this to the HUD contentsto allow for a long mouse press to bring up menu with diagnostic and further options.
 
-Please send us your feedback by posting on our Discord Channel.
+============================================================
+RUTHANDROTH COMMUNITY
+
+Please contribute via the GitHub Repository and send your feedback by posting to the Discord Channel.
+
+* Github Repository: https://github.com/RuthAndRoth/Roth2
+* Discord Discussion Channel: https://discordapp.com/channels/619919380154810380/619919380691550240
+* Discord Discussion Channel Invitation (open to all): https://discord.gg/UMyaZkc
+* MeWe Community Page: https://mewe.com/group/5bbe0189a5f4e57c73569fb9
+* Second Life Marketplace: https://marketplace.secondlife.com/stores/228512
+* Second Life Groups: "RuthAndRoth" and "Ruth and Roth Community"
+* OpenSim Group: OSGrid RuthAndRoth
+* OpenSim Region: OSGrid RuthAndRoth hop://login.osgrid.org/RuthAndRoth/128/128/26
 
 ============================================================
 CREDITS
