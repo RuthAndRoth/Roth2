@@ -5,7 +5,7 @@
 
 // v2.0 12Apr2020 <seriesumei@avimail.org> - Based on ru2_hud_control.lsl v3.2
 // v2.1 12Apr2020 <seriesumei@avimail.org> - New simpler alpha HUD
-// v2.2 09May2020 <seriesumei@avimail.org> - Rework skin panel
+// v2.2 12May2020 <seriesumei@avimail.org> - Rework skin panel
 
 // This is a heavily modified version of Shin's RC3 HUD scripts for alpha
 // and skin selections.
@@ -402,7 +402,7 @@ set_alpha_section(string section_name, integer alpha) {
                 alpha = !json_get_alpha(current_alpha, link_name, doll_face);
                 log("val: " + (string)alpha);
             }
-//            send_csv(["ALPHA", section_name, 0, alpha]);
+            send_csv(["ALPHA", section_name, 0, alpha]);
             set_alpha(link_name, doll_face, alpha);
         }
     }
