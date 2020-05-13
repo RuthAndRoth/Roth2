@@ -2,6 +2,6 @@
 
 # <link-name>, <face>, <section>, <body-region>, <group>
 [Elements]
-hands, 1, arms, 1
+hands, 1, hands, 1
 hands, 0, hands, 1
 fingernails, -1, hands, 11
