@@ -1,6 +1,0 @@
-# Roth2 v2 feet Configuration
-
-# <link-name>, <face>, <section>, <body-region>, <group>
-[Elements]
-feet, 0, feet, 2, 5
-toenails, -1, feet, 12, 5

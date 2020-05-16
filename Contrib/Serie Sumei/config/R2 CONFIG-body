@@ -1,8 +1,0 @@
-# Roth2 v2 body Configuration
-
-# <link-name>, <face>, <section>, <body-region>, <group>
-[Elements]
-body, 0, neck, 1, 1
-body, 3, torso, 1, 1
-body, 1, arms, 1, 2
-body, 2, legs, 2, 4
