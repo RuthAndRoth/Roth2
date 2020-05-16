@@ -1,6 +1,6 @@
-Roth2-v2.iar is the OpenSim Inventory Archive (IAR) of the inworld
+Roth2-v2.iar (TBA) is the OpenSim Inventory Archive (IAR) of the inworld
 distribution boxes by RuthAndRoth on OSGrid. Prepared 13-May-2020.
-All con tents are full permissions.
+All contents are full permissions.
 
 Roth2-v1.iar is the OpenSim Inventory Archive (IAR) of the inworld
 distribution box by Shin Ingen from ingen-lab.com:8002
