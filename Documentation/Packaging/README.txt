@@ -1,5 +1,5 @@
 Roth2 - Open Source Mesh Avatar for Virtual Worlds
-Prepared: Date TBD - Filled in when inworld box created
+Prepared: 13-May-2020
 
 Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is built to use standard Second Life(TM) UV maps using a scratch-built open source mesh by Shin Ingen, Ada Radius and other contributors from the OpenSimulator Community.
 
@@ -27,7 +27,7 @@ Roth2 v2 Mesh Avatar - This is the normal distribution box and is designed so th
 * Dark gray underwear
 
 Roth 2 v2 Extras - This is a box of useful extra elements and options.
-* !LICENSE
+* !README-EXTRAS and !LICENSE
 * Roth2 v2 Body (only)
 * Roth2 v2 Feet
 * Roth2 v2 Hands
@@ -41,12 +41,12 @@ Roth 2 v2 Extras - This is a box of useful extra elements and options.
 * HUD debug script
 
 Roth2 v2 Resources - This box is not normally needed. It contains textures and other resources with original UUIDs as used within the other assets.. This can be useful of moving the assets across grid, or to repair elements.
-* !LICENSE
+* !README-RESOURCES and !LICENSE
 * All skin and eye textures used in default HUD
 
 Roth2 v2 Mesh Uploads - This box is not normally needed.  It contains mesh for all Roth2v2 elements as originally uploaded and before attaching a root prim or any texturing.
-* !LICENSE
-* Collada (.dae) Mesh for all Roth2 v2 elements as originally uploaded (DRAFT7) and before part renaming, attaching a root prim or any texturing.
+* !README-MESH-UPLOADS and !LICENSE
+* Collada (.dae) Mesh for all Roth2 v2 elements as originally uploaded and before part renaming, attaching a root prim or any texturing.
 
 ============================================================
 KNOWN ISSUES AND TROUBLESHOOTING
@@ -55,7 +55,7 @@ There may be a small gap or seem at the neck joint between the mesh body and the
 
 Not all the appearance sliders will work on the mesh body and parts.
 
-Roth2 v2 with attached Bento head will work with most shapes. The headless body, to use with system head or other mesh head, will work well with the sliders except body fat, and extremes to neck length and thickness, because of the neck seam. There are a few head sliders that don't work: Head Shape, Ear Angle, Jowls, Chin Cleft.  Things on the list for another release sometime down the road: figure out the neck issue, improve pointy ears.
+Roth2 v2 with attached Bento head will work with most shapes. The headless body, to use with system head or other mesh head, will work well with the sliders except body fat, and extremes to neck length and thickness, because of the neck seam. There are a few head sliders that don't work: Head Shape, Ear Angle, Jowls, Chin Cleft. Things on the list for another release sometime down the road: figure out the neck issue, improve pointy ears.
 
 Foot skin problems? For best result, paint over the system toenails and remove as much detail as you can from your foot skin that is probably designed for the system avatar's duck feet.
 
