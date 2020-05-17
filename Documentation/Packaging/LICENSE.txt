@@ -4,15 +4,18 @@ For details and copies of relevant licenses see the project repository at https:
 
 License terms for this project vary by part type. Copyrights are by the original Authors. Please do not delete any credits or license files that are included in this project. 
 
-* Roth 2.0 Copyright 2018 by Shin Ingen, who can be found at https://plus.google.com/+ShinIngen and 2020 by Ada Radius. The following mesh body parts are AGPL:
-  * Body+Feet+Hands+Head - Roth2_v2_FULL
-  * Body+Feet+Hands - Roth2_v2_HEADLESS
-  * Body - Roth2_v2_BODY
-  * Feet - Roth2_v2_FEET
-  * Hands - Roth2_v2_HANDS
-  * Head - Roth2_v2_HEAD
-  * Head - Roth2_v2_HEAD&VNECK
-  * Eyes - Roth2_v2_EYES
+* Roth 2.0 Copyright 2018 by Shin Ingen, who can be found at https://plus.google.com/+ShinIngen and 2020 by Ada Radius.
+
+The following mesh body parts are AGPL:
+
+  * Body+Feet+Hands+Head - Roth2-v2-Full_Body-Feet-Hands-Head
+  * Body+Feet+Hands - Roth2-v2-Headless_Body-Feet-Hands
+  * Body - Roth2-v2-Body
+  * Feet - Roth2-v2-Feet
+  * Hands - Roth2-v2-Hands
+  * Head - Roth2-v2-Head
+  * Head - Roth2-v2-Head-Vneck
+  * Eyes - Roth2-v2-Eyes
 
 The AGPL license allows personal use of these meshes as you wish however any modifications that are distributed or made available in a service must be released under the same terms granted here.  The contents of this package are the raw mesh uploads with no in-world changes from the Blender exports.
 
