@@ -18,7 +18,7 @@ Roth2 v2 uses a single combination HUD for alpha masking, skin and eye texture a
 ============================================================
 BOX CONTENTS
 
-Roth2 v2 Mesh Avatar - This is the normal distribution box and is designed so that once unpacked its contents can be "worn". It does not contain basic "classic" avatar shape, skin, eyes or hair so that the users own existing underlying avatar setup is used. The extras box contains examples of the basic avatar items to select from if needed.
+Roth2 v2 - Mesh Avatar - This is the normal distribution box and is designed so that once unpacked its contents can be "worn". It does not contain basic "classic" avatar shape, skin, eyes or hair so that the users own existing underlying avatar setup is used. The extras box contains examples of the basic avatar items to select from if needed.
 * !README, !LICENSE and !CHANGES
 * Roth2 v2 Full (Body+Feet+Hands+Head)
 * Roth2 v2 Eyes
@@ -26,7 +26,7 @@ Roth2 v2 Mesh Avatar - This is the normal distribution box and is designed so th
 * Initial skin, shape, basic eyes and basic hair
 * Dark gray underwear
 
-Roth 2 v2 Extras - This is a box of useful extra elements and options.
+Roth2 v2 - Extras - This is a box of useful extra elements and options.
 * !README-EXTRAS and !LICENSE
 * Roth2 v2 Body (only)
 * Roth2 v2 Feet
@@ -40,11 +40,11 @@ Roth 2 v2 Extras - This is a box of useful extra elements and options.
 * Sample hair
 * HUD debug script
 
-Roth2 v2 Resources - This box is not normally needed. It contains textures and other resources with original UUIDs as used within the other assets.. This can be useful of moving the assets across grid, or to repair elements.
+Roth2 v2 - Resources - This box is not normally needed. It contains textures and other resources with original UUIDs as used within the other assets.. This can be useful of moving the assets across grid, or to repair elements.
 * !README-RESOURCES and !LICENSE
 * All skin and eye textures used in default HUD
 
-Roth2 v2 Mesh Uploads - This box is not normally needed.  It contains mesh for all Roth2v2 elements as originally uploaded and before attaching a root prim or any texturing.
+Roth2 v2- Mesh Uploads - This box is not normally needed.  It contains mesh for all Roth2v2 elements as originally uploaded and before attaching a root prim or any texturing.
 * !README-MESH-UPLOADS and !LICENSE
 * Collada (.dae) Mesh for all Roth2 v2 elements as originally uploaded and before part renaming, attaching a root prim or any texturing.
 
@@ -59,7 +59,7 @@ Roth2 v2 with attached Bento head will work with most shapes. The headless body,
 
 Foot skin problems? For best result, paint over the system toenails and remove as much detail as you can from your foot skin that is probably designed for the system avatar's duck feet.
 
-HUD issues? The Extras box contains a HUD debug script. Add this to the HUD contentsto allow for a long mouse press to bring up menu with diagnostic and further options.
+HUD issues? The Extras box contains a HUD debug script. Add this to the HUD contents to allow for a long mouse press to bring up menu with diagnostic and further options.
 
 ============================================================
 RUTHANDROTH COMMUNITY
