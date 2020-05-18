@@ -3,15 +3,13 @@
 The HUD consists of a number of components that are assembled by script
 to ensure consistency across grids.
 
-The script is
-[r2_hud_maker.lsl](https://github.com/RuthAndRoth/Ruth2/blob/master/Contrib/Serie%20Sumei/scripts/r2_hud_maker.lsl)
-found in the Ruth2 repo under Contrib/Serie Sumei/scripts as it is still under active
-developemnt and no longer able to build Ruth2's HUD (for now).
-There are also a handful of additional mesh button assemblies used:
+The HUD is assembled using the
+[r2_hud_maker.lsl](https://github.com/RuthAndRoth/Roth2/blob/master/Scripts/r2_hud_maker.lsl)
+script.  A handful of mesh button assemblies are also used:
 
-* [4x1_outline_button.dae](https://github.com/RuthAndRoth/Ruth2/blob/master/Mesh/HUD/4x1_outline_button.dae)
-* [5x1-s_button.dae](https://github.com/RuthAndRoth/Ruth2/blob/master/Mesh/HUD/5x1-s_button.dae)
-* [6x1_button.dae](https://github.com/RuthAndRoth/Ruth2/blob/master/Mesh/HUD/6x1_button.dae)
+* [4x1_outline_button.dae](https://github.com/RuthAndRoth/Roth2/blob/master/Mesh/HUD/4x1_outline_button.dae)
+* [5x1-s_button.dae](https://github.com/RuthAndRoth/Roth2/blob/master/Mesh/HUD/5x1-s_button.dae)
+* [6x1_button.dae](https://github.com/RuthAndRoth/Roth2/blob/master/Mesh/HUD/6x1_button.dae)
 
 These should be uploaded as simple mesh objects with no physics.  They are also
 available in the in-world Mesh Uploads distribution boxes found at the usual
@@ -49,11 +47,13 @@ builds a Ruth2 or Roth2 HUD.  Set that accordingly.
 * Light fuse (touch the HUD maker) and get away, the new HUD will be
   assembled around the box prim which will become the root prim of the HUD.
 * Remove the script and the other objects from the HUD root prim and copy in:
-  * r2_applier.lsl
-  * rX2_hud_control.lsl
-  * !CONFIG - the skin texture configuration notecard
+  * [r2_applier.lsl](https://github.com/RuthAndRoth/Roth2/blob/master/Scripts/r2_applier.lsl)
+  * [ro2_hud_control.lsl](https://github.com/RuthAndRoth/Roth2/blob/master/Scripts/ro2_hud_control.lsl)
+  * !CONFIG - the skin texture configuration notecard, pre-populated OSGrid and
+    Second Life versions are
+    [also in Github](https://github.com/RuthAndRoth/Roth2/tree/master/Documentation/Config).
 * Rename the HUD
 * Take the HUD into inventory
-* Attach the HUD to a HUD attachment point.  It will position itself so the
-  HUD is near the top of the screen, if you manually move it the new position
-  will be remembered until the controls cripts is reset.
+* Attach the HUD to a HUD attachment point, it will be most out of the way at top-left.
+  It will position itself so the HUD is near the top of the screen, if you manually
+  move it the new position will be remembered until the controls script is reset.

@@ -5,7 +5,7 @@
 
 // v2.0 12Apr2020 <seriesumei@avimail.org> - Based on ru2_hud_control.lsl v3.2
 // v2.1 12Apr2020 <seriesumei@avimail.org> - New simpler alpha HUD
-// v2.2 09May2020 <seriesumei@avimail.org> - Rework skin panel
+// v2.2 13May2020 <seriesumei@avimail.org> - Rework skin panel
 
 // This is a heavily modified version of Shin's RC3 HUD scripts for alpha
 // and skin selections.
@@ -88,7 +88,7 @@ integer visible_fingernails = 0;
 
 // Enumerate the body region types as of Bakes on Mesh
 // We added our fingernail and toenail types at the end
-// The index of this list is the value of <body-region> in the element_map
+// The index of this list is the value of <body-region> in the element maps
 
 list regions = [
     "head",
@@ -106,34 +106,6 @@ list regions = [
     "toenails"
 ];
 
-// This element map is used for the alpha HUD doll but not the body,
-// that map is maintained in the hud_receiver script in the body
-
-// <link-name>, <face>, <section>, <body-region>, <group>
-// link-name - the object name of a part in the linkset, translated to a link number internally
-// face - the number of a face of an link object
-// section - a unique name for a unit of alpha/texture, one or more faces. (formerly group)
-// region - the SL constants used for body regions, ie the BoM destination regions
-// group - an arbitrary way to group faces: 0=head, 1=torso, 2=arms, 3=hands, 4=legs, 5=feet, 6=eyes
-
-integer element_stride = 5;
-list element_map = [
-    "body", 3, "face", 0, 0,
-    "body", 2, "hair", 5, 0,
-    "body", 4, "neck", 1, 1,
-    "body", 7, "torso", 2, 1,
-    "body", 5, "arms", 1, 2,
-    "body", 1, "hands", 1, 3,
-    "fingernails", -1, "fingernails", 11, 3,
-    "body", 6, "legs", 2, 4,
-    "body", 0, "feet", 2, 5,
-    "toenails", -1, "toenails", 12, 5,
-    "lefteye", -1, "lefteye", 3, 6,
-    "righteye", -1, "righteye", 3, 6,
-    "body", 3, "head", 0, 0,
-    "body", 2, "head", 0, 0
-];
-
 // A JSON buffer to save the alpha values of elements:
 // key - element name
 // value - 16-bit alpha values, 1 bit per face: 0 == visible, 1 == invisible
@@ -142,6 +114,7 @@ list element_map = [
 string current_alpha = "{}";
 
 // Alpha HUD button map
+// These are also used as section names in mapping alpha sections in the mesh
 list alpha_buttons = [
     // alpha0
     "",
@@ -389,43 +362,33 @@ set_alpha(string name, integer face, float alpha) {
 // alpha = -1 toggles the current saved value
 set_alpha_section(string section_name, integer alpha) {
     integer i;
-    list section_map = llList2ListStrided(llDeleteSubList(element_map, 0, 1), 0, -1, element_stride);
-    integer len = llGetListLength(section_map);
+    integer len = llGetListLength(alpha_buttons);
     for (i = 0; i <= len; ++i) {
-        if (llList2String(section_map, i) == section_name) {
-            // process matching section entry
-            string link_name = llList2String(element_map, i * element_stride);
-            integer doll_face = llList2Integer(element_map, (i * element_stride) + 1);
+        if (llList2String(alpha_buttons, i) == section_name) {
             if (alpha < 0) {
                 // Toggle the current value
                 log("json: " + current_alpha);
-                alpha = !json_get_alpha(current_alpha, link_name, doll_face);
+                alpha = !json_get_alpha(current_alpha, section_name, 0);
                 log("val: " + (string)alpha);
             }
-//            send_csv(["ALPHA", section_name, 0, alpha]);
-            set_alpha(link_name, doll_face, alpha);
+            send_csv(["ALPHA", section_name, 0, alpha]);
+            current_alpha = json_set_alpha(current_alpha, section_name, 0, (integer)alpha);
         }
     }
 }
 
 reset_alpha(float alpha) {
     // Reset body and HUD doll
-    list seen = [];
-    // list groups = llList2ListStrided(llDeleteSubList(element_map, 0, 1), 0, -1, element_stride);
-    integer len = llGetListLength(element_map) / element_stride;
-    integer link;
-    for (link = 0; link < len; ++link) {
-        // link_name is first in stride
-        string link_name = llList2String(element_map, link * element_stride);
-        // section is third in stride
-        string section = llList2String(element_map, (link * element_stride) + 2);
-        if (llListFindList(seen, [link_name]) < 0) {
-            seen += [link_name];
-            set_alpha(link_name, -1, alpha);
-        }
+    integer len = llGetListLength(alpha_buttons);
+    integer section;
+    for (section = 0; section < len; ++section) {
+        string section_name = llList2String(alpha_buttons, section);
+        send_csv(["ALPHA", section_name, 0, alpha]);
+        current_alpha = json_set_alpha(current_alpha, section_name, 0, (integer)alpha);
     }
 
     // Reset HUD buttons
+    integer link;
     integer j;
     for (link = 0; link <= 3; ++link) {
         for (j=0; j < 8; j+=2) {
