@@ -7,6 +7,7 @@ Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is bui
 * Discord Discussion Channel Invitation (open to all): https://discord.gg/UMyaZkc
 * MeWe Community Page: https://mewe.com/group/5bbe0189a5f4e57c73569fb9
 * Second Life Groups: "RuthAndRoth" and "Ruth and Roth Community"
+* Second Life Marketplace - RuthAndRoth:  https://marketplace.secondlife.com/stores/228512
 * OpenSim Group: OSGrid RuthAndRoth
 * OpenSim Region: OSGrid RuthAndRoth hop://login.osgrid.org/RuthAndRoth/128/128/26
 
@@ -32,16 +33,16 @@ We have moved all personal directories under the new top-level directory
 team members to put things that are still under development before (or until)
 they are merged into the master release directories.
 
-## Upload Artifacts
+## Upload Collada (.dae) and other Artifacts
 
-Since not everyone is prepared to perform Blender exports to get the Collada
-files for uploading we maintain recent exported .dae files in the Artifacts
-directory.  These correspond to the .blend files in the Mesh directory.
+Since not everyone is set up to perform Blender exports to get the Collada
+files for uploading we maintain recent exported .dae files. These correspond
+to the .blend file(s) in the Mesh directory.
 
-There is also an IAR file that can be uset to pre-load OpenSim grids.  These are
-usually updated at releases.  They will maintain consistent UUIDs for the
-assets to minimize duplication when uploading multiple releases for unchanged
-files.
+There is also an OpenSim IAR file that can be used to pre-load OpenSim grids.
+These are usually updated at releases. They will help maintain consistent UUIDs
+for the assets to minimize duplication when meshes and related assets are used
+in world.
 
 ## Licenses
 
