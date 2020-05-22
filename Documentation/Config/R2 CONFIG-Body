@@ -2,7 +2,8 @@
 
 # <link-name>, <face>, <section>, <body-region>, <group>
 [Elements]
-body, 0, neck, 1, 1
-body, 3, torso, 1, 1
-body, 1, arms, 1, 2
-body, 2, legs, 2, 4
+body, 0, neckfix, 0, 0
+body, 1, neck, 1, 1
+body, 4, torso, 1, 1
+body, 2, arms, 1, 2
+body, 3, legs, 2, 4
