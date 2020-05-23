@@ -1,5 +1,5 @@
 Roth2 - Open Source Mesh Avatar for Virtual Worlds
-Prepared: 20-May-2020
+Prepared: 23-May-2020
 
 Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is built to use standard Second Life(TM) UV maps using a scratch-built open source mesh by Shin Ingen, Ada Radius and other contributors from the OpenSimulator Community.
 
@@ -88,6 +88,7 @@ CREDITS
    - Eloh Elliot Skins
    - Adamek Titanium Skins
 * T-Shirt Texture by Robin (Soujourner) Wood: https://www.robinwood.com/Catalog/Technical/SL-Tuts/SLPages/RSW-TShirt.html
+* Linda Kellie Designs - Tintable Bra and Panties - Creative Commons CC0 https://zadaroo.com/wp-content/uploads/2012/12/templates-bra-and-panties.zip
 * HUD mesh, textures and scripts by Serie Sumei using modifications to original scripts by Shin Ingen.
 * Elf Ears: AGPL by Fred K. Beckhusen (avatar: Ferd Frederix) and Ai Austin.
 * R2 Logo by Serie Sumei based on original by Shin Ingen: https://github.com/RuthAndRoth/Extras/tree/master/Textures/Logo
