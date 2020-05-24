@@ -1,5 +1,5 @@
 Roth2 - Open Source Mesh Avatar for Virtual Worlds
-Prepared: 23-May-2020
+Prepared: OpenSim 23-May-2020; Second Life 2020-03-24
 
 Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is built to use standard Second Life(TM) UV maps using a scratch-built open source mesh by Shin Ingen, Ada Radius and other contributors from the OpenSimulator Community.
 
