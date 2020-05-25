@@ -3,10 +3,10 @@
   <asset>
     <contributor>
       <author>Avastar User</author>
-      <authoring_tool>Avastar 2-81-23 on Blender 2.82 (sub 7)</authoring_tool>
+      <authoring_tool>Avastar 2-81-24 on Blender 2.82 (sub 7)</authoring_tool>
     </contributor>
-    <created>2020-04-25T11:06:34</created>
-    <modified>2020-04-25T11:06:34</modified>
+    <created>2020-05-19T10:21:27</created>
+    <modified>2020-05-19T10:21:27</modified>
     <unit meter="1" name="meter" />
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -125,7 +125,7 @@
  
   18.2066  0  0  0.459814
   0  17.1086  0  0
-  0  0  10.4167 -17.7158
+  0  0  10.4167 -17.7159
   0  0  0  1
  
   10.582  0  0 -0.134995
@@ -603,37 +603,37 @@
         <rotate sid="rotationX">1 0 0 0</rotate>
         <scale sid="scale">1 1 1</scale>
         <instance_controller url="#Avatar_Roth2v2_PHYS-skin">
-          <skeleton>#mFaceEyebrowOuterRight</skeleton>
-          <skeleton>#R_FOOT</skeleton>
-          <skeleton>#mFaceEyebrowOuterLeft</skeleton>
-          <skeleton>#mFaceForeheadCenter</skeleton>
-          <skeleton>#mFaceForeheadLeft</skeleton>
-          <skeleton>#UPPER_BACK</skeleton>
-          <skeleton>#NECK</skeleton>
-          <skeleton>#R_CLAVICLE</skeleton>
-          <skeleton>#R_UPPER_ARM</skeleton>
-          <skeleton>#mWristLeft</skeleton>
-          <skeleton>#L_UPPER_LEG</skeleton>
-          <skeleton>#BELLY</skeleton>
-          <skeleton>#R_UPPER_LEG</skeleton>
-          <skeleton>#R_LOWER_ARM</skeleton>
-          <skeleton>#L_FOOT</skeleton>
           <skeleton>#mWristRight</skeleton>
-          <skeleton>#L_UPPER_ARM</skeleton>
-          <skeleton>#L_LOWER_ARM</skeleton>
-          <skeleton>#CHEST</skeleton>
-          <skeleton>#mFootLeft</skeleton>
-          <skeleton>#mFaceEyebrowCenterLeft</skeleton>
-          <skeleton>#HEAD</skeleton>
           <skeleton>#mFootRight</skeleton>
-          <skeleton>#mGroin</skeleton>
-          <skeleton>#LEFT_PEC</skeleton>
-          <skeleton>#L_CLAVICLE</skeleton>
+          <skeleton>#R_FOOT</skeleton>
+          <skeleton>#R_UPPER_LEG</skeleton>
           <skeleton>#BUTT</skeleton>
+          <skeleton>#BELLY</skeleton>
+          <skeleton>#mFaceEyebrowCenterLeft</skeleton>
+          <skeleton>#UPPER_BACK</skeleton>
+          <skeleton>#mFaceEyebrowOuterRight</skeleton>
+          <skeleton>#L_LOWER_ARM</skeleton>
+          <skeleton>#L_CLAVICLE</skeleton>
+          <skeleton>#mFaceForeheadCenter</skeleton>
+          <skeleton>#R_CLAVICLE</skeleton>
           <skeleton>#RIGHT_PEC</skeleton>
+          <skeleton>#mWristLeft</skeleton>
+          <skeleton>#mGroin</skeleton>
+          <skeleton>#R_LOWER_ARM</skeleton>
+          <skeleton>#NECK</skeleton>
+          <skeleton>#mFaceEyebrowCenterRight</skeleton>
+          <skeleton>#L_UPPER_ARM</skeleton>
+          <skeleton>#CHEST</skeleton>
+          <skeleton>#HEAD</skeleton>
+          <skeleton>#L_UPPER_LEG</skeleton>
+          <skeleton>#L_FOOT</skeleton>
+          <skeleton>#mFaceForeheadLeft</skeleton>
+          <skeleton>#R_UPPER_ARM</skeleton>
+          <skeleton>#LEFT_PEC</skeleton>
+          <skeleton>#mFootLeft</skeleton>
           <skeleton>#mFaceForeheadRight</skeleton>
           <skeleton>#PELVIS</skeleton>
-          <skeleton>#mFaceEyebrowCenterRight</skeleton>
+          <skeleton>#mFaceEyebrowOuterLeft</skeleton>
         </instance_controller>
       </node>
     </visual_scene>
