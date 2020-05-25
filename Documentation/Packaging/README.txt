@@ -6,7 +6,7 @@ Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is bui
 ============================================================
 BAKES ON MESH
 
-Roth2 v2 is provided as a single mesh that is designed to work well with Bakes on Mesh. It has a simple alpha capability without needing separate mesh parts and alpha masks can be worn to give more control over hidden areas. rather than use Bakes on mesh, skin textures may be applied, but you should then add a full body alpha mask to hide the underlying system avatar.
+Roth2 v2 is provided as a single mesh that is designed to work well with Bakes on Mesh. It has a simple alpha capability without needing separate mesh parts and alpha masks can be worn to give more control over hidden areas. rather than use Bakes on Mesh, skin textures may be applied, but you should then add a full body alpha mask to hide the underlying system avatar.
 
 The "Roth2 v2 Mesh Avatar" box contents are designed so that they form a complete initial avatar using Bakes on Mesh. You can switch to your own shape, skin, eyes and hair and/or use the HUD to change your appearance. Some example skins, hair, clothing  and a range of alpha masks are provided in the "Roth2 v2 Extras" box.
 
