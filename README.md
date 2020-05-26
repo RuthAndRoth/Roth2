@@ -10,6 +10,7 @@ Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is bui
 * Second Life Marketplace - RuthAndRoth:  https://marketplace.secondlife.com/stores/228512
 * OpenSim Group: OSGrid RuthAndRoth
 * OpenSim Region: OSGrid RuthAndRoth hop://login.osgrid.org/RuthAndRoth/128/128/26
+* OpenSim Kitely Market - RuthAndRoth: https://www.kitely.com/market/store/55043173/RuthAndRoth
 
 ## Bakes on Mesh
 
