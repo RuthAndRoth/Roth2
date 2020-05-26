@@ -1,89 +1,28 @@
-Roth2 v2 - Open Source Mesh Avatar for Virtual Worlds
+Roth2 v2 - Open Source Mesh Avatar for Virtual Worlds - a single layer mesh that is designed to work well with Bakes on Mesh. Compared to Roth2.0 RC#1 (now also known as Roth2 v1) it has a simplified alpha capability. Skin textures may still be applied, but in Bakes on Mesh mode system layer alpha masks can be worn to give more control over hidden areas.
 
-Roth2 v2 is a single layer mesh that is designed to work well with Bakes on Mesh. Compared to Roth2.0 RC#1 (now also known as Roth2 v1) it has a simplified alpha capability. Skin textures may still be applied, but in Bakes on Mesh mode system layer alpha masks can be worn to give more control over hidden areas.
-
+2020-05-24
+   - Release Box and Contents Preparation
+   
 2020-05-23
-  - Using Ada Radius DRAFT8_4. More neck edge adjustments for headless bodies
+  - Meshes based on GitHub.com/RuthAndRoth/Roth2/Contrib/Ada Radius/DRAFT8_4.
+  - Refined approach to neck fix adapter.
 
 2020-05-22
-  - Using Ada Radius DRAFT8_3. Improved UV on shoulders for full
-  - Neck fix adapter on body and headless variants
-
-2020-05-21
-  - More minor mesh fixes from Ada Radius DRAFT8_2
+  - Meshes based on GitHub.com/RuthAndRoth/Roth2/Contrib/Ada Radius/DRAFT8_3.
+  - New headless concept with neck fix adapter, fixed UV error in shoulders.
 
 2020-05-20
-  - Fix rigging issues on mesh using Ada Radious Roth2 v2 DRAFT8_1
-  - Update HUD scripts
-    - r2_hud_receiver v3.4 ss-200520
-    
+  - Meshes based on GitHub.com/RuthAndRoth/Roth2/Contrib/Ada Radius/DRAFT8_1.
+  - Fixes to Roth2 v2 rigging in pelvis area.
+  - HUD receiver script 3.4 - Only listen when attached by default
+
 2020-05-13
-  - Fix alpha mapping in the HUD for the individual body parts
-  - Update HUD scripts
-    - r2_hud_receiver v3.3 ss-200513
+  - Meshes based on GitHub.com/RuthAndRoth/Roth2/Contrib/Ada Radius/DRAFT7.
+  - Revised mesh with shape changes resulting from community feedback.
+  - Revised bento head to better respond to animations.
+  - Improved rigging and vertex weights.
+  - Reduced number of mesh faces to avoid separate alpha cut mesh parts.
+  - Single combination HUD for alpha, skins and options such as hand poses. 
 
-2020-05-10
-  - Update HUD thumbnails
-  - Fix face mapping for Roth2 v2 HANDS
-
-2020-05-09
-  - Update HUD scripts
-    - r2_hud_receiver v3.3 ss-200509
-    - r2_applier ss-200509
-    - ro2_hud_control ss-200509
-
-2020-05-07
-  - Restore default hand pose in receiver
-  - Update HUD scripts
-    - ru2_hud_receiver v3.3 ss-200507
-
-2020-05-06
-  - Re-enable default hand pose in HUD receiver
-  - Update HUD scripts
-    - r2_hud_receiver v3.3 ss-200506
-
-2020-05-04
-  - Hand pose buttons work
-  - Update HUD scripts
-    - ro2_hud_control v2.2
-    - r2_applier v2.0
-
-2020-05-03
-  - Change the alpha panel buttons
-  - Update HUD scripts
-    - ro2_hud_control v2.2 ss-200503
-    - r2_hud_maker
-
-2020-05-01
-  - Change the skin panel buttons
-  - Update HUD scripts
-    - ro2_hud_control v2.2 ss-200501
-    - ru2_hud_receiver v3.2 ss-200501
-
-2020-04-28
-  - More redesign on HUD skin panel, add eye textures
-  - Update HUD scripts
-    - r2_applier ss-e
-
-2020-04-26
-  - Build new HUD with re-arranged skin panel
-  - Update HUD scripts
-    - ro2_hud_control v2.2
-    - ru2_hud_receiver v3.2
-    - r2_applier ss-d
-
-2020-04-25
-  - Use Roth2.0v2DRAFT7 mesh from Github commit 399eae1281a9
-
-2020-04-23
-  - Use Roth2.0v2DRAFT5 mesh from Github commit ff9c733a1511
-
-Changes from Roth2 v1 (Roth 2.0 RC#1 Prepared 2018-12-29) to Roth2 v2
-* Revised mesh with shape changes resulting from community feedback.
-* Revised bento head to better respond to animations.
-* Improved rigging and vertex weights.
-* Reduced number of mesh faces to avoid separate alpha cut mesh parts.
-* Single combination HUD for alpha, skins and options such as hand poses. 
-
-Known Issues
-* Fingernails and Toenails are not included.
+2018-12-29 (revised 2019-05-19)
+   - Roth2 v1 (previously known as Roth 2.0 RC#1).
