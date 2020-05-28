@@ -18,7 +18,7 @@ Roth2 v2 is a single layer mesh that is designed to work well with Bakes on Mesh
 
 ## Current Release
 
-Roth2 is currently under development, preparing for a v2 release soon.
+Roth2 v2 prepared on 2020-05-24 is the current release.
 
 ## Previous Release
 
