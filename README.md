@@ -52,7 +52,7 @@ in world.
 Roth2 is AGPL licensed, other contents of this repository are also
 AGPL licensed unless otherwise indicated.  See LICENSE.md for specific details.
 
-# Changes from Roth2 v1
+## Changes from Roth2 v1
 
 The Ruth2 and Roth2 repositories have been extracted from the original Ruth 2.0
 repo, retaining all Git history of the files that have been moved.  Some common
