@@ -2,9 +2,12 @@
 
 License terms for this project vary by part type. Copyrights are by the original Authors. Please do not delete any credits or license files that are included in this project.    
 
+The complete text of the licenses used may be found under [Licenses/](Licenses).
+
 ## Avatar Mesh
 
-* Roth 2.0 Copyright 2018 AGPL by Shin Ingen, who can be found at https://plus.google.com/+ShinIngen. The following mesh body parts are AGPL:
+* Roth 2.0 Copyright 2018 by Shin Ingen, who can be found at https://plus.google.com/+ShinIngen.
+The following mesh body parts are licensed under AGPL-3.0-or-later:
   * Upper Body
   * Lower Body
   * Bento Hands

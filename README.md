@@ -1,3 +1,5 @@
+<img src="Textures/r2-logo-white-grey-flat.png" width="75" height="75">
+
 # Roth2 Mesh Avatar Project
 
 Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is built to use standard Second Life(TM) UV maps using scratch-built open source mesh by Shin Ingen, Ada Radius and other contributors from the OpenSimulator Community.
@@ -27,18 +29,18 @@ in a number of places both in Second Life and OSGrid as listed above.
 
 What was formerly called Roth 2.0 RC#1 is now referred to as Roth2 v1 in the current version naming scheme.
 
-## Personal Directories
+## Contrib (Personal) Directories
 
-We have moved all personal directories under the new top-level directory
-'Contrib'.  These continue to be used as they always have, as a place for
+We have personal directories under the top-level 'Contrib' directory as a place for
 team members to put things that are still under development before (or until)
 they are merged into the master release directories.
 
-## Upload Collada (.dae) and other Artifacts
+## Upload Collada (.dae)
 
 Since not everyone is set up to perform Blender exports to get the Collada
-files for uploading we maintain recent exported .dae files. These correspond
-to the .blend file(s) in the Mesh directory.
+files for uploading we maintain recent exported .dae files in the Mesh directory.
+
+## Other Artifacts
 
 There is also an OpenSim IAR file that can be used to pre-load OpenSim grids.
 These are usually updated at releases. They will help maintain consistent UUIDs
@@ -50,22 +52,14 @@ in world.
 Roth2 is AGPL licensed, other contents of this repository are also
 AGPL licensed unless otherwise indicated.  See LICENSE.md for specific details.
 
-# Changes from Roth 2.0
+# Changes from Roth 2.0 v1
 
 The Ruth2 and Roth2 repositories have been extracted from the original Ruth 2.0
 repo, retaining all Git history of the files that have been moved.  Some common
 files will be moved later to a common repo.  Below is the list of changes for the
 files present in this repo:
 
-* Contrib/Shin Ingen/Roth/Uploads -> Artifacts/Collada
-  * Artifacts/Collada/osRoth2.0_9k_RC\#1.dae -> Artifacts/Collada/ro2_9k_v1.dae
-  * Artifacts/Collada/osRoth2.0_9k_RC\#1_Boxers.dae Artifacts/Collada/ro2_9k_v1_Boxers.dae
-  * Artifacts/IAR/R2-Roth-RC1.iar -> Artifacts/IAR/Roth2-v1.iar
-* Contrib/Shin\ Ingen/Roth/osRoth2.0_9k_RC#1.blend -> Mesh/ro2_9k_v1.blend
 * Licenses.txt -> LICENSE.md
-* Mesh/Avatar Roth -> Mesh
-  * Mesh/osRoth2_CurrentRelease_DevKit_RC#1.blend -> Mesh/ro2_DevKit_v1.blend
-  * Mesh/osRoth2_CurrentRelease_Source_RC#1.blend -> Mesh/ro2_Source_v1.blend
 * Mesh/Avatar Roth/IARs -> Artifacts/IAR
 * Mesh/Avatar Roth/Scripts -> Scripts
 * Mesh/Avatar Roth/Textures -> Textures
