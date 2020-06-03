@@ -14,7 +14,7 @@ The following mesh body parts are AGPL:
   * Feet - Roth2-v2-Feet
   * Hands - Roth2-v2-Hands
   * Head - Roth2-v2-Head
-  * HeadVneck - Roth2-v2-Head-Vneck
+  * Head+Vneck - Roth2-v2-Head-Vneck
   * Eyes - Roth2-v2-Eyes
 
 The AGPL license allows personal use of these meshes as you wish however any modifications that are distributed or made available in a service must be released under the same terms granted here.  The contents of this package are the raw mesh uploads with no in-world changes from the Blender exports.
