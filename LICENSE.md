@@ -41,12 +41,3 @@ The 'R2' logo may be used to indicate projects or products that are either based
 ## Skins
 
 Licenses for the included skins are summarized in Skins/README.md
-
-## Attachments
-
-Elf Ears are AGPL by Fred K. Beckhusen.
-
-## Clothing
-
-...
-
