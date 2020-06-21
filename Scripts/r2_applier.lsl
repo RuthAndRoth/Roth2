@@ -4,6 +4,7 @@
 
 // v2.0 - 09May2020 <seriesumei@avimail.org> - New applier script
 // v2.1 - 21Jun2020 <seriesumei@avimail.org> - Rework skin data to not use JSON functions
+// v2.1-os08-1 - 21Jun2020 <seriesumei@avimail.org> - Updates to compile on OpenSimulator 0.8
 
 // This script loads a notecard with skin and eye texture UUIDs
 // and listens for link messages with button names to
@@ -24,10 +25,10 @@
 // Halcyon and older OpenSimulator builds may not have the Bakes on Mesh
 // constants defined.  If you get a compiler error that these are not defined
 // uncomment the following lines:
-// string IMG_USE_BAKED_UPPER = "";
-// string IMG_USE_BAKED_LOWER = "" ;
-// string IMG_USE_BAKED_HEAD = "";
-// string IMG_USE_BAKED_EYES = "";
+string IMG_USE_BAKED_UPPER = "";
+string IMG_USE_BAKED_LOWER = "" ;
+string IMG_USE_BAKED_HEAD = "";
+string IMG_USE_BAKED_EYES = "";
 
 integer DEFAULT_APP_ID = 20181024;
 integer app_id;
