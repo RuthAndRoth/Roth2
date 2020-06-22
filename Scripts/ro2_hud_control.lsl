@@ -6,9 +6,18 @@
 // v2.0 12Apr2020 <seriesumei@avimail.org> - Based on ru2_hud_control.lsl v3.2
 // v2.1 12Apr2020 <seriesumei@avimail.org> - New simpler alpha HUD
 // v2.2 13May2020 <seriesumei@avimail.org> - Rework skin panel
+// v2.3 21Jun2020 <seriesumei@avimail.org> - Updates to compile on OpenSimulator 0.8
 
 // This is a heavily modified version of Shin's RC3 HUD scripts for alpha
 // and skin selections.
+
+// Older OpenSimulator builds may not have the PRIM_ALPHA_MODE_*
+// constants defined.  If you get a compiler error that these are not defined
+// uncomment the following lines:
+// integer PRIM_ALPHA_MODE_NONE = 0;
+// integer PRIM_ALPHA_MODE_BLEND = 1;
+// integer PRIM_ALPHA_MODE_MASK = 2;
+// integer PRIM_ALPHA_MODE_EMISSIVE = 3;
 
 // The app ID is used on calculating the actual channel number used for communication
 // and must match in both the HUD and receivers.
@@ -165,7 +174,7 @@ integer do_fp = FALSE;
 // Skin / Bakes on Mesh
 integer current_skin = -1;
 integer current_eye = -1;
-integer alpha_mode = PRIM_ALPHA_MODE_MASK;
+integer alpha_mode;
 integer mask_cutoff = 128;
 
 // Map skin selections to button faces
@@ -481,6 +490,8 @@ init() {
     // Initialize attach state
     last_attach = llGetAttached();
     log("state_entry() attached=" + (string)last_attach);
+
+    alpha_mode = PRIM_ALPHA_MODE_MASK;
 
     r2channel = keyapp2chan(APP_ID);
     llListen(r2channel+1, "", "", "");
