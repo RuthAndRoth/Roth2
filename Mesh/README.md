@@ -6,7 +6,7 @@ files from Blender.
 Note: Some objects that were created using other means may not have .blend source files
 (such as in-world prim objects exported to Collada).
 
-* **Roth2v2Dev.blend**: the Blender source for Roth2 v2
+* **Roth2v2Dev.blend**: the Blender file for Roth2 v2
 
 * **DAE/Roth2-v2-Body.dae**: only the torso, arms and legs portions of Roth2, ie no feet, hands or head
 
