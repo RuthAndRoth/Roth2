@@ -8,6 +8,8 @@ Note: Some objects that were created using other means may not have .blend sourc
 
 * **Roth2v2Dev.blend**: the Blender file for Roth2 v2
 
+* **Roth2V2DevWithArmature.blend**: the Blender file for Roth2 v2 with an armature that MIGHT be useful.
+
 * **DAE/Roth2-v2-Body.dae**: only the torso, arms and legs portions of Roth2, ie no feet, hands or head
 
 * **DAE/Roth2-v2-Eyes.dae**: rigged eyes

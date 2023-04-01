@@ -1,0 +1,37 @@
+Ada Radius added this note to Roth2V2DevWithArmature.blend...
+
+Updated in Blender 3.0.1
+
+Ruth2 and Roth2 are low-poly mesh bodies specifically designed for OpenSimulator. They were modeled by Shin Ingen in Zbrush with contributions from the OpenSimulator Community working in Blender. Vertex weighting in this version by Ada Radius. Please see the Contributor's folder in GitHub for more information if you're interested in who designed what. The head is a replica of the viewer default avatar head, vertex weighted by Ada Radius. The UV maps for the head and body are based on the standard Second Life(TM) UV island layout, mapped by half a dozen contributing artists. Packaging, HUD scripting and component suggestions and testing by Serie Sumai. Testing, sim and GitHub hosting by Ai Austin. Bakes on Mesh compatibility editing by Ada Radius
+
+These mesh bodies can be acquired inworld at the RuthAndRoth sim in OSGrid. 
+  
+Ruth2 and Roth2 are AGPL licensed. Other contents of this file are also AGPL licensed unless otherwise indicated. See LICENSE.md at https://github.com/RuthAndRoth/Roth2 for specific details. You may use and modify Ruth2 and Roth2 any way you want, but you may not distribute or sell it unless you provide a link back to the source https://github.com/RuthAndRoth/Roth2 and donate any modifications back to the project.
+
+The armature included here is adapted by Ada Radius from armatures referenced below, changing the positions of the bone components to fit the mesh attachments. Most of the vertex weighting is to the (red) volume bones, which we can test by moving the parent mBone (blue, green, yellow) for each volume bone. Please see the spreadsheet in Github/RuthandRoth/Reference/AdaRadius/opensim_SL_armature.ods for a list of the bone hierarchy and each bone's relationship to the inworld Appearance sliders.  Bones not used in the vertex weighting have been deleted. The volume bones are on a separate armature layer from the mBones. 
+There are different ways to rig an armature - you may wish to adapt this one to your preferences! If you want to be able to move the pelvis bone, make a duplicate of it, invert the duplicate, making sure it's a non-deform bone, and parent the legs to the duplicate. Adding constraints, IK bones and other rigging tools is not difficult - we can google to find the many tutorials available for whichever Blender version is out when you find this. 
+  
+Open Source License and Credits:
+
+Copyright ©2003-2020 Linden Research, Inc. Licensed under Creative Commons Attribution-Share Alike 3.0 unless otherwise noted.
+https://creativecommons.org/licenses/by/3.0/
+https://community.secondlife.com/forums/topic/34082-avatar-model-and-clothing-files-now-have-an-updated-license/
+
+avatar_skeleton.xml
+    https://bitbucket.org/lindenlab/viewer-release
+
+Skeleton.Female.blend
+Skeleton.Male.blend
+    http://wiki.secondlife.com/wiki/Mesh/Rigging_Fitted_Mesh downloads
+
+female_2016_08_05.dae
+male_2016_08_05.dae
+    http://wiki.secondlife.com/wiki/Project_Bento_Testing downloads 
+  
+Also packed into this file:
+Robin Wood templates used by permission
+Skin textures by Eloh Eliot adapted by Shin Ingen
+Eyeball template derived from the UV map of Linden Lab's eyeball mesh.
+
+Ada Radius. Last updated 2022-05-13
+www.adaradius.com
