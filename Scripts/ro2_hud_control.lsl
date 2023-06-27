@@ -6,9 +6,19 @@
 // v2.0 12Apr2020 <seriesumei@avimail.org> - Based on ru2_hud_control.lsl v3.2
 // v2.1 12Apr2020 <seriesumei@avimail.org> - New simpler alpha HUD
 // v2.2 13May2020 <seriesumei@avimail.org> - Rework skin panel
+// v2.3 21Jun2020 <seriesumei@avimail.org> - Updates to compile on OpenSimulator 0.8
+// v2.3-os08-1 21Jun2020 <seriesumei@avimail.org> - Uncomment constants for OpenSimulator 0.8
 
 // This is a heavily modified version of Shin's RC3 HUD scripts for alpha
 // and skin selections.
+
+// Older OpenSimulator builds may not have the PRIM_ALPHA_MODE_*
+// constants defined.  If you get a compiler error that these are not defined
+// uncomment the following lines:
+integer PRIM_ALPHA_MODE_NONE = 0;
+integer PRIM_ALPHA_MODE_BLEND = 1;
+integer PRIM_ALPHA_MODE_MASK = 2;
+integer PRIM_ALPHA_MODE_EMISSIVE = 3;
 
 // The app ID is used on calculating the actual channel number used for communication
 // and must match in both the HUD and receivers.
@@ -165,7 +175,7 @@ integer do_fp = FALSE;
 // Skin / Bakes on Mesh
 integer current_skin = -1;
 integer current_eye = -1;
-integer alpha_mode = PRIM_ALPHA_MODE_MASK;
+integer alpha_mode;
 integer mask_cutoff = 128;
 
 // Map skin selections to button faces
@@ -296,55 +306,11 @@ adjust_pos() {
 }
 
 
-// *****
-// get/set alpha values in JSON buffer
-
-// j - JSON value storage
-// name - link_name
-// face - integer face, -1 returns the unmasked 16 bit value
-// Internal JSON values are ones complement, ie a 1 bit means the face is not visible
-integer json_get_alpha(string j, string name, integer face) {
-    integer cur_val = (integer)llJsonGetValue(j, [name]);
-    if (face < 0) {
-        // All faces, return aggregate value masked to 16 bits
-        cur_val = ~cur_val & 0xffff;
-    } else {
-        cur_val = (cur_val & (1 << face)) == 0;
-    }
-    return cur_val;
-}
-
-// j - JSON value storage
-// name - link_name
-// face - integer face, -1 sets all 16 bits in the value
-// value - alpha boolean, 0 = invisible, 1 = visible
-// Internal JSON values are ones complement, ie a 1 bit means the face is not visible
-string json_set_alpha(string j, string name, integer face, integer value) {
-    value = !value;  // logical NOT for internal storage
-    integer cur_val = (integer)llJsonGetValue(j, [name]);
-    integer mask;
-    integer cmd;
-    if (face < 0) {
-        // All faces
-        mask = 0x0000;
-        // One's complement
-        cmd = -value;
-    } else {
-        mask = ~(1 << face);
-        cmd = (value << face);
-    }
-    // Mask final value to 16 bits
-    cur_val = ((cur_val & mask) | cmd) & 0xffff;
-    return llJsonSetValue(j, [name], (string)(cur_val));
-}
-// *****
-
-
 // Set the alpha val of all links matching name
 set_alpha(string name, integer face, float alpha) {
     log("set_alpha(): name="+name+" face="+(string)face+" alpha="+(string)alpha);
     send_csv(["ALPHA", name, face, alpha]);
-    current_alpha = json_set_alpha(current_alpha, name, face, (integer)alpha);
+//    current_alpha = json_set_alpha(current_alpha, name, face, (integer)alpha);
     integer link;
     for (; link < num_links; ++link) {
         // Set color for all matching link names
@@ -368,11 +334,11 @@ set_alpha_section(string section_name, integer alpha) {
             if (alpha < 0) {
                 // Toggle the current value
                 log("json: " + current_alpha);
-                alpha = !json_get_alpha(current_alpha, section_name, 0);
+//                alpha = !json_get_alpha(current_alpha, section_name, 0);
                 log("val: " + (string)alpha);
             }
             send_csv(["ALPHA", section_name, 0, alpha]);
-            current_alpha = json_set_alpha(current_alpha, section_name, 0, (integer)alpha);
+//            current_alpha = json_set_alpha(current_alpha, section_name, 0, (integer)alpha);
         }
     }
 }
@@ -384,7 +350,7 @@ reset_alpha(float alpha) {
     for (section = 0; section < len; ++section) {
         string section_name = llList2String(alpha_buttons, section);
         send_csv(["ALPHA", section_name, 0, alpha]);
-        current_alpha = json_set_alpha(current_alpha, section_name, 0, (integer)alpha);
+//        current_alpha = json_set_alpha(current_alpha, section_name, 0, (integer)alpha);
     }
 
     // Reset HUD buttons
@@ -481,6 +447,8 @@ init() {
     // Initialize attach state
     last_attach = llGetAttached();
     log("state_entry() attached=" + (string)last_attach);
+
+    alpha_mode = PRIM_ALPHA_MODE_MASK;
 
     r2channel = keyapp2chan(APP_ID);
     llListen(r2channel+1, "", "", "");
